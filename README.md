@@ -1,2 +1,2 @@
-# danialhagemann.github.io
+# danialhagemann.de
 My personal website
