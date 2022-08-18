@@ -1,0 +1,129 @@
+[data-theme="dark"]{
+
+$light0: #cccccc;
+$light1: #c0c0c0;
+$light2: #969696;
+
+$grey: #505050;
+
+$dark0: #080b16;
+$dark1: #19222a;
+$dark2: #212d37;
+
+$link-blue: #0079c0;
+
+$nord0: #2e3440;
+$nord1: #3b4252;
+$nord2: #434c5e;
+$nord3: #4c566a;
+$nord3_bright: #616E88;
+
+$nord4: #d8dee9;
+$nord5: #e5e9f0;
+$nord6: #eceff4;
+
+$nord7: #8fbcbb;
+$nord8: #88c0d0;
+$nord9: #81a1c1;
+$nord10: #5e81ac;
+
+$nord11: #bf616a;
+$nord12: #d08770;
+$nord13: #ebcb8b;
+$nord14: #a3be8c;
+$nord15: #b48ead;
+
+// -----------------------------------------------
+// Semantically-named colors
+// -----------------------------------------------
+$text-color: $nord1;
+$background-color: $dark0;
+$link-color: $link-blue;
+$border-color: $nord4;
+
+$inline-code-text-color: $nord1;
+$inline-code-background-color: $nord5;
+$block-code-text-color: $nord4;
+$block-code-background-color: $nord0;
+
+$quote-text-color: $nord3;
+$quote-background-color: $dark2;
+
+$table-row-color-light: $background-color;
+$table-row-color-dark: $dark2;
+$table-border-color: $nord4;
+
+$slider-background-color: #ff0000;
+$slider-border-color: $light1;
+$slider-checked-background-color: #00ff00;
+$slider-background-color-hover: #6495ed;
+$fa-moon-color: $light1;
+$fa-sun-color: $grey;
+// -----------------------------------------------
+
+}
+
+[data-theme="light"] {
+
+$light0: #cccccc;
+$light1: #c0c0c0;
+$light2: #969696;
+
+$grey: #505050;
+
+$dark0: #080b16;
+$dark1: #19222a;
+$dark2: #212d37;
+
+$link-blue: #0079c0;
+
+$nord0: #2e3440;
+$nord1: #3b4252;
+$nord2: #434c5e;
+$nord3: #4c566a;
+$nord3_bright: #616E88;
+
+$nord4: #d8dee9;
+$nord5: #e5e9f0;
+$nord6: #eceff4;
+
+$nord7: #8fbcbb;
+$nord8: #88c0d0;
+$nord9: #81a1c1;
+$nord10: #5e81ac;
+
+$nord11: #bf616a;
+$nord12: #d08770;
+$nord13: #ebcb8b;
+$nord14: #a3be8c;
+$nord15: #b48ead;
+
+// -----------------------------------------------
+// Semantically-named colors
+// -----------------------------------------------
+$text-color: $nord1;
+$background-color: $light0;
+$link-color: $link-blue;
+$border-color: $nord4;
+
+$inline-code-text-color: $nord1;
+$inline-code-background-color: $nord5;
+$block-code-text-color: $nord4;
+$block-code-background-color: $nord0;
+
+$quote-text-color: $nord3;
+$quote-background-color: $light2;
+
+$table-row-color-light: $background-color;
+$table-row-color-dark: $light2;
+$table-border-color: $nord4;
+
+$slider-background-color: #ff00ff;
+$slider-border-color: $light1;
+$slider-checked-background-color: #ff0000;
+$slider-background-color-hover: #6495ed;
+$fa-moon-color: $grey;
+$fa-sun-color: $light1;
+// -----------------------------------------------
+
+}
