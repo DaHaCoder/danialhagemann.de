@@ -2,4 +2,4 @@
 
 Test for my personal website.
 
-https://test.danialhagemann.de
+https://gh-test.danialhagemann.de
