@@ -1,0 +1,13 @@
+_site
+
+*.bak
+
+.sass-cache
+.jekyll-cache
+.jekyll-metadata
+vendor
+
+Gemfile.lock
+.DS_Store
+.tasks
+.root
