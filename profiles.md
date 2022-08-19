@@ -6,4 +6,4 @@ permalink: /profiles/
 
 Here are some of my profiles:
 
-<a><i class="fas fa-atom" style="color:#00ffff"></a>
+<a href="/physics/"><i class="fas fa-atom" style="color:#00ffff"></a>
