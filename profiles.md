@@ -6,25 +6,25 @@ permalink: /profiles/
 
 Here are some of my profiles
 
-{::comment}
+
 
 ## Messenger 
 
 <div class="profiles">
-    <ul>
+<!--    <ul>
       <li>
         <a href="#" class="discord">
           <i class="fa-brands fa-discord"></i>
         </a>
       </li>
+-->
       <li>
-        <a href="#" class="firefox">
-          <i class="fab fa-firefox"></i>
+        <a href="https://threema.id/REA876Y2" class="threema">
+          <iconify-icon icon="simple-icons:threema" style="color: #05a63f;"></iconify-icon>
         </a>
         </li>
     </ul>
 </div>
-{:/comment}
 
 ## Coding 
 
@@ -32,12 +32,12 @@ Here are some of my profiles
     <ul>
       <li>
         <a href="https://github.com/DaHaCoder" class="github">
-          <i class="fa-brands fa-github"></i>
+          <iconify-icon icon="akar-icons:github-fill" style="color: #2c424f;"></iconify-icon>
         </a>
       </li>
       <li>
         <a href="https://gitlab.com/DaHaCoder" class="gitlab">
-          <i class="fa-brands fa-gitlab"></i>
+          <iconify-icon icon="fa:gitlab" style="color: #fc6d27;"></iconify-icon>
         </a> 
       </li>
     </ul>
