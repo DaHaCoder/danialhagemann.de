@@ -1,6 +1,6 @@
 @import "colors";
 
-ul {
+.profiles ul {
     margin: 0;
     padding: 0;
     display: flex;
@@ -8,12 +8,12 @@ ul {
     transform: translate(-50%, -50%)
 }
 
-ul li {
+.profiles ul li {
     list-style: none;
     margin: 0 30px;
 }   
 
-ul li a {
+.profiles ul li a {
     position: relative; 
     display: block;
     width: 100px;
@@ -27,7 +27,7 @@ ul li a {
     transition: .4s;
 }
 
-ul li a::before {
+.profiles ul li a::before {
     content: '';
     position: absolute;
     top: 0;
@@ -41,7 +41,7 @@ ul li a::before {
     z-index: -1;
 }
 
-ul li a:hover::before {
+.profiles ul li a:hover::before {
     transform: scale(1.1);
     box-shadow: 0 0 20px #0002ff;
 }
