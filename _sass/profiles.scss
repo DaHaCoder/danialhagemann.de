@@ -3,22 +3,21 @@
 .profiles ul {
     margin: 0;
     padding: 0;
-    display: flex;
-    transform: translate(-50%, -50%)
+    display: block;
 }
 
 .profiles ul li {
     list-style: none;
-    margin: 0 30px;
+    display: inline-block;
 }   
 
 .profiles ul li a {
-    position: relative; 
     display: inline-block;
-    width: 30px;
-    height: 30px;
+    width: 38px;
+    height: 38px;
+    margin: 10px 10px 0 0;
     text-align: center;
-    line-height: 100px;
+    box-shadow: 0 0 20px rgba(0,0,0,0);
     background: #333;
     border-radius: 50%;
     font-size: 30px;
@@ -26,6 +25,7 @@
     transition: .4s;
 }
 
+/*
 .profiles ul li a::before {
     content: '';
     position: absolute;
@@ -39,9 +39,17 @@
     transform: scale(.9);
     z-index: -1;
 }
+*/
 
-.profiles ul li a:hover::before {
-    transform: scale(1.1);
-    box-shadow: 0 0 20px #0002ff;
+.profiles ul li a:hover {
+    box-shadow: 0 0 20px #00ff00;
 }
 
+.profiles ul li a.edge:hover {
+    box-shadow: 0 0 20px #0000ff;
+    
+}
+
+.profiles ul li a.firefox:hover {
+    box-shadow: 0 0 20px #ff0000;
+}

@@ -11,12 +11,12 @@ Here are some of my profiles
 <div class="profiles">
     <ul>
       <li>
-        <a href="#">
+        <a href="#" class="edge">
           <i class="fab fa-edge"></i>
         </a>
       </li>
       <li>
-        <a href="#">
+        <a href="#" class="firefox">
           <i class="fab fa-firefox"></i>
         </a>
         </li>
