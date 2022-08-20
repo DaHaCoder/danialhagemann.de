@@ -23,6 +23,7 @@ Here are some of my profiles
         <a href="https://threema.id/REA876Y2" class="threema" target="_blank" rel="noopener noreferrer">
           <iconify-icon icon="simple-icons:threema" style="color: #05a63f;"></iconify-icon>
         </a>
+        <span style="color: #05a63f">REA876Y2</span>
       </li>
     </ul>
 </div>
@@ -33,13 +34,15 @@ Here are some of my profiles
     <ul>
       <li>
         <a href="https://github.com/DaHaCoder" class="github" target="_blank" rel="noopener noreferrer">
-          <iconify-icon icon="akar-icons:github-fill" style="color: #2c424f;"></iconify-icon>
+          <iconify-icon icon="akar-icons:github-fill" style="color: #ffffff;"></iconify-icon>
         </a>
+        <span style="color: #ffffff">DaHaCoder</span>
       </li>
       <li>
         <a href="https://gitlab.com/DaHaCoder" class="gitlab" target="_blank" rel="noopener noreferrer">
           <iconify-icon icon="fa:gitlab" style="color: #fc6d27;"></iconify-icon>
         </a> 
+        <span style="color: #fc6d27">DaHaCoder</span>
       </li>
     </ul>
 </div>
