@@ -13,43 +13,43 @@
 
 .profiles ul li a {
     display: inline-block;
-    width: 38px;
-    height: 38px;
-    margin: 10px 10px 0 0;
+    width: 76px;
+    height: 76px;
+    margin: 20px 20px 0 0;
     text-align: center;
-    box-shadow: 0 0 20px rgba(0,0,0,0);
-    background: #333;
     border-radius: 50%;
     font-size: 30px;
-    color: #666;
+    box-shadow: 0 0 40px rgba(0,0,0,0);
+    color: var(--profiles-ul-li-a-color);
+    background: var(--profiles-ul-li-a-background-color);
     transition: .4s;
 }
-
-/*
-.profiles ul li a::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    border-radius: 50%;
-    background: #ffffff;
-    transition: .4s;
-    transform: scale(.9);
-    z-index: -1;
-}
-*/
 
 .profiles ul li a:hover {
-    box-shadow: 0 0 20px #00ff00;
+    box-shadow: 0 0 40px var(--profiles-ul-li-a-color-box-shadow);
 }
 
-.profiles ul li a.edge:hover {
-    box-shadow: 0 0 20px #0000ff;
+.profiles ul li a.discord:hover {
+    box-shadow: 0 0 40px var(--profiles-ul-li-a-color-box-shadow-discord);
     
 }
 
-.profiles ul li a.firefox:hover {
-    box-shadow: 0 0 20px #ff0000;
+.profiles ul li a.github:hover {
+    box-shadow: 0 0 40px var(--profiles-ul-li-a-color-box-shadow-github);
+}
+
+.profiles ul li a.gitlab:hover {
+    box-shadow: 0 0 40px var(--profiles-ul-li-a-color-box-shadow-gitlab);
+}
+
+.profiles ul li a.reddit:hover {
+    box-shadow: 0 0 40px var(--profiles-ul-li-a-color-box-shadow-reddit);
+}
+
+.profiles ul li a.stack-exchange:hover {
+    box-shadow: 0 0 40px var(--profiles-ul-li-a-color-box-shadow-stack-exchange);
+}
+
+.profiles ul li a.threema:hover {
+    box-shadow: 0 0 40px var(--profiles-ul-li-a-color-box-shadow-threema);
 }
