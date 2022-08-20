@@ -6,13 +6,14 @@ permalink: /profiles/
 
 Here are some of my profiles
 
-## Social Media
+## Messenger 
 
+{::comment}
 <div class="profiles">
     <ul>
       <li>
-        <a href="#" class="edge">
-          <i class="fab fa-edge"></i>
+        <a href="#" class="discord">
+          <i class="fa-brands fa-discord"></i>
         </a>
       </li>
       <li>
@@ -22,19 +23,20 @@ Here are some of my profiles
         </li>
     </ul>
 </div>
+{:/comment}
 
 ## Coding 
 
 <div class="profiles">
     <ul>
       <li>
-        <a href="#">
-          <i class="fab fa-chrome"></i>
+        <a href="https://github.com/DaHaCoder" class="github">
+          <i class="fa-brands fa-github"></i>
         </a>
       </li>
       <li>
-        <a href="#">
-          <i class="fab fa-opera"></i>
+        <a href="https://gitlab.com/DaHaCoder" class="gitlab">
+          <i class="fa-brands fa-gitlab"></i>
         </a> 
       </li>
     </ul>
