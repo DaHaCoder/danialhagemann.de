@@ -18,11 +18,12 @@ Here are some of my profiles
         </a>
       </li>
 -->
+    <ul>
       <li>
         <a href="https://threema.id/REA876Y2" class="threema">
           <iconify-icon icon="simple-icons:threema" style="color: #05a63f;"></iconify-icon>
         </a>
-        </li>
+      </li>
     </ul>
 </div>
 
