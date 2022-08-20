@@ -6,9 +6,10 @@ permalink: /profiles/
 
 Here are some of my profiles
 
+{::comment}
+
 ## Messenger 
 
-{::comment}
 <div class="profiles">
     <ul>
       <li>
