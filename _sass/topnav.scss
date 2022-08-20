@@ -37,6 +37,7 @@
 .topnav li a:hover {
   color: var(--topnav-li-a-hover-color);
   background-color: var(--topnav-li-a-hover-background-color);
+  transition: .4s;    
 }
 
 @media (max-width: 850px) {
