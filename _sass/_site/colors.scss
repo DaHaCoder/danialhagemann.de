@@ -1,129 +1,128 @@
-[data-theme="dark"]{
+/* === COLORS === */
+/* ============== */
 
-$light0: #cccccc;
-$light1: #c0c0c0;
-$light2: #969696;
+:root {
+    /* == colors in dark mode == */
 
-$grey: #505050;
-
-$dark0: #080b16;
-$dark1: #19222a;
-$dark2: #212d37;
-
-$link-blue: #0079c0;
-
-$nord0: #2e3440;
-$nord1: #3b4252;
-$nord2: #434c5e;
-$nord3: #4c566a;
-$nord3_bright: #616E88;
-
-$nord4: #d8dee9;
-$nord5: #e5e9f0;
-$nord6: #eceff4;
-
-$nord7: #8fbcbb;
-$nord8: #88c0d0;
-$nord9: #81a1c1;
-$nord10: #5e81ac;
-
-$nord11: #bf616a;
-$nord12: #d08770;
-$nord13: #ebcb8b;
-$nord14: #a3be8c;
-$nord15: #b48ead;
-
-// -----------------------------------------------
-// Semantically-named colors
-// -----------------------------------------------
-$text-color: $nord1;
-$background-color: $dark0;
-$link-color: $link-blue;
-$border-color: $nord4;
-
-$inline-code-text-color: $nord1;
-$inline-code-background-color: $nord5;
-$block-code-text-color: $nord4;
-$block-code-background-color: $nord0;
-
-$quote-text-color: $nord3;
-$quote-background-color: $dark2;
-
-$table-row-color-light: $background-color;
-$table-row-color-dark: $dark2;
-$table-border-color: $nord4;
-
-$slider-background-color: #ff0000;
-$slider-border-color: $light1;
-$slider-checked-background-color: #00ff00;
-$slider-background-color-hover: #6495ed;
-$fa-moon-color: $light1;
-$fa-sun-color: $grey;
-// -----------------------------------------------
-
+    --body-text-color: #c0c0c0;
+    --body-background-color: #080b16;
+    --markdown-body-background-color: #19222a;
+    --markdown-body-h1-border-bottom-color: #ff0000;
+    --markdown-body-h2-border-bottom-color: #c0c0c0;
+    --markdown-body-a-color: #6495ed;
+    --markdown-body-a-background-color: transparent;
+    --markdown-body-a-code-color: #ff0f0f;
+    --markdown-body-a-code-background-color: #ff00ff;
+    --markdown-body-details-background-color: #f0f0f0;
+    --markdown-body-details-summary-background-color: #0f0f0f;
+    --markdown-body-hr-background-color: #c0c0c0;
+    --markdown-body-blockquote-color: #9bcfff;
+    --markdown-body-blockquote-background-color: #192c3c;
+    --markdown-body-blockquote-border-left-color: #9bcfff;
+    --markdown-body-table-th-border-color: #c0c0c0;
+    --markdown-body-table-tr-background-color: #24313c;
+    --markdown-body-table-tr-border-top-color: #c0c0c0;
+    --markdown-body-table-tr-nth-child-background-color: #192c3c;
+    --markdown-body-img-background-color: #f2f2f2;
+    --markdown-body-kbd-color: #444d56;
+    --markdown-body-kbd-background-color: #fafbfc;
+    --markdown-body-kbd-border-color: #d1d5da;
+    --markdown-body-kbd-box-shadow-color: #d2d2db;
+    --markdown-body-code-color: #00ff7f;
+    --markdown-body-code-background-color: #24313c;
+    --markdown-body-pre-background-color: #212d37;
+    --markdown-body-pre-code-background-color: transparent;
+    --markdown-body-pre-code-color: #fff0f0;
+    --slider-background-color: transparent;
+    --slider-background-hover-color: #6495ed;
+    --slider-border-color: #c0c0c0;
+    --slider-before-background-color: #13314b;
+    --slider-checked-background-color: transparent;
+    --fa-moon-color: #c0c0c0; 
+    --fa-sun-color: #505050;
+    --topnav-ul-background-color: #13314b;
+    --topnav-ul-border-color: #13314b;
+    --topnav-li-a-color: #c0c0c0;
+    --topnav-li-a-hover-color: #13314b;
+    --topnav-li-a-hover-background-color: #6495ed;
+    --topnav-hr-border-bottom-color: #00ffff;
+    --sidebar-color: rgba(255,255,255,.6);
+    --sidebar-background-color: #202020;
+    --sidebar-a-color: #ffffff;
+    --a-sidebar-nav-item-background-color: rgba(255,255,255,.1);
+    --a-sidebar-nav-item-border-color: #6495ed;
+    --credits-color: #c0c0c0;
+    --credits-a-color: #6495ed;
+    --profiles-ul-li-a-color: #666;
+    --profiles-ul-li-a-background-color: #212d37; 
+    --profiles-u-li-a-hover-box-shadow: #6495ed;
+    --profiles-ul-li-a-hover-box-shadow-discord: #7289da;
+    --profiles-ul-li-a-hover-box-shadow-github: #ffffff;
+    --profiles-ul-li-a-hover-box-shadow-gitlab: #fc6d27; 
+    --profiles-ul-li-a-hover-box-shadow-reddit: #ff5700;
+    --profiles-ul-li-a-hover-box-shadow-stack-exchange: #46a2d9;
+    --profiles-ul-li-a-hover-box-shadow-threema: #05a63f;
 }
 
 [data-theme="light"] {
+    /* == colors in light mode */
 
-$light0: #cccccc;
-$light1: #c0c0c0;
-$light2: #969696;
-
-$grey: #505050;
-
-$dark0: #080b16;
-$dark1: #19222a;
-$dark2: #212d37;
-
-$link-blue: #0079c0;
-
-$nord0: #2e3440;
-$nord1: #3b4252;
-$nord2: #434c5e;
-$nord3: #4c566a;
-$nord3_bright: #616E88;
-
-$nord4: #d8dee9;
-$nord5: #e5e9f0;
-$nord6: #eceff4;
-
-$nord7: #8fbcbb;
-$nord8: #88c0d0;
-$nord9: #81a1c1;
-$nord10: #5e81ac;
-
-$nord11: #bf616a;
-$nord12: #d08770;
-$nord13: #ebcb8b;
-$nord14: #a3be8c;
-$nord15: #b48ead;
-
-// -----------------------------------------------
-// Semantically-named colors
-// -----------------------------------------------
-$text-color: $nord1;
-$background-color: $light0;
-$link-color: $link-blue;
-$border-color: $nord4;
-
-$inline-code-text-color: $nord1;
-$inline-code-background-color: $nord5;
-$block-code-text-color: $nord4;
-$block-code-background-color: $nord0;
-
-$quote-text-color: $nord3;
-$quote-background-color: $light2;
-
-$table-row-color-light: $background-color;
-$table-row-color-dark: $light2;
-$table-border-color: $nord4;
-
-$slider-background-color: #ff00ff;
-$slider-border-color: $light1;
-$slider-checked-background-color: #ff0000;
-$slider-background-color-hover: #6495ed;
-$fa-moon-color: $grey;
-$fa-sun-color: $light1;
-// -----------------------------------------------
-
+    --body-text-color: #202020;
+    --body-background-color: #969696;
+    --markdown-body-background-color: #cccccc;
+    --markdown-body-h1-border-bottom-color: #ff0000;
+    --markdown-body-h2-border-bottom-color: #202020;
+    --markdown-body-a-color: #6495ed;
+    --markdown-body-a-background-color: transparent;
+    --markdown-body-a-code-color: #ff0f0f;
+    --markdown-body-a-code-background-color: #ff00ff;
+    --markdown-body-details-background-color: #f0f0f0;
+    --markdown-body-details-summary-background-color: #0f0f0f;
+    --markdown-body-hr-background-color: #202020;
+    --markdown-body-blockquote-color: #7a7a7a;
+    --markdown-body-blockquote-background-color: #e3e3e3;
+    --markdown-body-blockquote-border-left-color: #7a7a7a;
+    --markdown-body-table-th-border-color: #202020;
+    --markdown-body-table-tr-background-color: #e3e3e3;
+    --markdown-body-table-tr-border-top-color: #202020;
+    --markdown-body-table-tr-nth-child-background-color: #e5e5e5;
+    --markdown-body-img-background-color: #f2f2f2;
+    --markdown-body-kbd-color: #444d56;
+    --markdown-body-kbd-background-color: #fafbfc;
+    --markdown-body-kbd-border-color: #d1d5da;
+    --markdown-body-kbd-box-shadow-color: #d2d2db;
+    --markdown-body-code-color: #6e6ea5;
+    --markdown-body-code-background-color: #e3e3e3;
+    --markdown-body-pre-background-color: #f0f0f0;
+    --markdown-body-pre-code-background-color: transparent;
+    --markdown-body-pre-code-color: #fff0f0;
+    --slider-background-color: transparent;
+    --slider-background-hover-color: #6495ed;
+    --slider-border-color: #c0c0c0;
+    --slider-before-background-color: #13314b;
+    --slider-checked-background-color: transparent;
+    --fa-moon-color: #505050; 
+    --fa-sun-color: #c0c0c0;
+    --topnav-ul-background-color: #13314b;
+    --topnav-ul-border-color: #13314b;
+    --topnav-li-a-color: #c0c0c0;
+    --topnav-li-a-hover-color: #13314b;
+    --topnav-li-a-hover-background-color: #6495ed;
+    --topnav-hr-border-bottom-color: #ff00ff;
+    --sidebar-color: rgba(255,255,255,.6);
+    --sidebar-background-color: #202020;
+    --sidebar-a-color: #ffffff;
+    --a-sidebar-nav-item-background-color: rgba(255,255,255,.1);
+    --a-sidebar-nav-item-border-color: #6495ed;
+    --credits-color: #202020;
+    --credits-a-color: #13314b;
+    --profiles-ul-li-a-color: #666;
+    --profiles-ul-li-a-background-color: #c0c0c0; 
+    --profiles-u-li-a-hover-box-shadow: #6495ed;
+    --profiles-ul-li-a-hover-box-shadow-discord: #7289da;
+    --profiles-ul-li-a-hover-box-shadow-github: #ffffff;
+    --profiles-ul-li-a-hover-box-shadow-gitlab: #fc6d27; 
+    --profiles-ul-li-a-hover-box-shadow-reddit: #ff5700;
+    --profiles-ul-li-a-hover-box-shadow-stack-exchange: #46a2d9;
+    --profiles-ul-li-a-hover-box-shadow-threema: #05a63f;
 }
