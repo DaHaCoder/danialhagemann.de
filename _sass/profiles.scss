@@ -40,33 +40,33 @@
 
 
 /*.profiles ul li a:hover {
- box-shadow:0 0 20px var(--profiles-ul-li-a-hover-box-shadow)
+ box-shadow:0 0 20px var(--profiles)
 }
 */
 
 .profiles ul li a.discord:hover {
- box-shadow:0 0 20px var(--profiles-ul-li-a-hover-box-shadow-discord)
+ box-shadow:0 0 20px var(--profiles-discord)
 }
 
 .profiles ul li a.github:hover {
- color: var(--profiles-ul-li-a-hover-box-shadow-github);
- box-shadow:0 0 20px var(--profiles-ul-li-a-hover-box-shadow-github)
+ color: var(--profiles-github);
+ box-shadow:0 0 20px var(--profiles-github)
 }
 
 .profiles ul li a.gitlab:hover {
- color: var(--profiles-ul-li-a-hover-box-shadow-gitlab); 
- box-shadow:0 0 20px var(--profiles-ul-li-a-hover-box-shadow-gitlab)
+ color: var(--profiles-gitlab); 
+ box-shadow:0 0 20px var(--profiles-gitlab)
 }
 
 .profiles ul li a.reddit:hover {
- box-shadow:0 0 20px var(--profiles-ul-li-a-hover-box-shadow-reddit)
+ box-shadow:0 0 20px var(--profiles-reddit)
 }
 
 .profiles ul li a.stack-exchange:hover {
- box-shadow:0 0 20px var(--profiles-ul-li-a-hover-box-shadow-stack-exchange)
+ box-shadow:0 0 20px var(--profiles-stack-exchange)
 }
 
 .profiles ul li a.threema:hover{
- color: var(--profiles-ul-li-a-hover-box-shadow-threema);
- box-shadow: 0 0 20px var(--profiles-ul-li-a-hover-box-shadow-threema)  
+ color: var(--profiles-threema);
+ box-shadow: 0 0 20px var(--profiles-threema)  
 }
