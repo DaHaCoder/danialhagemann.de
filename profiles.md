@@ -24,7 +24,6 @@ Here are some of my profiles
   </a>
  </li>
  <!-- ======= -->
- <ul>
  <!-- Threema -->
  <!-- ======= -->
  <li>
