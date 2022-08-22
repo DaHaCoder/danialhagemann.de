@@ -37,14 +37,20 @@ Here are some of my profiles
     <ul>
       <li>
         <a href="https://github.com/DaHaCoder" class="github" target="_blank" rel="noopener noreferrer">
-          <iconify-icon icon="akar-icons:github-fill" style="color: #ffffff;"></iconify-icon>
-        <span style="color: #ffffff">DaHaCoder</span>
+          <span class="github">GitHub</span>
+            <icon class="github">
+              <iconify-icon icon="akar-icons:github-fill" style="color: #ffffff;"></iconify-icon>
+            </icon>
+          <span class="github">DaHaCoder</span>
         </a>
       </li>
       <li>
         <a href="https://gitlab.com/DaHaCoder" class="gitlab" target="_blank" rel="noopener noreferrer">
-          <iconify-icon icon="fa:gitlab" style="color: #fc6d27;"></iconify-icon>
-        <span style="color: #fc6d27">DaHaCoder</span>
+          <span class="gitlab">GitLab</span>
+            <icon class="gitlab">
+              <iconify-icon icon="fa:gitlab" style="color: #fc6d27;"></iconify-icon>
+            </icon>
+          <span class="gitlab">DaHaCoder</span>
         </a> 
       </li>
     </ul>
