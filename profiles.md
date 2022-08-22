@@ -12,7 +12,7 @@ Here are some of my profiles
 
 <div class="profiles">
  <ul>
- <!-- Dsicord -->
+ <!-- Discord -->
  <!-- ======= -->
  <li>
   <a href="https://threema.id/REA876Y2" class="discord" target="_blank" rel="noopener noreferrer">
@@ -21,6 +21,17 @@ Here are some of my profiles
          <iconify-icon icon="akar-icons:discord-fill" style="color: #5865f2; margin-top: 20px;"></iconify-icon>
        </icon>
     <span class="discord">NerdofPi#6093</span>
+  </a>
+ </li>
+ <!-- Element -->
+ <!-- ======= -->
+ <li>
+  <a href="https://matrix.to/#/@dhnerd:matrix.org" class="element" target="_blank" rel="noopener noreferrer">
+    <span class="element">Element (Matrix)</span>
+       <icon class="element">
+         <iconify-icon icon="simple-icons:element" style="color: #0a976f; margin-top: 20px;"></iconify-icon>
+       </icon>
+    <span class="element">@dhnerd:matrix.org</span>
   </a>
  </li>
  <!-- ======= -->
