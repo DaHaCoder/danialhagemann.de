@@ -18,7 +18,7 @@ Here are some of my profiles
   <a href="https://threema.id/REA876Y2" class="discord" target="_blank" rel="noopener noreferrer">
     <span class="discord">Discord</span>
        <icon class="discord">
-         <iconify-icon icon="akar-icons:discord-fill" style="color: #7289da; margin-top: 20px;"></iconify-icon>
+         <iconify-icon icon="akar-icons:discord-fill" style="color: #5865f2; margin-top: 20px;"></iconify-icon>
        </icon>
     <span class="discord">NerdofPi#6093</span>
   </a>
