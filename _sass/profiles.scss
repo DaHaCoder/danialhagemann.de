@@ -13,6 +13,26 @@
 
 .profiles ul li a {
     display: inline-block;
+    //width: 76px;
+    //height: 76px;
+    margin: 20px 20px 0 0;
+    //text-align: center;
+    //border-radius: 50%;
+    //font-size: 50px;
+    //box-shadow: 0 0 20px rgba(0,0,0,0);
+    //color: var(--profiles-ul-li-a-color);
+    background: #ffffff;
+    transition: .4s;
+}
+
+.profiles u li a span {
+    display: block;
+    font-size: 20px;
+    text-align: center;
+}
+
+.profiles ul li a icon {
+    display: inline-block;
     width: 76px;
     height: 76px;
     margin: 20px 20px 0 0;
@@ -20,9 +40,9 @@
     border-radius: 50%;
     font-size: 50px;
     box-shadow: 0 0 20px rgba(0,0,0,0);
-    color: var(--profiles-ul-li-a-color);
+    //color: var(--profiles-ul-li-a-color);
     background: var(--profiles-ul-li-a-background-color);
-    transition: .4s;
+    //transition: .4s;
 }
 
 .profiles ul li a:hover {

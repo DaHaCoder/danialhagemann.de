@@ -21,8 +21,11 @@ Here are some of my profiles
     <ul>
       <li>
         <a href="https://threema.id/REA876Y2" class="threema" target="_blank" rel="noopener noreferrer">
-          <iconify-icon icon="simple-icons:threema" style="color: #05a63f;"></iconify-icon>
-        <span style="color: #05a63f">REA876Y2</span>
+          <span class="threema">Threema</span>
+            <icon class="threema">
+              <iconify-icon icon="simple-icons:threema" style="color: #05a63f;"></iconify-icon>
+            </icon>
+          <span class="threema">REA876Y2</span>
         </a>
       </li>
     </ul>
