@@ -12,9 +12,19 @@ github_username:    DaHaCoder
 
 # Build settings
 markdown: kramdown
-paginate: 5
-paginate_path: "/page:num/"
-inter_post_navigation: true
+
+#kramdown:
+#    block:
+#    line_numbers: true
+
+kramdown:
+    highlighter: rouge
+    syntax_highlighter_opts:
+        block:
+            line_numbers: true
+#paginate: 5
+#paginate_path: "/page:num/"
+#inter_post_navigation: true
 
 plugins: 
   - jekyll-paginate

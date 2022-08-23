@@ -193,13 +193,19 @@ body {
 .markdown-body dl,
 .markdown-body ol,
 .markdown-body p,
-.markdown-body pre,
 .markdown-body table,
 .markdown-body ul {
-  margin-top: 0;
-  margin-bottom: 16px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.markdown-body pre {
+    margin-top: 0;
+    margin-bottom: 0;
 }
 // -----------------------------------------------
+
+
 
 // Element: block quotes
 // -----------------------------------------------
@@ -291,7 +297,7 @@ body {
 // Note: table border color
 .markdown-body table td,
 .markdown-body table th {
-  padding: 6px 13px;
+  padding: 5px 10px;
   border: 1px solid var(--markdown-body-table-th-border-color);
 }
 
@@ -376,7 +382,7 @@ body {
 }
 
 .markdown-body .highlight {
-  margin-bottom: 16px;
+  margin-bottom: 0px;
 }
 
 .markdown-body .highlight pre {
@@ -387,12 +393,12 @@ body {
 // Note: Background color of code blocks
 .markdown-body .highlight pre,
 .markdown-body pre {
-  padding: 16px;
+  padding: 3.5px;
   overflow: auto;
-  font-size: 90%;
+  font-size: 100%;
   line-height: 1.45;
   background-color: var(--markdown-body-pre-background-color);
-  border-radius: 3px;
+  border-radius: 7px;
 }
 
 // Note: Text color and background color inside code blocks
@@ -419,4 +425,4 @@ body {
 }
 // -----------------------------------------------
 
-@import "code-colors", "credits", "date-nav", "nord-syntax", "themeswitch", "topnav", "profiles";
+@import "credits", "date-nav", "helix-nord-syntax", "themeswitch", "topnav", "profiles";

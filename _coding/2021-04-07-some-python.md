@@ -8,7 +8,7 @@ date_last_mod:  2022-08-17  18:24:00 +0200
 
 Here is a python code:
 
-{% highlight py %}
+{% highlight py linenos %}
 
 
 import matplotlib
@@ -22,8 +22,7 @@ s = 1 + np.sin(2 * np.pi * t)
 fig, ax = plt.subplots()
 ax.plot(t, s)
 
-ax.set(xlabel='time (s)', ylabel='voltage (mV)',
-       title='About as simple as it gets, folks')
+ax.set(xlabel='time (s)', ylabel='voltage (mV)', title='title')
 ax.grid()
 
 fig.savefig("test.png")

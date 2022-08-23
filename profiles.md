@@ -23,6 +23,7 @@ Here are some of my profiles
     <span class="discord">NerdofPi#6093</span>
   </a>
  </li>
+ <!-- ======= -->
  <!-- Element -->
  <!-- ======= -->
  <li>

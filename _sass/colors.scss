@@ -20,7 +20,7 @@
     --markdown-body-blockquote-background-color: #192c3c;
     --markdown-body-blockquote-border-left-color: #9bcfff;
     --markdown-body-table-th-border-color: #c0c0c0;
-    --markdown-body-table-tr-background-color: #24313c;
+    --markdown-body-table-tr-background-color: #141a21;
     --markdown-body-table-tr-border-top-color: #c0c0c0;
     --markdown-body-table-tr-nth-child-background-color: #192c3c;
     --markdown-body-img-background-color: #f2f2f2;
@@ -29,8 +29,8 @@
     --markdown-body-kbd-border-color: #d1d5da;
     --markdown-body-kbd-box-shadow-color: #d2d2db;
     --markdown-body-code-color: #00ff7f;
-    --markdown-body-code-background-color: #24313c;
-    --markdown-body-pre-background-color: #212d37;
+    --markdown-body-code-background-color: #141a21;
+    --markdown-body-pre-background-color: #141a21;
     --markdown-body-pre-code-background-color: transparent;
     --markdown-body-pre-code-color: #fff0f0;
     --slider-background-color: transparent;
@@ -63,17 +63,54 @@
     --profiles-reddit: #ff5700;
     --profiles-stack-exchange: #46a2d9;
     --profiles-threema: #05a63f;
+
+
+    /* CODE COLORS */
+    /* =========== */
+    --nord0: #2e3440;
+    --nord1: #3b4252;
+    --nord2: #434c5e;
+    --nord3: #4c566a;
+    --helix3: #5a7296;
+    --nord3_bright: #616e88;
+
+    --nord4: #d8dee9;
+    --helix4: #d4d4d4; 
+    --nord5: #e5e9f0;
+    --nord6: #eceff4;
+
+    --nord7: #8fbcbb;
+    --nord8: #88c0d0;
+    --helix8: #007fff;
+    --nord9: #81a1c1;
+    --helix9: #00ff7f;
+    --nord10: #5e81ac;
+
+    --nord11: #bf616a;
+    --helix11: #ff007f;
+    --nord12: #d08770;
+    --nord13: #ebcb8b;
+    --nord14: #a3be8c;
+    --helix14: #ff007f;
+    --nord15: #b48ead;
+    --helix15: #ffff00;
+
+    --light0: #fbfbfc;
+    --light1: #f8f9fb;
+    --light2: #f3f4f6;
+    --link-blue: #0079c0;
+
 }
 
 [data-theme="light"] {
-    /* == colors in light mode */
+    /* == colors in light mode == */
 
     --body-text-color: #202020;
     --body-background-color: #969696;
     --markdown-body-background-color: #cccccc;
     --markdown-body-h1-border-bottom-color: #ff0000;
     --markdown-body-h2-border-bottom-color: #202020;
-    --markdown-body-a-color: #6495ed;
+    --markdown-body-a-color: #557fc8;
     --markdown-body-a-background-color: transparent;
     --markdown-body-a-code-color: #ff0f0f;
     --markdown-body-a-code-background-color: #ff00ff;
@@ -84,7 +121,7 @@
     --markdown-body-blockquote-background-color: #e3e3e3;
     --markdown-body-blockquote-border-left-color: #7a7a7a;
     --markdown-body-table-th-border-color: #202020;
-    --markdown-body-table-tr-background-color: #e3e3e3;
+    --markdown-body-table-tr-background-color: #c0c0c0;
     --markdown-body-table-tr-border-top-color: #202020;
     --markdown-body-table-tr-nth-child-background-color: #e5e5e5;
     --markdown-body-img-background-color: #f2f2f2;
@@ -92,11 +129,11 @@
     --markdown-body-kbd-background-color: #fafbfc;
     --markdown-body-kbd-border-color: #d1d5da;
     --markdown-body-kbd-box-shadow-color: #d2d2db;
-    --markdown-body-code-color: #6e6ea5;
-    --markdown-body-code-background-color: #e3e3e3;
-    --markdown-body-pre-background-color: #f0f0f0;
+    --markdown-body-code-color: #7f00ff;
+    --markdown-body-code-background-color: #c0c0c0;
+    --markdown-body-pre-background-color: #c0c0c0;
     --markdown-body-pre-code-background-color: transparent;
-    --markdown-body-pre-code-color: #fff0f0;
+    --markdown-body-pre-code-color: #c0c0c0;
     --slider-background-color: transparent;
     --slider-background-hover-color: #6495ed;
     --slider-border-color: #c0c0c0;
@@ -116,7 +153,7 @@
     --a-sidebar-nav-item-background-color: rgba(255,255,255,.1);
     --a-sidebar-nav-item-border-color: #6495ed;
     --credits-color: #202020;
-    --credits-a-color: #13314b;
+    --credits-a-color: #557fc8;
     --profiles-ul-li-a-color: #666;
     --profiles-ul-li-a-background-color: #c0c0c0; 
     --profiles-ul-li-a-hover-box-shadow: #6495ed;
@@ -127,4 +164,41 @@
     --profiles-reddit: #ff5700;
     --profiles-stack-exchange: #46a2d9;
     --profiles-threema: #05a63f;
+
+    
+    /* CODE COLORS */
+    /* =========== */
+    --nord0: #2e3440;
+    --nord1: #3b4252;
+    --nord2: #434c5e;
+    --nord3: #4c566a;
+    --helix3: #5a7296;
+    --nord3_bright: #616E88;
+
+    --nord4: #d8dee9;
+    --helix4: #141a21; 
+    --nord5: #e5e9f0;
+    --nord6: #eceff4;
+
+    --nord7: #8fbcbb;
+    --nord8: #88c0d0;
+    --helix8: #007fff;
+    --nord9: #81a1c1;
+    --helix9: #7f00ff;
+    --nord10: #5e81ac;
+
+    --nord11: #bf616a;
+    --helix11: #ff007f;
+    --nord12: #d08770;
+    --nord13: #ebcb8b;
+    --nord14: #a3be8c;
+    --helix14: #ff007f;
+    --nord15: #b48ead;
+    --helix15: #ffff00;
+
+    --light0: #fbfbfc;
+    --light1: #f8f9fb;
+    --light2: #f3f4f6;
+    --link-blue: #0079c0;
+
 }
