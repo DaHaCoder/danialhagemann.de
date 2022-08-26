@@ -2,7 +2,7 @@
 layout:         post
 tab:	        physics
 title:          The Schrödinger Equation
-date:           2021-04-06  15:00:00 +0200
+date:           2022-08-26  15:00:00 +0200
 ---
 
 This is the time dependent Schrödinger equation.
