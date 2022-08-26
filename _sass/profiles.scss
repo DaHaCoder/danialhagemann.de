@@ -20,14 +20,14 @@
 }
 
 
-.profiles u li a span {
+.profiles u li a p {
     display: block;
     font-size: 20px;
     text-align: center;
 }
 
 .profiles ul li a icon {
-    display: block;
+    display: inline-block;
     width: 100px;
     height: 100px;
     margin: 5px 5px 5px 5px;
@@ -41,7 +41,7 @@
 
 // Discord
 // =======
-.profiles ul li a.discord:hover span {
+.profiles ul li a.discord:hover p {
  color: var(--profiles-discord);
 }
 
@@ -52,7 +52,7 @@
 
 // Element
 // =======
-.profiles ul li a.element:hover span {
+.profiles ul li a.element:hover p {
  color: var(--profiles-element);
 }
 
@@ -63,7 +63,7 @@
 
 // GitHub 
 // ======
-.profiles ul li a.github:hover span {
+.profiles ul li a.github:hover p {
  color: var(--profiles-github);
 }
 
@@ -74,7 +74,7 @@
 
 // GitLab
 // ======
-.profiles ul li a.gitlab:hover span {
+.profiles ul li a.gitlab:hover p {
  color: var(--profiles-gitlab);
 }
 
@@ -86,7 +86,7 @@
 /*
 // Keybase
 // =======
-.profiles ul li a.keybase:hover span {
+.profiles ul li a.keybase:hover p {
  color: var(--profiles-keybase);
 }
 
@@ -99,7 +99,7 @@
 /*
 // Mastodon
 // ========
-.profiles ul li a.mastodon:hover span {
+.profiles ul li a.mastodon:hover p {
  color: var(--profiles-mastodon);
 }
 
@@ -111,7 +111,7 @@
 
 // Reddit
 // ======
-.profiles ul li a.reddit:hover span {
+.profiles ul li a.reddit:hover p {
  color: var(--profiles-reddit);
 }
 
@@ -122,7 +122,7 @@
 
 // Stack Exchange
 // ==============
-.profiles ul li a.stack-exchange:hover span {
+.profiles ul li a.stack-exchange:hover p {
  color: var(--profiles-stack-exchange);
 }
 
@@ -133,7 +133,7 @@
 
 // Threema
 // =======
-.profiles ul li a.threema:hover span {
+.profiles ul li a.threema:hover p {
  color: var(--profiles-threema);
 }
 

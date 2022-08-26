@@ -16,11 +16,11 @@ Here are some of my profiles
  <!-- ======= -->
  <li>
   <a href="https://threema.id/REA876Y2" class="discord" target="_blank" rel="noopener noreferrer">
-    <span class="discord">Discord</span>
+    <p class="discord">Discord</p>
        <icon class="discord">
          <iconify-icon icon="akar-icons:discord-fill" style="color: #5865f2; margin-top: 20px;"></iconify-icon>
        </icon>
-    <span class="discord">NerdofPi#6093</span>
+    <p class="discord">NerdofPi#6093</p>
   </a>
  </li>
  <!-- ======= -->
@@ -28,11 +28,11 @@ Here are some of my profiles
  <!-- ======= -->
  <li>
   <a href="https://matrix.to/#/@dhnerd:matrix.org" class="element" target="_blank" rel="noopener noreferrer">
-    <span class="element">Element (Matrix)</span>
+    <p class="element">Element (Matrix)</p>
        <icon class="element">
          <iconify-icon icon="simple-icons:element" style="color: #0a976f; margin-top: 20px;"></iconify-icon>
        </icon>
-    <span class="element">@dhnerd:matrix.org</span>
+    <p class="element">@dhnerd:matrix.org</p>
   </a>
  </li>
  <!-- ======= -->
@@ -40,11 +40,11 @@ Here are some of my profiles
  <!-- ======= -->
  <li>
   <a href="https://threema.id/REA876Y2" class="threema" target="_blank" rel="noopener noreferrer">
-    <span class="threema">Threema</span>
+    <p class="threema">Threema</p>
       <icon class="threema">
         <iconify-icon icon="simple-icons:threema" style="color: #05a63f; margin-top: 20px;"></iconify-icon>
       </icon>
-    <span class="threema">REA876Y2</span>
+    <p class="threema">REA876Y2</p>
   </a>
  </li>
  <!-- ======= -->
@@ -59,11 +59,11 @@ Here are some of my profiles
  <!-- ====== -->
  <li>
    <a href="https://github.com/DaHaCoder" class="github" target="_blank" rel="noopener noreferrer">
-     <span class="github">GitHub</span>
+     <p class="github">GitHub</p>
        <icon class="github">
          <iconify-icon icon="akar-icons:github-fill" style="color: #ffffff; margin-top: 20px;"></iconify-icon>
        </icon>
-      <span class="github">DaHaCoder</span>
+      <p class="github">DaHaCoder</p>
    </a>
  </li>
  <!-- ====== -->
@@ -71,11 +71,11 @@ Here are some of my profiles
  <!-- ====== -->
  <li>
    <a href="https://gitlab.com/DaHaCoder" class="gitlab" target="_blank" rel="noopener noreferrer">
-     <span class="gitlab">GitLab</span>
+     <p class="gitlab">GitLab</p>
        <icon class="gitlab">
          <iconify-icon icon="fa:gitlab" style="color: #fc6d27; margin-top: 20px;"></iconify-icon>
        </icon>
-      <span class="gitlab">DaHaCoder</span>
+      <p class="gitlab">DaHaCoder</p>
    </a> 
  </li>
  <!-- ====== -->
