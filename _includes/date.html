@@ -2,6 +2,6 @@
 {% if post.date-last-mod %}
 <span>|</span>
 <span class="date-nav">
-Last modified: {{ page.date-last-mod | date: "%-d %B %Y" }}
+Last modified: {{ post.date-last-mod | date: "%-d %B %Y" }}
 </span>
 {% endif %}
