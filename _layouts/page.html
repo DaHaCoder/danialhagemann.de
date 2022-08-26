@@ -4,12 +4,5 @@ layout: default
 
 <div class="page">
  <h1 class="page-title">{{ page.title }}</h1>
-   <span class="post-date">{{ post.date | date: "%-d %B %Y" }}</span>
-    {% if post.date-last-mod %}
-    <span>|</span>
-    <span class="post-date-last-mod">
-    Last modified: {{ post.date-last-mod | date: "%-d %B %Y" }}
-    </span>
-    {% endif %}
   {{ content }}
 </div>
