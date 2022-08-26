@@ -3,7 +3,7 @@ layout:         post
 tab:	        physics
 title:          The Maxwell Equations
 date:           2021-04-06  15:00:00 +0200
-date_last_mod:  2022-08-17  18:20:00 +0200
+date-last-mod:  2022-08-17  18:20:00 +0200
 ---
 
 These are the Maxwell equations:
