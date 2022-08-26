@@ -21,7 +21,7 @@ $$
 Now, we can define the time $$t$$ as the first component of a four-vector $$x^{\mu}$$, so that $$x^{0} := t$$ and $$\rho$$ as the first component of a four-flux $$j^{\mu}$$ so that $$j^{0} := \rho$$. The derivative can therefore be written as
 
 $$
-\frac{\partial}{\partial t} + \boldsymbol{\nabla} = \sum_{\mu = 0}^{3} \frac{\partial}{\partial x_{\mu}} =: \partial_{\mu}.
+\frac{\partial}{\partial t} + \boldsymbol{\nabla} = \sum_{\mu = 0}^{3} \frac{\partial}{\partial x_{\mu}} =: \sum_{\mu} \partial_{\mu}.
 $$
 
 Therefore follows for the Continuity Equation in 4 dimensions
