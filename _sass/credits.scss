@@ -12,9 +12,10 @@
 
 .credits a {
   color: var(--credits-a-color);
+  text-decoration: inherit; 
 }
-/*
+
 .credits a:hover{
   text-decoration: underline;
 }
-*/
+
