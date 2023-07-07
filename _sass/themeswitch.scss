@@ -87,5 +87,5 @@ input:checked + .slider:before {
 }
 
 .theme-switch:hover .slider{
-  background-color: var(--slider-background-hover-color); 
+  border: 2px solid var(--slider-border-hover-color); 
 }
