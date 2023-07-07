@@ -86,6 +86,23 @@ input:checked + .slider:before {
   color: var(--fa-sun-color);
 }
 
+.theme-switch i{
+    transition: .4s;
+}
+
 .theme-switch:hover .slider{
   border: 2px solid var(--slider-border-hover-color); 
 }
+
+html[data-theme='dark'] .theme-switch:hover .fa-sun{
+  color: var(--fa-sun-hover-color);
+  transition: .4s;
+}
+
+html[data-theme='light'] .theme-swith:hover .fa-moon{
+  color: var(--fa-moon-hover-color);
+  transition: .4s;
+}
+
+
+
