@@ -23,5 +23,3 @@ if (currentTheme) {
         toggleSwitch.checked = true;
     }
 }
-
-
