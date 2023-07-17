@@ -356,7 +356,7 @@ body {
 // -----------------------------------------------
 .markdown-body code,
 .markdown-body pre {
-  font-family: 'Computer Modern Typewriter',monospace;
+  font-family: 'Fira Code',monospace;
 }
 
 .markdown-body pre {
@@ -418,6 +418,19 @@ body {
   background-color: var(--markdown-body-pre-code-background-color);
   color: var(--markdown-body-pre-code-color);
   border: 0;
+}
+
+pre.highlight > button {
+  opacity: 0;
+}
+
+pre.highlight:hover > button {
+  opacity: 1;
+}
+
+pre.highlight > button:active,
+pre.highlight > button:focus {
+  opacity: 1;
 }
 // -----------------------------------------------
 
