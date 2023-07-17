@@ -19,10 +19,12 @@
     --markdown-body-blockquote-color: #9bcfff;
     --markdown-body-blockquote-background-color: #192c3c;
     --markdown-body-blockquote-border-left-color: #9bcfff;
+    --markdown-body-table-thead-background-color: #0e141d;
+    --markdown-body-table-tfoot-background-color: #0e141d;
+    --markdown-body-table-tr-background-color: #141b26;
     --markdown-body-table-th-border-color: #c0c0c0;
-    --markdown-body-table-tr-background-color: #141a21;
     --markdown-body-table-tr-border-top-color: #c0c0c0;
-    --markdown-body-table-tr-nth-child-background-color: #192c3c;
+    --markdown-body-table-tr-nth-child-background-color: #1e2738;
     --markdown-body-img-background-color: #141a24;
     --markdown-body-kbd-color: #444d56;
     --markdown-body-kbd-background-color: #fafbfc;
@@ -39,9 +41,9 @@
     --slider-border-hover-color: #6495ed;
     --slider-before-background-color: #0c151f;
     --slider-checked-background-color: transparent;
-    --fa-moon-color: #c0c0c0; 
+    --fa-moon-color: #c0c0c0;
     --fa-sun-color: #505050;
-    --fa-sun-hover-color: #6495ed; 
+    --fa-sun-hover-color: #6495ed;
     --topnav-ul-background-color: #0c151f;
     --topnav-ul-border-color: #080b16;
     --topnav-li-a-color: #c0c0c0;
@@ -56,12 +58,12 @@
     --credits-color: #c0c0c0;
     --credits-a-color: #6495ed;
     --profiles-ul-li-a-color: #666;
-    --profiles-ul-li-a-background-color: #212d37; 
+    --profiles-ul-li-a-background-color: #212d37;
     --profiles-ul-li-a-hover-box-shadow: #6495ed;
     --profiles-discord: #5865f2;
     --profiles-element: #0a976f;
     --profiles-github: #ffffff;
-    --profiles-gitlab: #fc6d27; 
+    --profiles-gitlab: #fc6d27;
     --profiles-reddit: #ff5700;
     --profiles-stack-exchange: #46a2d9;
     --profiles-threema: #05a63f;
@@ -77,7 +79,7 @@
     --nord3_bright: #616e88;
 
     --nord4: #d8dee9;
-    --helix4: #d4d4d4; 
+    --helix4: #d4d4d4;
     --nord5: #e5e9f0;
     --nord6: #eceff4;
 
@@ -122,6 +124,8 @@
     --markdown-body-blockquote-color: #7a7a7a;
     --markdown-body-blockquote-background-color: #e3e3e3;
     --markdown-body-blockquote-border-left-color: #7a7a7a;
+    --markdown-body-table-thead-background-color: #0e141d;
+    --markdown-body-table-tfoot-background-color: #0e141d;
     --markdown-body-table-th-border-color: #202020;
     --markdown-body-table-tr-background-color: #c0c0c0;
     --markdown-body-table-tr-border-top-color: #202020;
@@ -142,8 +146,8 @@
     --slider-border-hover-color: #6495ed;
     --slider-before-background-color: #13314b;
     --slider-checked-background-color: transparent;
-    --fa-moon-color: #505050; 
-    --fa-moon-hover-color: #6495ed; 
+    --fa-moon-color: #505050;
+    --fa-moon-hover-color: #6495ed;
     --fa-sun-color: #c0c0c0;
     --topnav-ul-background-color: #0c151f;
     --topnav-ul-border-color: #080b16;
@@ -159,17 +163,17 @@
     --credits-color: #202020;
     --credits-a-color: #557fc8;
     --profiles-ul-li-a-color: #666;
-    --profiles-ul-li-a-background-color: #c0c0c0; 
+    --profiles-ul-li-a-background-color: #c0c0c0;
     --profiles-ul-li-a-hover-box-shadow: #6495ed;
     --profiles-discord: #5865f2;
     --profiles-element: #0a976f;
     --profiles-github: #ffffff;
-    --profiles-gitlab: #fc6d27; 
+    --profiles-gitlab: #fc6d27;
     --profiles-reddit: #ff5700;
     --profiles-stack-exchange: #46a2d9;
     --profiles-threema: #05a63f;
 
-    
+
     /* CODE COLORS */
     /* =========== */
     --nord0: #2e3440;
@@ -180,7 +184,7 @@
     --nord3_bright: #616E88;
 
     --nord4: #d8dee9;
-    --helix4: #141a21; 
+    --helix4: #141a21;
     --nord5: #e5e9f0;
     --nord6: #eceff4;
 

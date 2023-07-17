@@ -7,7 +7,7 @@ body {
   line-height: 1.5;
   color: var(--body-text-color);
   background-color: var(--body-background-color);
-  font-family: 'Computer Modern Sans', sans-serif; 
+  font-family: 'Computer Modern Sans', sans-serif;
   font-size: 18px;
   line-height: 1.5;
   word-wrap: break-word;
@@ -21,7 +21,7 @@ body {
 .markdown-body {
   color: inherit;
   background-color: var(--markdown-body-background-color);
-  font-family: inherit; 
+  font-family: inherit;
   font-size: inherit;
   word-wrap: inherit;
   box-sizing: border-box;
@@ -292,6 +292,7 @@ body {
 
 .markdown-body table th {
   font-weight: 600;
+  background-color: var(--markdown-body-table-thead-background-color);
 }
 
 // Note: table border color
@@ -299,6 +300,10 @@ body {
 .markdown-body table th {
   padding: 5px 10px;
   border: 1px solid var(--markdown-body-table-th-border-color);
+}
+
+.markdown-body table tfoot td {
+    background-color: var(--markdown-body-table-tfoot-background-color);
 }
 
 // Note: table row background color 1
