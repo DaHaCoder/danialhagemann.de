@@ -8,6 +8,8 @@ date_last_mod:  2022-08-17  18:24:00 +0200
 
 Here is a python code:
 
+{% include code-header.html %}
+
 {% highlight py linenos %}
 import matplotlib
 import matplotlib.pyplot as plt
