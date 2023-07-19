@@ -1,18 +1,39 @@
 function stripLinenums(code) {
+    const emptyLineOrOnlySpaces = /^\s*$/;
     const lineWithOnlyNumbers = /^[0-9]+$/;
+
+    const lines = code.split(/\r?\n/);
 
     let newCode = [];
 
-    for (const line of code.split(/\r?\n/)) {
-        if (line === "" || lineWithOnlyNumbers.test(line)) {
-            continue;
-        }
+    let i = 0;
+    while (emptyLineOrOnlySpaces.test(lines[i]) || lineWithOnlyNumbers.test(lines[i])) {
+        ++i;
+    }
 
-        newCode.push(line);
+    for (; i < lines.length; ++i) {
+        newCode.push(lines[i]);
     }
 
     return newCode.join("\n"); // FIXME: This will probably not work on Windows
 }
+
+
+// function stripLinenums(code) {
+//     const lineWithOnlyNumbers = /^[0-9]+$/;
+
+//     let newCode = [];
+
+//     for (const line of code.split(/\r?\n/)) {
+//         if (line === "" || lineWithOnlyNumbers.test(line)) {
+//             continue;
+//         }
+
+//         newCode.push(line);
+//     }
+
+//     return newCode.join("\n"); // FIXME: This will probably not work on Windows
+// }
 
 const codeBlocks = document.querySelectorAll('figure > pre > code');
 const copyCodeButtons = document.querySelectorAll('.copy-code-button');
