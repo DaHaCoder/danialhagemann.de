@@ -298,8 +298,7 @@ body {
 // Note: table border color
 .markdown-body table td,
 .markdown-body table th {
-  padding: 5px 10px;
-  border: 1px solid var(--markdown-body-table-th-border-color);
+  padding: 5px 5px;
 }
 
 .markdown-body table tfoot td {
@@ -307,10 +306,10 @@ body {
 }
 
 // Note: table row background color 1
-.markdown-body table tr {
-  background-color: var(--markdown-body-table-tr-background-color);
-  border-top: 1px solid var(--markdown-body-table-tr-border-top-color);
-}
+// .markdown-body table tr {
+//   background-color: var(--markdown-body-table-tr-background-color);
+//   border-top: 1px solid var(--markdown-body-table-tr-border-top-color);
+// }
 
 // Note: table row background color 2
 .markdown-body table tr:nth-child(2n) {
@@ -372,7 +371,8 @@ body {
   font-size: 85%;
   background-color: var(--markdown-body-code-background-color);
   color: var(--markdown-body-code-color);
-  border-radius: 3px;
+  border-radius: 4px;
+  border: 1px solid var(--markdown-body-code-border-color);
 }
 
 
