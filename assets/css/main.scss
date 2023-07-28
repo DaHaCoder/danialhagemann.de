@@ -356,6 +356,7 @@ body {
 .markdown-body code,
 .markdown-body pre {
   font-family: 'Fira Code',monospace;
+  font-size: 14px;
 }
 
 .markdown-body pre {
@@ -368,18 +369,18 @@ body {
 .markdown-body code {
   padding: .2em .4em;
   margin: 0;
-  font-size: 85%;
+  font-size: 14px;
   background-color: var(--markdown-body-code-background-color);
   color: var(--markdown-body-code-color);
   border-radius: 4px;
-  border: 1px solid var(--markdown-body-code-border-color);
+  // border: 1px solid var(--markdown-body-code-border-color);
 }
 
 
 .markdown-body pre>code {
   padding: 0;
   margin: 0;
-  font-size: 100%;
+  font-size: 14px;
   word-break: normal;
   white-space: pre;
   background: transparent;
