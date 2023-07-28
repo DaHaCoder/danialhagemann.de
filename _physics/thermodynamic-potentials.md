@@ -15,9 +15,5 @@ date:           2023-07-28  15:00:00 +0200
 
 This is a little summary on thermodynamic potentials.
 
-::: center
-**Thermodynamische Potentiale und Maxwell Relationen**\
-:::
-
 -   Innere Energie $U(S,V,N)$:
 
