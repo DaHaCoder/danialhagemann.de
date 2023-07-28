@@ -29,7 +29,7 @@
   display: block;
   color: var(--topnav-li-a-color);
   text-align: center;
-  padding: 12px 16px;
+  padding: 12px 15px;
   text-decoration: none;
   transition: .4s;
 }
@@ -37,7 +37,7 @@
 .topnav li a:hover {
   color: var(--topnav-li-a-hover-color);
   background-color: var(--topnav-li-a-hover-background-color);
-  transition: .4s;    
+  transition: .4s;
 }
 
 @media (max-width: 850px) {
