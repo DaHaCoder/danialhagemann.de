@@ -8,7 +8,7 @@ body {
   color: var(--body-text-color);
   background-color: var(--body-background-color);
   font-family: 'Computer Modern Sans', sans-serif;
-  font-size: 18px;
+  font-size: 20px;
   line-height: 1.5;
   word-wrap: break-word;
   margin-top: 0px;
@@ -133,7 +133,7 @@ body {
   font-size: 85%;
   background-color: var(--markdown-body-a-code-background-color);
   color: var(--markdown-body-a-code-color);
-  border-radius: 3px;
+  border-radius: 4px;
 }
 
 .markdown-body a:not([href]) {
@@ -345,7 +345,7 @@ body {
   vertical-align: middle;
   background-color: var(--markdown-body-kbd-background-color);
   border: 1px solid var(--markdown-body-kbd-border-color);
-  border-radius: 3px;
+  border-radius: 4px;
   box-shadow: inset 0 -1px 0 var(--markdown-body-kbd-box-shadow-color);
 }
 // -----------------------------------------------
@@ -368,7 +368,7 @@ body {
 .markdown-body code {
   padding: .2em .4em;
   margin: 0;
-  font-size: 16px;
+  font-size: 14px;
   background-color: var(--markdown-body-code-background-color);
   color: var(--markdown-body-code-color);
   border-radius: 4px;
@@ -398,12 +398,12 @@ body {
 // Note: Background color of code blocks
 .markdown-body .highlight pre,
 .markdown-body pre {
-  padding: 3.5px;
+  padding: 2px;
   overflow: auto;
   font-size: 100%;
   line-height: 1.45;
   background-color: var(--markdown-body-pre-background-color);
-  border-radius: 7px;
+  border-radius: 4px;
 }
 
 // Note: Text color and background color inside code blocks
