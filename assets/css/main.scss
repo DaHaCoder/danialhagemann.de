@@ -193,7 +193,6 @@ body {
 .markdown-body dl,
 .markdown-body ol,
 .markdown-body p,
-.markdown-body table,
 .markdown-body ul {
   margin-top: 10px;
   margin-bottom: 10px;
@@ -216,7 +215,7 @@ body {
   color: var(--markdown-body-blockquote-color);
   background-color: var(--markdown-body-blockquote-background-color);
   border-left: .25em solid var(--markdown-body-blockquote-border-left-color);
-  border-radius: 7px;
+  border-radius: 4px;
 }
 // -----------------------------------------------
 
@@ -356,7 +355,7 @@ body {
 .markdown-body code,
 .markdown-body pre {
   font-family: 'Fira Code',monospace;
-  font-size: 14px;
+  font-size: 16px;
 }
 
 .markdown-body pre {
@@ -369,7 +368,7 @@ body {
 .markdown-body code {
   padding: .2em .4em;
   margin: 0;
-  font-size: 14px;
+  font-size: 16px;
   background-color: var(--markdown-body-code-background-color);
   color: var(--markdown-body-code-color);
   border-radius: 4px;
@@ -380,7 +379,7 @@ body {
 .markdown-body pre>code {
   padding: 0;
   margin: 0;
-  font-size: 14px;
+  font-size: 16px;
   word-break: normal;
   white-space: pre;
   background: transparent;
