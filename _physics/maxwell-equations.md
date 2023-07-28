@@ -1,6 +1,7 @@
 ---
 layout:         post
 tab:	        physics
+katex:          True
 title:          The Maxwell Equations
 date:           2021-04-06  15:00:00 +0200
 date-last-mod:  2022-08-17  18:20:00 +0200
@@ -20,7 +21,7 @@ $$
 $$
 
 $$
-\div{\vb*{B}} = 0 \\
+\div{\vb*{B}} = 0
 $$
 
 $$
