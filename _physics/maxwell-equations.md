@@ -8,7 +8,7 @@ date-last-mod:  2022-08-17  18:20:00 +0200
 
 <div style="display: none">
   \(
-  {% include my-latex-preamble.sty %}
+  {% include latex-preamble.sty %}
   \)
 </div>
 
@@ -16,10 +16,19 @@ date-last-mod:  2022-08-17  18:20:00 +0200
 These are the Maxwell equations:
 
 $$
-\div{\vb*{E}} &= 4 \pi \rho \\
-\div{\vb*{B}} &= 0 \\
-\curl{\vb*{E}} &= - \frac{1}{c} \pdv{\vb*{B}}{t} \\
-\curl{\vb*{B}} &= \frac{1}{c} \biggl(4 \pi \vb*{j} + \pdv{\vb*{E}}{t} \biggr)
+\div{\vb*{E}} = 4 \pi \rho
+$$
+
+$$
+\div{\vb*{B}} = 0 \\
+$$
+
+$$
+\curl{\vb*{E}} = - \frac{1}{c} \pdv{\vb*{B}}{t}
+$$
+
+$$
+\curl{\vb*{B}} = \frac{1}{c} \biggl(4 \pi \vb*{j} + \pdv{\vb*{E}}{t} \biggr)
 $$
 
 <!-- $$ -->
