@@ -6,7 +6,12 @@ date:           2021-04-06  15:00:00 +0200
 date-last-mod:  2022-08-17  18:20:00 +0200
 ---
 
-{% include my-latex-preamble.sty %}
+<div style="display: none">
+  \(
+  {% include my-latex-preamble.sty %}
+  \)
+</div>
+
 
 These are the Maxwell equations:
 
