@@ -6,7 +6,7 @@
     display: inline-block;
     text-align: center;
     background: transparent;
-    transition: 0.4s
+    transition: .4s
 }
 
 .post-categories a {
@@ -33,19 +33,19 @@
     text-align: right;
     border-radius: 50%;
     font-size: 20;
-    background: var(--profiles-ul-li-a-background-color);
-    transition: 0.4s
+    background: var(--post-category-icon-background-color);
+    transition: .4s
 }
 
 
 // Electrodynamics
 // ===============
 .post-categories a.Electrodynamics:hover p {
-    color: var(--profiles-discord)
+    color: var(--categories-electrodynamics)
 }
 
 .post-categories a.Electrodynamics:hover .post-category-icon {
-    box-shadow: 0 0 20px var(--profiles-discord)
+    box-shadow: 0 0 20px var(--categories-electrodynamics)
 }
 
 
@@ -53,9 +53,9 @@
 // =================
 
 .post-category-icon .Quantum-Mechanics:hover {
-    color: var(--profiles-discord)
+    color: var(--categories-quantum-mechanics)
 }
 
 .post-category-icon .Quantum-Mechanics:hover {
-    box-shadow: 0 0 20px var(--profiles-discord)
+    box-shadow: 0 0 20px var(--categories-quantum-mechanics)
 }
