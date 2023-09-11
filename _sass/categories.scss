@@ -5,6 +5,7 @@
     position: relative;
     display: inline-block;
     text-align: center;
+    bottom-border: 1px solid var(--markdown-body-h2-border-bottom-color);
     background: transparent;
     transition: .4s
 }
@@ -20,7 +21,8 @@
     left: 50px;
     line-height: 25px;
     display: inline-block;
-    font-size: 20px;
+    font-size: 40px;
+    font-weight: bolder;
     text-align: center;
     transition: .4s;
 }
