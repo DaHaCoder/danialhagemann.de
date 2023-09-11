@@ -5,8 +5,25 @@ permalink: /physics/
 ---
 
 <div class="posts">
-  {% for post in site.physics %}
-  <div class="post">
+    {% for post in site.physics %}
+    <div class="post">
+        <div class="post-categories">
+        {% if post %}
+            {% assign categories = post.categories %}
+        {% else %}
+            {% assign categories = page.categories %}
+        {% endif %}
+        {% for category in categories %}
+        <a href="{{site.baseurl}}/{{category | replace:' ', '-' | text-transform: lowercase}}" class="{{category | replace: ' ', '-'}}">
+            <span class="post-category-icon">
+                <img src="/assets/images/categories/{{category}}.png">
+                <p>{{category}}</p>
+            </span>
+        </a>
+        {% unless forloop.last %}&nbsp;{% endunless %}
+        {% endfor %}
+        </div>
+
     <h1 class="post-title">
       <a href="{{ post.url }}">
         {{ post.title }}
