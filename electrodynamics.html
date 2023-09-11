@@ -1,0 +1,45 @@
+---
+layout: default
+permalink: /physics/electrodynamics/
+---
+
+<div class="posts">
+    {% for post in site.physics %}
+        {% if post.categories contains 'Electrodynamics' %}
+        <div class="post">
+            <h1 class="post-title">
+                <a href="{{ post.url }}">
+                    {{ post.title }}
+                </a>
+            </h1>
+            {% include date.html %}
+    <!--    {{ post.content }} -->
+        </div>
+        {% endif %}
+    {% endfor %}
+</div>
+
+
+
+
+<!-- <div class="post-categories"> -->
+<!--   {% if post %} -->
+<!--     {% assign categories = post.categories %} -->
+<!--   {% else %} -->
+<!--     {% assign categories = page.categories %} -->
+<!--   {% endif %} -->
+<!--   {% for category in categories %} -->
+<!--     <a href="{{site.baseurl}}/categories/#{{category|slugize}}" class="{{category | replace: ' ', '-'}}"> -->
+<!--       <span class="post-category-icon"> -->
+<!--        <img src="/assets/images/categories/{{category}}.png"> -->
+<!--        <p>{{category}}</p> -->
+<!--       </span> -->
+<!--     </a> -->
+<!--   {% unless forloop.last %}&nbsp;{% endunless %} -->
+<!--   {% endfor %} -->
+<!-- </div> -->
+
+<!-- <div class="post"> -->
+<!--   <h1 class="post-title">{{ page.title }}</h1> -->
+<!--   {{ content }} -->
+<!-- </div> -->
