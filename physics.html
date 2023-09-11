@@ -6,12 +6,14 @@ permalink: /physics/
 
 <div class="posts">
     <!-- Quantum Mechanics -->
-    <a href="{{site.url}}/physics/quantum-mechanics" class="Quantum-Mechanics">
-        <span class="post-category-icon">
-            <img src="/assets/images/categories/'Quantum Mechanics.png'">
-            <p>{{category}}</p>
-        </span>
-    </a>
+    <div class="post-category">
+        <a href="{{site.url}}/physics/quantum-mechanics" class="Quantum-Mechanics">
+            <span class="post-category-icon">
+                <img src="/assets/images/categories/'Quantum Mechanics.png'">
+                <p>Electrodynamics</p>
+            </span>
+        </a>
+    </div>
     {% for post in site.physics %}
         {% if post.categories contains 'Quantum Mechanics' %}
             <div class="post">
@@ -28,12 +30,14 @@ permalink: /physics/
 
 
     <!-- Electrodynamics -->
-    <a href="{{site.url}}/physics/electrodynamics" class="Electrodynamics">
-        <span class="post-category-icon">
-            <img src="/assets/images/categories/Electrodynamics.png">
-            <p>{{category}}</p>
-        </span>
-    </a>
+    <div class="post-category">
+        <a href="{{site.url}}/physics/electrodynamics" class="Electrodynamics">
+            <span class="post-category-icon">
+                <img src="/assets/images/categories/Electrodynamics.png">
+                <p>Electrodynamics</p>
+            </span>
+        </a>
+    </div>
     {% for post in site.physics %}
         {% if post.categories contains 'Electrodynamics' %}
             <div class="post">
