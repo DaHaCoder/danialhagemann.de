@@ -4,55 +4,52 @@ title: Physics
 permalink: /physics/
 ---
 
-<!-- <div class="posts"> -->
-<!--     <div class="post-categories"> -->
-<!--         {% for category in post.categories %} -->
-<!--         <!-1- {% if post.categories contains 'Quantum Mechanics' %} -1-> -->
-<!--             <a href="{{site.url}}/physics/{{category|replace:' ', '-'|downcase}}" class="{{category|replace: ' ', '-'}}"> -->
-<!--                 <span class="post-category-icon"> -->
-<!--                     <img src="/assets/images/categories/{{category}}.png"> -->
-<!--                     <p>{{category}}</p> -->
-<!--                 </span> -->
-<!--             </a> -->
-<!--             <div class="post"> -->
-<!--                 <h1 class="post-title"> -->
-<!--                     <a href="{{ post.url }}"> -->
-<!--                         {{ post.title }} -->
-<!--                     </a> -->
-<!--                 </h1> -->
-<!--                 {% include date.html %} -->
-<!--             </div> -->
-<!--         <!-1- {% endif %} -1-> -->
-<!--         {% endfor %} -->
-<!--     </div> -->
-<!-- </div> -->
+<div class="posts">
+    {% for post in site.physics %}
 
-<!-- <div class="posts"> -->
-    <!-- {% for post in site.physics %} -->
-{% for category in post.categories %}
-    <div class="post-categories">
-        <!-- {% if post %} -->
-        <!--     {% assign categories = post.categories %} -->
-        <!-- {% else %} -->
-        <!--     {% assign categories = page.categories %} -->
-        <!-- {% endif %} -->
-        <a href="{{site.url}}/physics/{{category|replace:' ', '-'|downcase}}" class="{{category|replace: ' ', '-'}}">
+        <!-- Quantum Mechanics -->
+        <a href="{{site.url}}/physics/quantum-mechanics" class="Quantum-Mechanics">
             <span class="post-category-icon">
-                <img src="/assets/images/categories/{{category}}.png">
+                <img src="/assets/images/categories/'Quantum Mechanics'.png">
                 <p>{{category}}</p>
             </span>
         </a>
-            <!-- <h1 class="post-title"> -->
-            <!--     <a href="{{ post.url }}"> -->
-            <!--     {{ post.title }} -->
-            <!--     </a> -->
-            <!-- </h1> -->
-            <!-- {{ post.content }} -->
-    </div>
-{% endfor %}
-    <!-- <h1 class="post-title"> -->
-    <!--   <a href="{{ post.url }}"> -->
-    <!--     {{ post.title }} -->
-    <!--   </a> -->
-    <!-- </h1> -->
-    <!--    {{ post.content }} -->
+        {% if post.categories contains 'Quantum Mechanics' %}
+            <div class="post">
+                <h1 class="post-title">
+                    <a href="{{ post.url }}">
+                        {{ post.title }}
+                    </a>
+                </h1>
+                {% include date.html %}
+            </div>
+        {% endif %}
+        <!-- --->
+
+
+        <!-- Electrodynamics -->
+        <a href="{{site.url}}/physics/electrodynamics" class="Electrodynamics">
+            <span class="post-category-icon">
+                <img src="/assets/images/categories/Electrodynamics.png">
+                <p>{{category}}</p>
+            </span>
+        </a>
+        {% if post.categories contains 'Electrodynamics' %}
+            <div class="post">
+                <h1 class="post-title">
+                    <a href="{{ post.url }}">
+                        {{ post.title }}
+                    </a>
+                </h1>
+                {% include date.html %}
+            </div>
+        {% endif %}
+        <!-- --->
+
+    {% endfor %}
+</div>
+
+
+
+
+

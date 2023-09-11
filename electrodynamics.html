@@ -5,6 +5,12 @@ permalink: /physics/electrodynamics/
 
 <div class="posts">
     {% for post in site.physics %}
+        <a href="{{site.url}}/physics/electrodynamics" class="Electrodynamics">
+            <span class="post-category-icon">
+                <img src="/assets/images/categories/Electrodynamics.png">
+                <p>{{category}}</p>
+            </span>
+        </a>
         {% if post.categories contains 'Electrodynamics' %}
         <div class="post">
             <h1 class="post-title">
@@ -18,28 +24,3 @@ permalink: /physics/electrodynamics/
         {% endif %}
     {% endfor %}
 </div>
-
-
-
-
-<!-- <div class="post-categories"> -->
-<!--   {% if post %} -->
-<!--     {% assign categories = post.categories %} -->
-<!--   {% else %} -->
-<!--     {% assign categories = page.categories %} -->
-<!--   {% endif %} -->
-<!--   {% for category in categories %} -->
-<!--     <a href="{{site.baseurl}}/categories/#{{category|slugize}}" class="{{category | replace: ' ', '-'}}"> -->
-<!--       <span class="post-category-icon"> -->
-<!--        <img src="/assets/images/categories/{{category}}.png"> -->
-<!--        <p>{{category}}</p> -->
-<!--       </span> -->
-<!--     </a> -->
-<!--   {% unless forloop.last %}&nbsp;{% endunless %} -->
-<!--   {% endfor %} -->
-<!-- </div> -->
-
-<!-- <div class="post"> -->
-<!--   <h1 class="post-title">{{ page.title }}</h1> -->
-<!--   {{ content }} -->
-<!-- </div> -->
