@@ -1,46 +1,53 @@
 @import "colors";
 
+
 .post-categories {
     position: relative;
     display: inline-block;
-    margin: 0px 20px 0 0;
     text-align: center;
     background: transparent;
-    transition: .4s
+    transition: 0.4s
 }
 
 .post-categories a {
-    position: absolute;
-    left: 55px;
-    line-height: 40px;
+    position: relative;
     display: inline-block;
-    font-size: 40px;
     text-align: center
+}
+
+.post-categories p {
+    position: absolute;
+    left: 50px;
+    line-height: 25px;
+    display: inline-block;
+    font-size: 20px;
+    text-align: center;
+    transition: .4s;
 }
 
 .post-categories .post-category-icon {
     display: inline-block;
     width: 40px;
     height: 40px;
-    margin: 50px 5px 5px 5px;
+    margin: 20px 0px 0px 0px;
     text-align: right;
     border-radius: 50%;
     font-size: 20;
     background: var(--profiles-ul-li-a-background-color);
-    transition: .4s
+    transition: 0.4s
 }
 
 
 // Electrodynamics
 // ===============
-
-.post-category-icon .Electrodynamics:hover {
-    color: var(--profiles-threema)
+.post-categories a.Electrodynamics:hover p {
+    color: var(--profiles-discord)
 }
 
-.post-category-icon .Electrodynamics:hover {
-    box-shadow: 0 0 20px var(--profiles-threema)
+.post-categories a.Electrodynamics:hover .post-category-icon {
+    box-shadow: 0 0 20px var(--profiles-discord)
 }
+
 
 // Quantum-Mechanics
 // =================
