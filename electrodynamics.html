@@ -3,23 +3,25 @@ layout: default
 permalink: /physics/electrodynamics/
 ---
 
-<div class="post-categories">
-    <a href="{{site.baseurl}}/physics/electrodynamics" class="Electrodynamics">
-        <span class="post-category-icon">
-            <img src="/assets/images/categories/Electrodynamics.png">
-            <p>Electrodynamics</p>
-        </span>
-    </a>
-    {% for post in site.physics %}
-        {% if post.categories contains 'Electrodynamics' %}
-        <div class="post">
-            <h1 class="post-title">
-                <a href="{{ post.url }}">
-                    {{ post.title }}
-                </a>
-            </h1>
-            {% include date.html %}
-        </div>
-        {% endif %}
-    {% endfor %}
+<div class="posts">
+    <div class="post-categories">
+        <a href="{{site.baseurl}}/physics/electrodynamics" class="Electrodynamics">
+            <span class="post-category-icon">
+                <img src="/assets/images/categories/Electrodynamics.png">
+                <p>Electrodynamics</p>
+            </span>
+        </a>
+        {% for post in site.physics %}
+            {% if post.categories contains 'Electrodynamics' %}
+            <div class="post">
+                <h1 class="post-title">
+                    <a href="{{ post.url }}">
+                        {{ post.title }}
+                    </a>
+                </h1>
+                {% include date.html %}
+            </div>
+            {% endif %}
+        {% endfor %}
+    </div>
 </div>
