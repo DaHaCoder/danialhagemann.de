@@ -27,15 +27,15 @@ permalink: /physics/
 <!--     </div> -->
 <!-- </div> -->
 
-<div class="posts">
-    {% for post in site.physics %}
-        <div class="post-categories">
-        {% if post %}
-            {% assign categories = post.categories %}
-        {% else %}
-            {% assign categories = page.categories %}
-        {% endif %}
-        {% for category in categories %}
+<!-- <div class="posts"> -->
+    <!-- {% for post in site.physics %} -->
+{% for category in post.categories %}
+    <div class="post-categories">
+        <!-- {% if post %} -->
+        <!--     {% assign categories = post.categories %} -->
+        <!-- {% else %} -->
+        <!--     {% assign categories = page.categories %} -->
+        <!-- {% endif %} -->
         <a href="{{site.url}}/physics/{{category|replace:' ', '-'|downcase}}" class="{{category|replace: ' ', '-'}}">
             <span class="post-category-icon">
                 <img src="/assets/images/categories/{{category}}.png">
@@ -48,14 +48,11 @@ permalink: /physics/
             <!--     </a> -->
             <!-- </h1> -->
             <!-- {{ post.content }} -->
-        {% unless forloop.last %}&nbsp;{% endunless %}
-        {% endfor %}
-        </div>
+    </div>
+{% endfor %}
     <!-- <h1 class="post-title"> -->
     <!--   <a href="{{ post.url }}"> -->
     <!--     {{ post.title }} -->
     <!--   </a> -->
     <!-- </h1> -->
     <!--    {{ post.content }} -->
-    {% endfor %}
-</div>
