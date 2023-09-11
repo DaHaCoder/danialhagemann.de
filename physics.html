@@ -27,8 +27,8 @@ permalink: /physics/
 <!--     </div> -->
 <!-- </div> -->
 
-{% for post in site.physics %}
-    <!-- <div class="posts"> -->
+<div class="posts">
+    {% for post in site.physics %}
         <div class="post-categories">
         {% if post %}
             {% assign categories = post.categories %}
@@ -57,6 +57,5 @@ permalink: /physics/
     <!--   </a> -->
     <!-- </h1> -->
     <!--    {{ post.content }} -->
-    <!-- </div> -->
-{% endfor %}
-
+    {% endfor %}
+</div>
