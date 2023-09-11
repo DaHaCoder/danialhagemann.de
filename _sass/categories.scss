@@ -52,10 +52,10 @@
 // Quantum-Mechanics
 // =================
 
-.post-category-icon .Quantum-Mechanics:hover {
+.post-categories a.Quantum-Mechanics:hover p {
     color: var(--categories-quantum-mechanics)
 }
 
-.post-category-icon .Quantum-Mechanics:hover {
+.post-categories a.Quantum-Mechanics:hover .post-category-icon {
     box-shadow: 0 0 20px var(--categories-quantum-mechanics)
 }
