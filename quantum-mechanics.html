@@ -3,26 +3,23 @@ layout: default
 permalink: /physics/quantum-mechanics/
 ---
 
-<!-- <div class="posts"> -->
-    <div class="post-categories">
-        <a href="{{site.baseurl}}/physics/quantum-mechanics" class="Quantum-Mechanics">
-            <span class="post-category-icon">
-                <img src="/assets/images/categories/Quantum-Mechanics.png">
-                <p>Quantum Mechanics</p>
-            </span>
-        </a>
-        {% for post in site.physics %}
-            {% if post.categories contains 'Quantum-Mechanics' %}
-            <div class="post">
-                <h1 class="post-title">
-                    <a href="{{ post.url }}">
-                        {{ post.title }}
-                    </a>
-                </h1>
-                {% include date.html %}
-    <!--    {{ post.content }} -->
-            </div>
-            {% endif %}
-        {% endfor %}
-    </div>
-<!-- </div> -->
+<div class="post-categories">
+    <a href="{{site.baseurl}}/physics/quantum-mechanics" class="Quantum-Mechanics">
+        <span class="post-category-icon">
+            <img src="/assets/images/categories/Quantum-Mechanics.png">
+            <p>Quantum Mechanics</p>
+        </span>
+    </a>
+    {% for post in site.physics %}
+        {% if post.categories contains 'Quantum-Mechanics' %}
+        <div class="post">
+            <h1 class="post-title">
+                <a href="{{ post.url }}">
+                    {{ post.title }}
+                </a>
+            </h1>
+            {% include date.html %}
+        </div>
+        {% endif %}
+    {% endfor %}
+</div>
