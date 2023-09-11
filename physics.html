@@ -5,15 +5,14 @@ permalink: /physics/
 ---
 
 <div class="posts">
+    <!-- Quantum Mechanics -->
+    <a href="{{site.url}}/physics/quantum-mechanics" class="Quantum-Mechanics">
+        <span class="post-category-icon">
+            <img src="/assets/images/categories/'Quantum Mechanics.png'">
+            <p>{{category}}</p>
+        </span>
+    </a>
     {% for post in site.physics %}
-
-        <!-- Quantum Mechanics -->
-        <a href="{{site.url}}/physics/quantum-mechanics" class="Quantum-Mechanics">
-            <span class="post-category-icon">
-                <img src="/assets/images/categories/'Quantum Mechanics'.png">
-                <p>{{category}}</p>
-            </span>
-        </a>
         {% if post.categories contains 'Quantum Mechanics' %}
             <div class="post">
                 <h1 class="post-title">
@@ -24,16 +23,18 @@ permalink: /physics/
                 {% include date.html %}
             </div>
         {% endif %}
-        <!-- --->
+    {% endfor %}
+    <!-- --->
 
 
-        <!-- Electrodynamics -->
-        <a href="{{site.url}}/physics/electrodynamics" class="Electrodynamics">
-            <span class="post-category-icon">
-                <img src="/assets/images/categories/Electrodynamics.png">
-                <p>{{category}}</p>
-            </span>
-        </a>
+    <!-- Electrodynamics -->
+    <a href="{{site.url}}/physics/electrodynamics" class="Electrodynamics">
+        <span class="post-category-icon">
+            <img src="/assets/images/categories/Electrodynamics.png">
+            <p>{{category}}</p>
+        </span>
+    </a>
+    {% for post in site.physics %}
         {% if post.categories contains 'Electrodynamics' %}
             <div class="post">
                 <h1 class="post-title">
@@ -44,9 +45,8 @@ permalink: /physics/
                 {% include date.html %}
             </div>
         {% endif %}
-        <!-- --->
-
     {% endfor %}
+    <!-- --->
 </div>
 
 

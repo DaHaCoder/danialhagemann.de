@@ -4,13 +4,13 @@ permalink: /physics/electrodynamics/
 ---
 
 <div class="posts">
+    <a href="{{site.url}}/physics/electrodynamics" class="Electrodynamics">
+        <span class="post-category-icon">
+            <img src="/assets/images/categories/Electrodynamics.png">
+            <p>Electrodynamics</p>
+        </span>
+    </a>
     {% for post in site.physics %}
-        <a href="{{site.url}}/physics/electrodynamics" class="Electrodynamics">
-            <span class="post-category-icon">
-                <img src="/assets/images/categories/Electrodynamics.png">
-                <p>{{category}}</p>
-            </span>
-        </a>
         {% if post.categories contains 'Electrodynamics' %}
         <div class="post">
             <h1 class="post-title">
@@ -19,7 +19,7 @@ permalink: /physics/electrodynamics/
                 </a>
             </h1>
             {% include date.html %}
-    <!--    {{ post.content }} -->
+    <!--        {{ post.content }} -->
         </div>
         {% endif %}
     {% endfor %}
