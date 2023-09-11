@@ -1,11 +1,12 @@
 ---
 layout:         post
 tab:	        physics
+categories:     Miscellaneous
 title:          The Continuity Equation
 date:           2022-08-26  04:39:00 +0200
 ---
 
-The Continuity Equation is a very fundamental equation in physics and often appears, when some physical quantity is conserved. 
+The Continuity Equation is a very fundamental equation in physics and often appears, when some physical quantity is conserved.
 The classical form of the Continuity Equation is
 
 $$

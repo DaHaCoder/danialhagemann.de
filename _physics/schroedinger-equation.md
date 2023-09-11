@@ -1,6 +1,7 @@
 ---
-layout:         post
+layout:         post-categories
 tab:	        physics
+categories:     Quantum Mechanics
 title:          The Schrödinger Equation
 date:           2022-08-26  05:10:00 +0200
 ---

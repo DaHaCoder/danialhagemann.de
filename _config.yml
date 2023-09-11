@@ -1,6 +1,6 @@
 # Site settings
 title:              Danial Hagemann
-#subtitle: Some subtitle 
+#subtitle: Some subtitle
 email:              mail@danialhagemann.de
 description:        This is my private website.
 baseurl:            ""
@@ -13,10 +13,6 @@ github_username:    DaHaCoder
 # Build settings
 markdown: kramdown
 
-#kramdown:
-#    block:
-#    line_numbers: true
-
 kramdown:
     highlighter: rouge
     syntax_highlighter_opts:
@@ -26,7 +22,7 @@ kramdown:
 #paginate_path: "/page:num/"
 #inter_post_navigation: true
 
-plugins: 
+plugins:
   - jekyll-paginate
   - jekyll-katex
 
@@ -52,7 +48,7 @@ defaults:
       type: Notes
       permalink: /notes/:path/
 
-# default settings for 'physics' 
+# default settings for 'physics'
   - scope:
       path: ""
       type: physics
@@ -67,7 +63,7 @@ defaults:
 #  - jekyll-katex
 #  - jemoji
 #  - jekyll-seo-tag
-  
+
 
 exclude:
   - "/vendor/"
@@ -78,9 +74,9 @@ collections:
     output: true
   notes:
     output: true
-  physics: 
+  physics:
     output: true
-  
+
 #
 # Social settings are used in two places:
 # * In the footer, as links to your personal profiles
@@ -113,7 +109,7 @@ social:
     share: true
 
   - name: Element
-    icon: element 
+    icon: element
     username:
     url:
     desc: Contact me on Element
@@ -128,7 +124,7 @@ social:
 
   - name: Reddit
     icon: reddit
-    username: 
+    username:
     url:
     desc: Share to Reddit
     share: true
