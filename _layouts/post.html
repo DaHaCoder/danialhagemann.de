@@ -9,7 +9,7 @@ layout: default
     {% assign categories = page.categories %}
   {% endif %}
   {% for category in categories %}
-    <a href="{{site.baseurl}}/categories/#{{category|slugize}}" class="{{category | replace: ' ', '-'}}">
+    <a href="{{site.url}}/{{category|replace: ' ','-'|downcase}}" class="{{category|replace: ' ', '-'}}">
       <span class="post-category-icon">
        <img src="/assets/images/categories/{{category}}.png">
        <p>{{category}}</p>
