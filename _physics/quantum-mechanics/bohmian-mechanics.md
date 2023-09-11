@@ -1,8 +1,8 @@
 ---
 layout:         post
 tab:	        physics
-categories:     [Quantum Mechanics]
-category:       Quantum Mechanics
+categories:     Quantum-Mechanics
+<!-- category:       Quantum-Mechanics -->
 title:          Bohmian Mechanics
 date:           2023-09-11  07:05:00 +0200
 ---

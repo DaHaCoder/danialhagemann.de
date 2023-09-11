@@ -12,7 +12,7 @@ layout: default
     <a href="{{site.baseurl}}/{{category|replace: ' ','-'|downcase}}" class="{{category|replace: ' ', '-'}}">
       <span class="post-category-icon">
        <img src="/assets/images/categories/{{category}}.png">
-       <p>{{category}}</p>
+       <p>{{category|replace: '-', ' '}}</p>
       </span>
     </a>
   {% unless forloop.last %}&nbsp;{% endunless %}
