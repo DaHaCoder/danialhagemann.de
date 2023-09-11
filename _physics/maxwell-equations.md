@@ -1,5 +1,5 @@
 ---
-layout:         post-categories
+layout:         post
 tab:	        physics
 categories:     Electrodynamics
 katex:          True
