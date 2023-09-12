@@ -1,48 +1,45 @@
 @import "colors";
 
-
 .post-categories {
     position: relative;
-    display: inline-block;
-    text-align: center;
-    bottom-border: 1px solid var(--markdown-body-h2-border-bottom-color);
+    display: block;
+    text-align: left;
+    margin: 20px 0 20px 0;
     background: transparent;
-    transition: .4s
+    border-bottom: 1px solid var(--markdown-body-h20border-bottom-color);
+    transition: 0.4s
 }
 
 .post-categories a {
     position: relative;
     display: inline-block;
-    text-align: center
 }
 
-.post-categories p {
-    position: absolute;
-    left: 50px;
-    line-height: 25px;
-    display: inline-block;
+.post-categories h3 {
+    position: relative;
+    left: 70px;
+    margin: 24px 0px 12px 0px;
+    line-height: 30px;
+    display: block;
     font-size: 40px;
-    font-weight: bolder;
-    text-align: center;
+    font-weight: 600;
     transition: .4s;
 }
 
 .post-categories .post-category-icon {
+    position: absolute;
     display: inline-block;
-    width: 40px;
-    height: 40px;
-    margin: 20px 0px 0px 0px;
+    width: 60px;
+    height: 60px;
+    margin: 0px 0px 0px 0px;
     text-align: right;
     border-radius: 50%;
     font-size: 20;
     background: var(--post-category-icon-background-color);
-    transition: .4s
+    transition: 0.4s
 }
 
-
-// Electrodynamics
-// ===============
-.post-categories a.Electrodynamics:hover p {
+.post-categories a.Electrodynamics:hover h3 {
     color: var(--categories-electrodynamics)
 }
 
@@ -50,14 +47,71 @@
     box-shadow: 0 0 20px var(--categories-electrodynamics)
 }
 
-
-// Quantum-Mechanics
-// =================
-
-.post-categories a.Quantum-Mechanics:hover p {
+.post-categories a.Quantum-Mechanics:hover h3 {
     color: var(--categories-quantum-mechanics)
 }
 
 .post-categories a.Quantum-Mechanics:hover .post-category-icon {
     box-shadow: 0 0 20px var(--categories-quantum-mechanics)
 }
+
+// .post-categories {
+//     position: relative;
+//     display: inline-block;
+//     text-align: center;
+//     bottom-border: 1px solid var(--markdown-body-h2-border-bottom-color);
+//     background: transparent;
+//     transition: .4s
+// }
+
+// .post-categories a {
+//     position: relative;
+//     display: inline-block;
+//     text-align: center
+// }
+
+// .post-categories p {
+//     position: absolute;
+//     left: 50px;
+//     line-height: 25px;
+//     display: inline-block;
+//     font-size: 40px;
+//     font-weight: bolder;
+//     text-align: center;
+//     transition: .4s;
+// }
+
+// .post-categories .post-category-icon {
+//     display: inline-block;
+//     width: 40px;
+//     height: 40px;
+//     margin: 20px 0px 0px 0px;
+//     text-align: right;
+//     border-radius: 50%;
+//     font-size: 20;
+//     background: var(--post-category-icon-background-color);
+//     transition: .4s
+// }
+
+
+// // Electrodynamics
+// // ===============
+// .post-categories a.Electrodynamics:hover p {
+//     color: var(--categories-electrodynamics)
+// }
+
+// .post-categories a.Electrodynamics:hover .post-category-icon {
+//     box-shadow: 0 0 20px var(--categories-electrodynamics)
+// }
+
+
+// // Quantum-Mechanics
+// // =================
+
+// .post-categories a.Quantum-Mechanics:hover p {
+//     color: var(--categories-quantum-mechanics)
+// }
+
+// .post-categories a.Quantum-Mechanics:hover .post-category-icon {
+//     box-shadow: 0 0 20px var(--categories-quantum-mechanics)
+// }
