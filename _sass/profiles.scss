@@ -1,4 +1,4 @@
-@import "colors";
+// @import "colors";
 
 .profiles ul {
     margin: 0;
@@ -9,7 +9,7 @@
 .profiles ul li {
     list-style: none;
     display: inline-block;
-}   
+}
 
 .profiles ul li a {
     display: inline-block;
@@ -61,7 +61,7 @@
 }
 // =======
 
-// GitHub 
+// GitHub
 // ======
 .profiles ul li a.github:hover p {
  color: var(--profiles-github);

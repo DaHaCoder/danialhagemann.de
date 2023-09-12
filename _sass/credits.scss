@@ -1,4 +1,4 @@
-@import "colors";
+// @import "colors";
 
 .credits {
   margin-top: 3px;
@@ -12,7 +12,7 @@
 
 .credits a {
   color: var(--credits-a-color);
-  text-decoration: inherit; 
+  text-decoration: inherit;
 }
 
 .credits a:hover{
