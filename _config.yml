@@ -23,15 +23,15 @@ kramdown:
       rendering_options:
         macros:
           # sets
-          "\\N": "\\mathbb{N}"
-          "\\Z": "\\mathbb{Z}"
-          "\\Q": "\\mathbb{Q}"
-          "\\R": "\\mathbb{R}"
+          # "\\N": "\\mathbb{N}"
+          # "\\Z": "\\mathbb{Z}"
+          # "\\Q": "\\mathbb{Q}"
+          # "\\R": "\\mathbb{R}"
           "\\C": "\\mathbb{C}"
-          # math roman
-          "\\D": "\\mathrm{d}"
-          "\\E": "\\mathrm{e}"
-          "\\I": "\\mathrm{i}"
+          # # math roman
+          # "\\D": "\\mathrm{d}"
+          # "\\E": "\\mathrm{e}"
+          # "\\I": "\\mathrm{i}"
           # vectors and operations on R³
           # "\\vb": "\\boldsymbol{#1}"                     # vector italic
           # "\\vu": "\\hat{\\boldsymbol{#1}}"              # unit vector italic
