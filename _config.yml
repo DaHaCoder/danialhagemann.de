@@ -18,6 +18,11 @@ kramdown:
     syntax_highlighter_opts:
         block:
             line_numbers: true
+
+    katex:
+      rendering_options:
+        macros:
+          "\\I": "\\mathrm{i}"
 #paginate: 5
 #paginate_path: "/page:num/"
 #inter_post_navigation: true
