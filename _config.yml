@@ -22,7 +22,35 @@ kramdown:
     katex:
       rendering_options:
         macros:
+          # sets
+          "\\N": "\\mathbb{N}"
+          "\\Z": "\\mathbb{Z}"
+          "\\Q": "\\mathbb{Q}"
+          "\\R": "\\mathbb{R}"
+          "\\C": "\\mathbb{C}"
+          # math roman
+          "\\D": "\\mathrm{d}"
+          "\\E": "\\mathrm{e}"
           "\\I": "\\mathrm{i}"
+          # vectors and operations on R³
+          "\\vbArg": "\\boldsymbol{#1}"                     # vector italic
+          "\\vuArg": "\\hat{\\boldsymbol{#1}}"              # unit vector italic
+          "\\vdot": "\\boldsymbol{\\cdot}"                  # dot product
+          "\\cp": "\\boldsymbol{\\times}"                   # cross product
+          "\\gradArg": "\\boldsymbol{\\nabla} #1"           # gradient
+          "\\divArg": "\\boldsymbol{\\nabla \\cdot #1}"     # divergence
+          "\\curlArg": "\\boldsymbol{\\nabla \\times #1}"   # curl
+          "\\laplacianArg": "\\nabla^{2} #1"                # laplacian
+          "\\boxArg": "\\Box #1"                            # box/d'alembertian
+          # derivatives
+          "\\dd": "\\operatorname{d\\!}"                                        # differential d
+          "\\ddArg": "\\operatorname{d^{#1}\\!}"                                # powered differential d
+          "\\dvArgArg": "\\frac{\\mathrm{d} #1}{\\mathrm{d} #2}"                # fractional derivative
+          "\\dvArgArgArg": "\\frac{\\mathrm{d}^{#1} #2}{\\mathrm{d} #3^{#1}}"   # powered fractional derivative
+          "\\pdvArgArg": "\\frac{\\partial #1}{\\partial #2}"                   # fractional partial derivative
+          "\\pdvArgArgArg": "\\frac{\\partial^{#1} #2}{\\partial #3^{#1}}"      # powered fractional partial derivative
+
+
 #paginate: 5
 #paginate_path: "/page:num/"
 #inter_post_navigation: true

@@ -26,3 +26,13 @@ $$
 \end{aligned}
 $$
 
+Now, I want to test some of my macros. Let's see, if they work.
+
+$$
+\begin{aligned}
+    \div{E} &= 4 \pi \rho \\
+    \div{B} &= 0 \\
+    \curl{E} &= - \frac{1}{c} \pdv{}{t} \vb{B} \\
+    \curl{B} &= \frac{1}{c} \biggl(4 \pi \vb{j} + \pdv{}{t} \vb{E} \biggr)
+\end{aligned}
+$$
