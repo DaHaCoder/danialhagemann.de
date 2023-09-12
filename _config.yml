@@ -33,22 +33,22 @@ kramdown:
           "\\E": "\\mathrm{e}"
           "\\I": "\\mathrm{i}"
           # vectors and operations on R³
-          "\\vbArg": "\\boldsymbol{#1}"                     # vector italic
-          "\\vuArg": "\\hat{\\boldsymbol{#1}}"              # unit vector italic
-          "\\vdot": "\\boldsymbol{\\cdot}"                  # dot product
-          "\\cp": "\\boldsymbol{\\times}"                   # cross product
-          "\\gradArg": "\\boldsymbol{\\nabla} #1"           # gradient
-          "\\divArg": "\\boldsymbol{\\nabla \\cdot #1}"     # divergence
-          "\\curlArg": "\\boldsymbol{\\nabla \\times #1}"   # curl
-          "\\laplacianArg": "\\nabla^{2} #1"                # laplacian
-          "\\boxArg": "\\Box #1"                            # box/d'alembertian
+          "\\vb": "\\boldsymbol{#1}"                     # vector italic
+          "\\vu": "\\hat{\\boldsymbol{#1}}"              # unit vector italic
+          "\\vdot": "\\boldsymbol{\\cdot}"               # dot product
+          "\\cp": "\\boldsymbol{\\times}"                # cross product
+          "\\grad": "\\boldsymbol{\\nabla} #1"           # gradient
+          "\\div": "\\boldsymbol{\\nabla \\cdot #1}"     # divergence
+          "\\curl": "\\boldsymbol{\\nabla \\times #1}"   # curl
+          "\\laplacian": "\\nabla^{2} #1"                # laplacian
+          "\\box": "\\Box #1"                            # box/d'alembertian
           # derivatives
-          "\\dd": "\\operatorname{d\\!}"                                        # differential d
-          "\\ddArg": "\\operatorname{d^{#1}\\!}"                                # powered differential d
-          "\\dvArgArg": "\\frac{\\mathrm{d} #1}{\\mathrm{d} #2}"                # fractional derivative
-          "\\dvArgArgArg": "\\frac{\\mathrm{d}^{#1} #2}{\\mathrm{d} #3^{#1}}"   # powered fractional derivative
-          "\\pdvArgArg": "\\frac{\\partial #1}{\\partial #2}"                   # fractional partial derivative
-          "\\pdvArgArgArg": "\\frac{\\partial^{#1} #2}{\\partial #3^{#1}}"      # powered fractional partial derivative
+          # "\\dd": "\\operatorname{d\\!}"                             # differential d
+          "\\dd": "\\operatorname{d^{#1}\\!{#2}}"                      # powered differential d
+          # "\\dv": "\\frac{\\mathrm{d} #1}{\\mathrm{d} #2}"           # fractional derivative
+          "\\dv": "\\frac{\\mathrm{d}^{#1} #2}{\\mathrm{d} #3^{#1}}"   # powered fractional derivative
+          # "\\pdv": "\\frac{\\partial #1}{\\partial #2}"              # fractional partial derivative
+          "\\pdv": "\\frac{\\partial^{#1} #2}{\\partial #3^{#1}}"      # powered fractional partial derivative
 
 
 #paginate: 5
