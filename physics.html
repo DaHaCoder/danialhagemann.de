@@ -51,6 +51,33 @@ permalink: /physics/
         {% endif %}
     {% endfor %}
     <!-- --->
+
+    <!-- Relativity and Cosmology -->
+    <div class="post-categories">
+        <a href="{{site.baseurl}}/physics/relativity-and-cosmology" class="Relativity-and-Cosmology">
+            <p class="post-category-icon">
+                <img src="/assets/images/categories/Relativity-and-Cosmology.png">
+            </p>
+            <h3>Relativity and Cosmology</h3>
+        </a>
+    </div>
+    {% for post in site.physics %}
+        {% if post.categories contains 'Relativity-and-Cosmology' %}
+            <div class="post">
+                <h1 class="post-title">
+                    <a href="{{ post.url }}">
+                        {{ post.title }}
+                    </a>
+                </h1>
+                {% include date.html %}
+            </div>
+        {% endif %}
+    {% endfor %}
+    <!-- --->
+
+
+
+
 </div>
 
 

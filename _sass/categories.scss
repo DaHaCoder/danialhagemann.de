@@ -39,6 +39,9 @@
     transition: 0.4s
 }
 
+
+// Electrodynamics
+// ===============
 .post-categories a.Electrodynamics:hover h3 {
     color: var(--categories-electrodynamics)
 }
@@ -47,6 +50,8 @@
     box-shadow: 0 0 20px var(--categories-electrodynamics)
 }
 
+// Quantum Mechanics
+// =================
 .post-categories a.Quantum-Mechanics:hover h3 {
     color: var(--categories-quantum-mechanics)
 }
@@ -55,6 +60,15 @@
     box-shadow: 0 0 20px var(--categories-quantum-mechanics)
 }
 
+// Relativity and Cosmology
+// ========================
+.post-categories a.Relativity-and-Cosmology:hover h3 {
+    color: var(--categories-relativity-and-cosmology)
+}
+
+.post-categories a.Quantum-Mechanics:hover .post-category-icon {
+    box-shadow: 0 0 20px var(--categories-relativity-and-cosmology)
+}
 
 // .post-categories {
 //     position: relative;
