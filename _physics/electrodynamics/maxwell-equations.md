@@ -32,7 +32,11 @@ $$
 \begin{aligned}
     \div{E} &= 4 \pi \rho \\
     \div{B} &= 0 \\
-    \curl{E} &= - \frac{1}{c} \pdv{}{t} \vb{B} \\
-    \curl{B} &= \frac{1}{c} \biggl(4 \pi \vb{j} + \pdv{}{t} \vb{E} \biggr)
+    \curl{E} &= - \frac{1}{c} \pdv{}{}{t} \vb{B} \\
+    \curl{B} &= \frac{1}{c} \biggl(4 \pi \vb{j} + \pdv{}{}{t} \vb{E} \biggr)
 \end{aligned}
 $$
+
+Let's try the wave equation in one dimension.
+
+$$-\frac{1}{c^{2}}\pdv{2}{}{t} \psi(x,t) + \pdv{2}{}{x} \psi(x,t) = 0$$
