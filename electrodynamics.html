@@ -15,11 +15,11 @@ permalink: /physics/electrodynamics/
     {% for post in site.physics %}
         {% if post.categories contains 'Electrodynamics' %}
         <div class="post">
-            <h1 class="post-title">
+            <h3 class="post-title">
                 <a href="{{ post.url }}">
                     {{ post.title }}
                 </a>
-            </h1>
+            </h3>
             {% include date.html %}
         </div>
         {% endif %}
