@@ -18,6 +18,46 @@ kramdown:
     syntax_highlighter_opts:
         block:
             line_numbers: true
+    math_engine: sskatex
+    math_engine_opts:
+      katex_js: "assets/js/katex.min.js"
+      katex_opts:
+        macros:
+        "\\Real": "\\mathop{\\mathrm{Re}}"
+        "\\Imag": "\\mathop{\\mathrm{Im}}"
+        "\\pv": "\\:\\mathop{\\mathcal{P}}"
+        "\\cross": "\\times"
+        "\\va": "\\vec{\\mathbf{#1}}"
+        "\\vb": "\\mathbf{#1}"
+        "\\vu": "\\hat{\\mathbf{#1}}"
+        "\\norm": "\\big\\| {#1} \\big\\|"
+        "\\Norm": "\\left\\| {#1} \\right\\|"
+        "\\Tr": "\\mathop{\\mathrm{Tr}}"
+        "\\dd": "\\mathop{\\mathrm{d} {#1}}"
+        "\\ddn": "\\mathop{\\mathrm{d}^{#1} {#2}}"
+        "\\dv": "\\frac{\\mathrm{d} {#1}}{\\mathrm{d} {#2}}"
+        "\\idv": "\\mathrm{d} {#1} / \\mathrm{d} {#2}"
+        "\\dvn": "\\frac{\\mathrm{d}^{#1} {#2}}{\\mathrm{d} #3^{#1}}"
+        "\\idvn": "\\mathrm{d}^{#1} {#2} / \\mathrm{d} #3^{#1}"
+        "\\pdv": "\\frac{\\partial {#1}}{\\partial {#2}}"
+        "\\pdvn": "\\frac{\\partial^{#1} {#2}}{\\partial #3^{#1}}"
+        "\\ipdv": "\\partial {#1} / \\partial {#2}"
+        "\\ipdvn": "\\partial^{#1} {#2} / \\partial #3^{#1}"
+        "\\mpdv": "\\frac{\\partial^2 {#1}}{\\partial {#2} \\partial {#3}}"
+        "\\expval": "\\braket{{#1}}"
+        "\\Expval": "\\left\\langle{#1}\\right\\rangle" # "\\Braket{{#1}}" fails if {#1} contains '|'
+        "\\inprod": "\\braket{{#1} | {#2}}"
+        "\\Inprod": "\\Braket{{#1} | {#2}}"
+        "\\exprod": "\\ket{{#1}} \\bra{{#2}}"
+        "\\Exprod": "\\Ket{{#1}} \\Bra{{#2}}"
+        "\\matrixel": "\\braket{{#1} | {#2} | {#3}}"
+        "\\Matrixel": "\\Braket{{#1} | {#2} | {#3}}"
+        "\\comm": "\\big[ {#1}, {#2} \\big]"
+        "\\Comm": "\\left[ {#1}, {#2} \\right]"
+        "\\acomm": "\\big\\{ {#1}, {#2} \\big\\}"
+        "\\Acomm": "\\left\\{ {#1}, {#2} \\right\\}"
+        "\\sech": "\\mathop{\\mathrm{sech}}"
+        "\\sgn": "\\mathop{\\mathrm{sgn}}"
 #paginate: 5
 #paginate_path: "/page:num/"
 #inter_post_navigation: true
