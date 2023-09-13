@@ -1,7 +1,7 @@
 .post-categories {
     position: relative;
-    display: block;
     text-align: center;
+    display: block;
     margin: 20px 0 20px 0;
     background: transparent;
     border-bottom: 1px solid var(--markdown-body-h2-border-bottom-color);
@@ -15,13 +15,15 @@
 
 .post-categories h3 {
     position: relative;
+    text-align: center;
     left: 0px;
     margin: 24px 0px 12px 0px;
     line-height: 40px;
+    left: 0em;
     display: block;
     font-size: 40px;
     font-weight: 600;
-    transition: .4s
+    transition: 0.4s
 }
 
 .post-categories .post-category-icon {
@@ -30,8 +32,8 @@
     width: 60px;
     height: 60px;
     margin: 0px 0px 0px 0px;
-    right: 10px;
-    top: .4em;
+    left: -17.5em;
+    top: 4em;
     border-radius: 50%;
     font-size: 20;
     background: var(--post-category-icon-background-color);
