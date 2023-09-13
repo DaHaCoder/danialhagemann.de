@@ -34,7 +34,25 @@
 <script defer src="https://cdn.jsdelivr.net/npm/katex@0.13.0/dist/katex.min.js" integrity="sha384-FaFLTlohFghEIZkw6VGwmf9ISTubWAVYW8tG8+w2LAIftJEULZABrF9PPFv+tVkH" crossorigin="anonymous"></script>
 
 <!-- To automatically render math in text elements, include the auto-render extension: -->
-<script defer src="https://cdn.jsdelivr.net/npm/katex@0.13.0/dist/contrib/auto-render.min.js" integrity="sha384-bHBqxz8fokvgoJ/sc17HODNxa42TlaEhB+w8ZJXTc2nZf1VgEaFZeZvT4Mznfz0v" crossorigin="anonymous" onload="renderMathInElement(document.body);"></script>
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.13.0/dist/contrib/auto-render.min.js" integrity="sha384-bHBqxz8fokvgoJ/sc17HODNxa42TlaEhB+w8ZJXTc2nZf1VgEaFZeZvT4Mznfz0v" crossorigin="anonymous"
+    onload="
+    const macros = {
+        '\\N': '\\mathbb{N}',
+        '\\Z': '\\mathbb{Z}',
+        '\\Q': '\\mathbb{Q}',
+        '\\R': '\\mathbb{R}',
+        '\\C': '\\mathbb{C}',
+        '\\pdv': '\\frac{\\partial^{#1} #2}{\\partial #3^{#1}}',
+    renderMathInElement(document.body, {
+        fleqn: true
+        globalGroup: true,
+        trust: true,
+        strict: false,
+        throwOnError: false,
+        maxExpand: 4000,
+        macros
+    });"
+></script>
 <!-- ============ -->
 
 </head>
