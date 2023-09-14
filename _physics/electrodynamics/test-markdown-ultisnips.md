@@ -8,7 +8,7 @@ date:           2021-04-06  15:00:00 +0200
 date-last-mod:  2022-08-17  18:20:00 +0200
 ---
 
-Since I was not able to figure out how to implement macros/own commands in $$\katex$$ with `jekyll-katex` and want to use the macros/commands of the `\usepackage{physics}`-latex-package, I am going to implement markdown snippets as an alternative.
+Since I was not able to figure out how to implement macros/own commands in $$\KaTeX$$ with `jekyll-katex` and want to use the macros/commands of the `\usepackage{physics}`-latex-package, I am going to implement markdown snippets as an alternative.
 
 
 Let's begin with sets.
@@ -173,7 +173,7 @@ $$
 $$
 
 
-$n$-dimentional integral (macro: `\int\limits_{\R^{n}}\!\!\operatorname{d}^{n}\!\, f(\boldsymbol{r})`):
+$$n$$-dimensional integral (macro: `\int\limits_{\R^{n}}\!\!\operatorname{d}^{n}\!\, f(\boldsymbol{r})`):
 
 $$
 \int\limits_{\R^n}\!\!\operatorname{d}^{n}\!r\, f(\boldsymbol{r})
