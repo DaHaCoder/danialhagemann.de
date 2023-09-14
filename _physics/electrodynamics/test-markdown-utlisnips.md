@@ -122,6 +122,7 @@ $$
 
 
 Powered partial derivative (macro: `\frac{\partial^{n} f(x)}{\partial x^{n}}`):
+
 $$
 \frac{\partial^{n} f(x)}{\partial x^{n}}
 $$
@@ -137,24 +138,24 @@ $$
 $$
 
 
-Two dimensional integral (macro: `\int\limits_{-\infty}^{\infty}\!\!\operatorname{d}\!x\!\!\!\!\int\limits_{-\infty}^{\infty}\!\!\operatorname{d}\!y\, f(x,y)`):
+Two dimensional integral (macro: `\int\limits_{-\infty}^{\infty}\!\!\operatorname{d}\!x\!\!\int\limits_{-\infty}^{\infty}\!\!\operatorname{d}\!y\, f(x,y)`):
 
 $$
-\int\limits_{-\infty}^{\infty}\!\!\operatorname{d}\!x\!\!\!\!\int\limits_{-\infty}^{\infty}\!\!\operatorname{d}\!y\, f(x,y)
+\int\limits_{-\infty}^{\infty}\!\!\operatorname{d}\!x\!\!\int\limits_{-\infty}^{\infty}\!\!\operatorname{d}\!y\, f(x,y)
 $$
 
 
-Two dimensional integral in polar coordinates (macro: `\int\limits_{0}^{2\pi}\!\!\operatorname{d}\!phi\!\!\!\!\int\limits_{0}^{\infty}\!\!\operatorname{d}\!r\,r f(r,\phi)`):
+Two dimensional integral in polar coordinates (macro: `\int\limits_{0}^{2\pi}\!\!\operatorname{d}\!phi\!\!\int\limits_{0}^{\infty}\!\!\operatorname{d}\!r\,r f(r,\phi)`):
 
 $$
 \int\limits_{0}^{2\pi}\!\!\operatorname{d}\!\phi\!\!\int\limits_{0}^{\infty}\!\!\operatorname{d}\!r\,r f(r,\phi)
 $$
 
 
-Three dimentional integral (macro: `\int\limits_{-\infty}^{\infty}\!\!\operatorname{d}\!x\!\!\!\!\int\limits_{-\infty}^{\infty}\!\!\operatorname{d}\!y\!\!\!\!\int\limits_{-\infty}^{\infty}\!\!\operatorname{d}\!z\, f(x,y,z)`):
+Three dimentional integral (macro: `\int\limits_{-\infty}^{\infty}\!\!\operatorname{d}\!x\!\!\int\limits_{-\infty}^{\infty}\!\!\operatorname{d}\!y\!\!\int\limits_{-\infty}^{\infty}\!\!\operatorname{d}\!z\, f(x,y,z)`):
 
 $$
-\int\limits_{-\infty}^{\infty}\!\!\operatorname{d}\!x\!\!\!\!\int\limits_{-\infty}^{\infty}\!\!\operatorname{d}\!y\!\!\!\!\int\limits_{-\infty}^{\infty}\!\!\operatorname{d}\!z\, f(x,y,z)
+\int\limits_{-\infty}^{\infty}\!\!\operatorname{d}\!x\!\!\int\limits_{-\infty}^{\infty}\!\!\operatorname{d}\!y\!\!\int\limits_{-\infty}^{\infty}\!\!\operatorname{d}\!z\, f(x,y,z)
 $$
 
 
