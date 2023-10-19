@@ -30,7 +30,7 @@ Here are some of my profiles
   <a href="https://matrix.to/#/@dhnerd:matrix.org" class="element" target="_blank" rel="noopener noreferrer">
     <p class="element">Element (Matrix)</p>
        <icon class="element">
-         <iconify-icon icon="simple-icons:element" style="color: #0a976f; margin-top: 20px;"></iconify-icon>
+         <iconify-icon icon="simple-icons:element"></iconify-icon>
        </icon>
     <p class="element">@dhnerd:matrix.org</p>
   </a>
@@ -42,7 +42,7 @@ Here are some of my profiles
   <a href="https://threema.id/REA876Y2" class="threema" target="_blank" rel="noopener noreferrer">
     <p class="threema">Threema</p>
       <icon class="threema">
-        <iconify-icon icon="simple-icons:threema" style="color: #05a63f; margin-top: 20px;"></iconify-icon>
+        <iconify-icon icon="simple-icons:threema"></iconify-icon>
       </icon>
     <p class="threema">REA876Y2</p>
   </a>
@@ -73,7 +73,7 @@ Here are some of my profiles
    <a href="https://gitlab.com/DaHaCoder" class="gitlab" target="_blank" rel="noopener noreferrer">
      <p class="gitlab">GitLab</p>
        <icon class="gitlab">
-         <iconify-icon icon="fa:gitlab" style="color: #fc6d27; margin-top: 20px;"></iconify-icon>
+         <iconify-icon icon="fa:gitlab"></iconify-icon>
        </icon>
       <p class="gitlab">DaHaCoder</p>
    </a>
