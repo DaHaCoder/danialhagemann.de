@@ -29,24 +29,11 @@ Here are some of my profiles
  <!-- ======= -->
  <li>
   <a href="https://matrix.to/#/@daha_matrix:matrix.org" class="element" target="_blank" rel="noopener noreferrer">
-    <p class="element">Element (Matrix)</p>
+    <p class="element">Element</p>
        <icon class="element">
          <iconify-icon icon="simple-icons:element"></iconify-icon>
        </icon>
     <!-- <p class="element">@daha_matrix:matrix.org</p> -->
-  </a>
- </li>
- <!-- ======= -->
-
- <!-- Threema -->
- <!-- ======= -->
- <li>
-  <a href="https://threema.id/REA876Y2" class="threema" target="_blank" rel="noopener noreferrer">
-    <p class="threema">Threema</p>
-      <icon class="threema">
-        <iconify-icon icon="simple-icons:threema"></iconify-icon>
-      </icon>
-    <!-- <p class="threema">REA876Y2</p> -->
   </a>
  </li>
  <!-- ======= -->
@@ -63,6 +50,19 @@ Here are some of my profiles
   </a>
  </li>
  <!-- ======== -->
+
+ <!-- Threema -->
+ <!-- ======= -->
+ <li>
+  <a href="https://threema.id/REA876Y2" class="threema" target="_blank" rel="noopener noreferrer">
+    <p class="threema">Threema</p>
+      <icon class="threema">
+        <iconify-icon icon="simple-icons:threema"></iconify-icon>
+      </icon>
+    <!-- <p class="threema">REA876Y2</p> -->
+  </a>
+ </li>
+ <!-- ======= -->
  </ul>
 </div>
 
