@@ -20,7 +20,7 @@ Here are some of my profiles
        <icon class="discord">
          <iconify-icon icon="akar-icons:discord-fill"></iconify-icon>
        </icon>
-    <p class="discord">DaHa#daha_disc0rd</p>
+    <!-- <p class="discord">DaHa#daha_disc0rd</p> -->
   </a>
  </li>
  <!-- ======= -->
@@ -33,7 +33,7 @@ Here are some of my profiles
        <icon class="element">
          <iconify-icon icon="simple-icons:element"></iconify-icon>
        </icon>
-    <p class="element">@daha_matrix:matrix.org</p>
+    <!-- <p class="element">@daha_matrix:matrix.org</p> -->
   </a>
  </li>
  <!-- ======= -->
@@ -46,7 +46,7 @@ Here are some of my profiles
       <icon class="threema">
         <iconify-icon icon="simple-icons:threema"></iconify-icon>
       </icon>
-    <p class="threema">REA876Y2</p>
+    <!-- <p class="threema">REA876Y2</p> -->
   </a>
  </li>
  <!-- ======= -->
@@ -59,7 +59,7 @@ Here are some of my profiles
       <icon class="telegram">
         <iconify-icon icon="simple-icons:telegram"></iconify-icon>
       </icon>
-    <p class="telegram">@DaHa_Telegram</p>
+    <!-- <p class="telegram">@DaHa_Telegram</p> -->
   </a>
  </li>
  <!-- ======== -->
@@ -79,7 +79,7 @@ Here are some of my profiles
        <icon class="github">
          <iconify-icon icon="akar-icons:github-fill"></iconify-icon>
        </icon>
-      <p class="github">DaHaCoder</p>
+      <!-- <p class="github">DaHaCoder</p> -->
    </a>
  </li>
  <!-- ====== -->
@@ -92,7 +92,7 @@ Here are some of my profiles
        <icon class="gitlab">
          <iconify-icon icon="fa:gitlab"></iconify-icon>
        </icon>
-      <p class="gitlab">DaHaCoder</p>
+      <!-- <p class="gitlab">DaHaCoder</p> -->
    </a>
  </li>
  <!-- ====== -->
