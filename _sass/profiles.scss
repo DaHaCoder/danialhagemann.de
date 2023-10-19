@@ -167,6 +167,21 @@
 }
 // ==============
 
+// Telegram
+// ========
+.profiles ul li a icon.telegram {
+    color: var(--profiles-telegram);
+}
+
+.profiles ul li a.telegram:hover p {
+    color: var(--profiles-telegram);
+}
+
+.profiles ul li a.telegram:hover icon {
+    box-shadow: 0 0 20px var(--profiles-telegram);
+}
+// ========
+
 // Threema
 // =======
 .profiles ul li a icon.threema {

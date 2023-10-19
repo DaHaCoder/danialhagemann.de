@@ -15,24 +15,24 @@ Here are some of my profiles
  <!-- Discord -->
  <!-- ======= -->
  <li>
-  <a href="https://threema.id/REA876Y2" class="discord" target="_blank" rel="noopener noreferrer">
+  <a href="https://discordapp.com/users/320286939427373056" class="discord" target="_blank" rel="noopener noreferrer">
     <p class="discord">Discord</p>
        <icon class="discord">
          <iconify-icon icon="akar-icons:discord-fill"></iconify-icon>
        </icon>
-    <p class="discord">NerdofPi#6093</p>
+    <p class="discord">DaHa#daha_disc0rd</p>
   </a>
  </li>
  <!-- ======= -->
  <!-- Element -->
  <!-- ======= -->
  <li>
-  <a href="https://matrix.to/#/@dhnerd:matrix.org" class="element" target="_blank" rel="noopener noreferrer">
+  <a href="https://matrix.to/#/@daha_matrix:matrix.org" class="element" target="_blank" rel="noopener noreferrer">
     <p class="element">Element (Matrix)</p>
        <icon class="element">
          <iconify-icon icon="simple-icons:element"></iconify-icon>
        </icon>
-    <p class="element">@dhnerd:matrix.org</p>
+    <p class="element">@daha_matrix:matrix.org</p>
   </a>
  </li>
  <!-- ======= -->
@@ -50,6 +50,22 @@ Here are some of my profiles
  <!-- ======= -->
  </ul>
 </div>
+ <!-- ======== -->
+ <!-- Telegram -->
+ <!-- ======== -->
+ <li>
+  <a href="https://t.me/DaHa_Telegram" class="telegram" target="_blank" rel="noopener noreferrer">
+    <p class="telegram">Telegram</p>
+      <icon class="telegram">
+        <iconify-icon icon="simple-icons:telegram"></iconify-icon>
+      </icon>
+    <p class="telegram">@DaHa_Telegram</p>
+  </a>
+ </li>
+ <!-- ======= -->
+ </ul>
+</div>
+
 
 ## Coding
 
