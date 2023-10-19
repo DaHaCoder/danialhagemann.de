@@ -45,7 +45,7 @@
 // Discord
 // =======
 .profiles ul li a icon.discord {
-    color: #ff0000;
+    color: var(--profiles-discord);
 }
 
 .profiles ul li a.discord:hover p {
@@ -54,13 +54,16 @@
 
 .profiles ul li a.discord:hover icon {
     box-shadow: 0 0 20px var(--profiles-discord);
-    color: #ffff00;
 }
 
 // =======
 
 // Element
 // =======
+.profiles ul li a icon.element {
+    color: var(--profiles-element);
+}
+
 .profiles ul li a.element:hover p {
     color: var(--profiles-element);
 }
@@ -73,7 +76,7 @@
 // GitHub
 // ======
 .profiles ul li a icon.github {
-    color: #ff00ff;
+    color: var(--profiles-github);
 }
 
 .profiles ul li a.github:hover p {
@@ -82,12 +85,15 @@
 
 .profiles ul li a.github:hover icon {
     box-shadow: 0 0 20px var(--profiles-github);
-    color: #00ffff;
 }
 // ======
 
 // GitLab
 // ======
+.profiles ul li a icon.gitlab {
+    color: var(--profiles-gitlab);
+}
+
 .profiles ul li a.gitlab:hover p {
     color: var(--profiles-gitlab);
 }
@@ -100,6 +106,10 @@
 /*
 // Keybase
 // =======
+.profiles ul li a icon.keybase {
+    color: var(--profiles-keybase);
+}
+
 .profiles ul li a.keybase:hover p {
  color: var(--profiles-keybase);
 }
@@ -113,6 +123,10 @@
 /*
 // Mastodon
 // ========
+.profiles ul li a icon.mastodon {
+    color: var(--profiles-mastodon);
+}
+
 .profiles ul li a.mastodon:hover p {
  color: var(--profiles-mastodon);
 }
@@ -125,33 +139,45 @@
 
 // Reddit
 // ======
+.profiles ul li a icon.reddit {
+    color: var(--profiles-reddit);
+}
+
 .profiles ul li a.reddit:hover p {
- color: var(--profiles-reddit);
+    color: var(--profiles-reddit);
 }
 
 .profiles ul li a.reddit:hover icon {
- box-shadow: 0 0 20px var(--profiles-reddit);
+    box-shadow: 0 0 20px var(--profiles-reddit);
 }
 // ======
 
 // Stack Exchange
 // ==============
+.profiles ul li a icon.stack-exchange {
+    color: var(--profiles-stack-exchange);
+}
+
 .profiles ul li a.stack-exchange:hover p {
- color: var(--profiles-stack-exchange);
+    color: var(--profiles-stack-exchange);
 }
 
 .profiles ul li a.stack-exchange:hover icon {
- box-shadow: 0 0 20px var(--profiles-stack-exchange);
+    box-shadow: 0 0 20px var(--profiles-stack-exchange);
 }
 // ==============
 
 // Threema
 // =======
+.profiles ul li a icon.threema {
+    color: var(--profiles-threema);
+}
+
 .profiles ul li a.threema:hover p {
- color: var(--profiles-threema);
+    color: var(--profiles-threema);
 }
 
 .profiles ul li a.threema:hover icon {
- box-shadow: 0 0 20px var(--profiles-threema);
+    box-shadow: 0 0 20px var(--profiles-threema);
 }
 // =======
