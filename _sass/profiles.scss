@@ -49,22 +49,26 @@
 }
 
 .profiles ul li a.discord:hover p {
- color: var(--profiles-discord);
+    color: var(--profiles-discord);
 }
 
 .profiles ul li a.discord:hover icon {
- box-shadow: 0 0 20px var(--profiles-discord);
+    box-shadow: 0 0 20px var(--profiles-discord);
+}
+
+.profiles ul li a.discord:hover iconify-icon {
+    color: #ffff00;
 }
 // =======
 
 // Element
 // =======
 .profiles ul li a.element:hover p {
- color: var(--profiles-element);
+    color: var(--profiles-element);
 }
 
 .profiles ul li a.element:hover icon {
- box-shadow: 0 0 20px var(--profiles-element);
+    box-shadow: 0 0 20px var(--profiles-element);
 }
 // =======
 
@@ -75,22 +79,25 @@
 }
 
 .profiles ul li a.github:hover p {
- color: var(--profiles-github);
+    color: var(--profiles-github);
 }
 
 .profiles ul li a.github:hover icon {
- box-shadow: 0 0 20px var(--profiles-github);
+    box-shadow: 0 0 20px var(--profiles-github);
+}
+.profiles ul li a.github:hover iconify-icon {
+    color: #00ffff;
 }
 // ======
 
 // GitLab
 // ======
 .profiles ul li a.gitlab:hover p {
- color: var(--profiles-gitlab);
+    color: var(--profiles-gitlab);
 }
 
 .profiles ul li a.gitlab:hover icon {
- box-shadow: 0 0 20px var(--profiles-gitlab);
+    box-shadow: 0 0 20px var(--profiles-gitlab);
 }
 // ======
 
