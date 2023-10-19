@@ -48,6 +48,10 @@
     color: #ff0000;
 }
 
+.profiles ul li a icon.discord:hover {
+    color: #ffff00;
+}
+
 .profiles ul li a.discord:hover p {
     color: var(--profiles-discord);
 }
@@ -56,9 +60,6 @@
     box-shadow: 0 0 20px var(--profiles-discord);
 }
 
-.profiles ul li a.discord:hover iconify-icon {
-    color: #ffff00;
-}
 // =======
 
 // Element
@@ -78,15 +79,16 @@
     color: #ff00ff;
 }
 
+.profiles ul li a icon.github:hover {
+    color: #00ffff;
+}
+
 .profiles ul li a.github:hover p {
     color: var(--profiles-github);
 }
 
 .profiles ul li a.github:hover icon {
     box-shadow: 0 0 20px var(--profiles-github);
-}
-.profiles ul li a.github:hover iconify-icon {
-    color: #00ffff;
 }
 // ======
 
