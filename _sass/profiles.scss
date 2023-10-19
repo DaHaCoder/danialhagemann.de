@@ -38,9 +38,16 @@
     transition: .4s;
 }
 
+.profiles ul li a iconify-icon {
+    margin-top: 20px;
+}
 
 // Discord
 // =======
+.profiles ul li a icon.discord {
+    color: #ff0000;
+}
+
 .profiles ul li a.discord:hover p {
  color: var(--profiles-discord);
 }
@@ -63,6 +70,10 @@
 
 // GitHub
 // ======
+.profiles ul li a icon.github {
+    color: #ff00ff;
+}
+
 .profiles ul li a.github:hover p {
  color: var(--profiles-github);
 }

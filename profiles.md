@@ -8,7 +8,7 @@ Here are some of my profiles
 
 
 
-## Messenger 
+## Messenger
 
 <div class="profiles">
  <ul>
@@ -18,7 +18,7 @@ Here are some of my profiles
   <a href="https://threema.id/REA876Y2" class="discord" target="_blank" rel="noopener noreferrer">
     <p class="discord">Discord</p>
        <icon class="discord">
-         <iconify-icon icon="akar-icons:discord-fill" style="color: #5865f2; margin-top: 20px;"></iconify-icon>
+         <iconify-icon icon="akar-icons:discord-fill"></iconify-icon>
        </icon>
     <p class="discord">NerdofPi#6093</p>
   </a>
@@ -51,7 +51,7 @@ Here are some of my profiles
  </ul>
 </div>
 
-## Coding 
+## Coding
 
 <div class="profiles">
  <ul>
@@ -61,7 +61,7 @@ Here are some of my profiles
    <a href="https://github.com/DaHaCoder" class="github" target="_blank" rel="noopener noreferrer">
      <p class="github">GitHub</p>
        <icon class="github">
-         <iconify-icon icon="akar-icons:github-fill" style="color: #ffffff; margin-top: 20px;"></iconify-icon>
+         <iconify-icon icon="akar-icons:github-fill"></iconify-icon>
        </icon>
       <p class="github">DaHaCoder</p>
    </a>
@@ -76,7 +76,7 @@ Here are some of my profiles
          <iconify-icon icon="fa:gitlab" style="color: #fc6d27; margin-top: 20px;"></iconify-icon>
        </icon>
       <p class="gitlab">DaHaCoder</p>
-   </a> 
+   </a>
  </li>
  <!-- ====== -->
  </ul>
