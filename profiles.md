@@ -24,6 +24,7 @@ Here are some of my profiles
   </a>
  </li>
  <!-- ======= -->
+
  <!-- Element -->
  <!-- ======= -->
  <li>
@@ -36,6 +37,7 @@ Here are some of my profiles
   </a>
  </li>
  <!-- ======= -->
+
  <!-- Threema -->
  <!-- ======= -->
  <li>
@@ -48,9 +50,7 @@ Here are some of my profiles
   </a>
  </li>
  <!-- ======= -->
- </ul>
-</div>
- <!-- ======== -->
+
  <!-- Telegram -->
  <!-- ======== -->
  <li>
@@ -62,7 +62,7 @@ Here are some of my profiles
     <p class="telegram">@DaHa_Telegram</p>
   </a>
  </li>
- <!-- ======= -->
+ <!-- ======== -->
  </ul>
 </div>
 
@@ -83,6 +83,7 @@ Here are some of my profiles
    </a>
  </li>
  <!-- ====== -->
+
  <!-- GitLab -->
  <!-- ====== -->
  <li>
