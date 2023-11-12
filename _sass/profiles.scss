@@ -55,7 +55,6 @@
 .profiles ul li a.discord:hover icon {
     box-shadow: 0 0 20px var(--profiles-discord);
 }
-
 // =======
 
 // Element
@@ -136,6 +135,21 @@
 }
 // ========
 */
+
+// ProtonMail
+// ==========
+.profiles ul li a icon.protonmail {
+    color: var(--profiles-protonmail);
+}
+
+.profiles ul li a.protonmail:hover p {
+    color: var(--profiles-protonmail);
+}
+
+.profiles ul li a.protonmail:hover icon {
+    box-shadow: 0 0 20px var(--profiles-protonmail);
+}
+// ==========
 
 // Reddit
 // ======

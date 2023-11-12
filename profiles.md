@@ -6,7 +6,24 @@ permalink: /profiles/
 
 Here are some of my profiles
 
+## E-Mail
 
+<div class="profiles">
+ <ul>
+ <!-- ProtonMail -->
+ <!-- ========== -->
+ <li>
+   <a href="mailto:danial.hagemann@pm.me" class="protonmail" target="_blank" rel="noopener noreferrer">
+     <p class="protonmail">ProtonMail</p>
+       <icon class="protonmail">
+         <iconify-icon icon="simple-icons:protonmail"></iconify-icon>
+       </icon>
+      <!-- <p class="protonmail"></p> -->
+   </a>
+ </li>
+ <!-- ========== -->
+ </ul>
+</div>
 
 ## Messenger
 
