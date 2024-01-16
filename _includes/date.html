@@ -1,7 +1,5 @@
-<span class="post-date">{{ post.date | date: "%-d %B %Y" }}</span>
+<p class="post-date">{{ post.date | date: "%-d %B %Y" }}</p>
 {% if post.date-last-mod %}
-<span>|</span>
-<span class="post-date-last-mod">
-Last modified: {{ post.date-last-mod | date: "%-d %B %Y" }}
-</span>
+<p class="post-date">{{ post.date | date: "%-d %B %Y" }} | Last modified: {{ post.date-last-mod | date: "%-d %B %Y" }}
+</p>
 {% endif %}
