@@ -17,9 +17,9 @@ I am interested in ...
 ... and other topics that surround my thoughts.
 
 
-<p align="center">
-    <img src="assets/images/image.png"/>
-</p>
+<!-- <p align="center"> -->
+<!--     <img src="assets/images/image.png"/> -->
+<!-- </p> -->
 
 
 <!-- ![Helix](/assets/images/image.png) -->
