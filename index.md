@@ -9,7 +9,7 @@ This is my personal website. It is still under construction and will be finalize
 I am interested in ...
 * Physics ⚛️
     - Astrophysics and Cosmology 🪐🔭
-    - Foundations of Quantum Mechanics (e.g. Bohmian Mechanics, Superdeterminism)
+    - Foundations of Quantum Mechanics (esp. Bohmian Mechanics, Superdeterminism)
 * $\LaTeX$
 * free and open-source software <iconify-icon icon="raphael:opensource" style="vertical-align: -0.150em; color:#3ea638"></iconify-icon>
 * Linux <iconify-icon icon="bxl:tux" style="vertical-align: -0.150em; color:#f8bf11"></iconify-icon>
