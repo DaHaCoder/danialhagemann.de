@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: page
 title: Welcome
 permalink: /
 ---
@@ -10,7 +10,7 @@ I am interested in ...
 * Physics ⚛️
     - Astrophysics and Cosmology 🪐🔭
     - Foundations of Quantum Mechanics (e.g. Bohmian Mechanics, Superdeterminism)
-* $$\LaTeX$$
+* $\LaTeX$
 * free and open-source software <iconify-icon icon="raphael:opensource" style="vertical-align: -0.150em; color:#3ea638"></iconify-icon>
 * Linux <iconify-icon icon="bxl:tux" style="vertical-align: -0.150em; color:#f8bf11"></iconify-icon>
 * digital privacy 🔒
