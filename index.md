@@ -10,8 +10,8 @@ I am interested in ...
     * Astrophysics and Cosmology 🪐🔭
     * Foundations of Quantum Mechanics, Bohmian Mechanics and Superdeterminism
 * $\LaTeX$
-* free and open-source software <iconify-icon icon="mdi:open-source-initiative"></iconify-icon>
-* Linux <iconify-icon icon="bxl:tux"></iconify-icon>
+* free and open-source software <iconify-icon icon="mdi:open-source-initiative", style="vertical-align: -0.125em; color:3ea638"></iconify-icon>
+* Linux <iconify-icon icon="bxl:tux" style="vertial-align: -0.125em; color:#f8bf11"></iconify-icon>
 * digital privacy 🔒
 
 ... and other topics that surround my thoughts.
