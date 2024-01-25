@@ -4,7 +4,8 @@ title: Welcome
 permalink: /
 ---
 
-I am Danial. This is my personal website. It is still under construction and will be finalized soon.\
+Hi, I am Danial! 👋 \
+This is my personal website. It is still under construction and will be finalized soon. 💻🛠️\
 I am interested in ...
 * Physics ⚛️
     * Astrophysics and Cosmology 🪐🔭
@@ -14,7 +15,7 @@ I am interested in ...
 * Linux <iconify-icon icon="bxl:tux" style="vertial-align: -0.125em; color:#f8bf11"></iconify-icon>
 * digital privacy 🔒
 
-... and other topics that surround my thoughts.
+... and other topics that surround my thoughts. 🧠
 
 
 <p align="center">
