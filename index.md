@@ -11,7 +11,7 @@ I am interested in ...
     - Astrophysics and Cosmology 🪐🔭
     - Foundations of Quantum Mechanics (esp. Bohmian Mechanics, Superdeterminism)
 * $\LaTeX$
-* $\\R$
+* $\\dd[3]{x} f(x)$
 * free and open-source software <iconify-icon icon="raphael:opensource" style="vertical-align: -0.150em; color:#3ea638"></iconify-icon>
 * Linux <iconify-icon icon="bxl:tux" style="vertical-align: -0.150em; color:#f8bf11"></iconify-icon>
 * digital privacy 🔒
