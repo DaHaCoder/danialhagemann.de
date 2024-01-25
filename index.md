@@ -6,13 +6,13 @@ permalink: /
 
 I am Danial. This is my personal website. It is still under construction and will be finalized soon.\
 I am interested in ...
-* Physics ⚛️
-    * Astrophysics and Cosmology 🪐🔭
+* Physics
+    * Astrophysics and Cosmology
     * Foundations of Quantum Mechanics, Bohmian Mechanics and Superdeterminism
 * $\LaTeX$
 * free and open-source software
 * Linux
-* digital privacy 🔒
+* digital privacy
 
 ... and other topics that surround my thoughts.
 
