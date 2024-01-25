@@ -4,24 +4,6 @@ title: Welcome
 permalink: /
 ---
 
-<!-- I am Danial. This is my personal website. It is still under construction and will be finalized soon.\ -->
-<!-- I am interested in ... -->
-<!-- * Physics -->
-<!--     * Astrophysics and Cosmology -->
-<!--     * Foundations of Quantum Mechanics, Bohmian Mechanics and Superdeterminism -->
-<!-- * $\LaTeX$ -->
-<!-- * free and open-source software -->
-<!-- * Linux -->
-<!-- * digital privacy -->
-
-<!-- ... and other topics that surround my thoughts. -->
-
-
-<!-- <p align="center"> -->
-<!--     <img src="assets/images/image.png"/> -->
-<!-- </p> -->
-
-
 ![Helix](/assets/images/image.png)
 
 Lanyon is an unassuming [Jekyll](http://jekyllrb.com) theme that places content first by tucking away navigation in a hidden drawer. It's based on [Poole](http://getpoole.com), the Jekyll butler.
