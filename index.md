@@ -18,7 +18,7 @@ I am interested in ...
 
 
 <p align="center">
-    <img src="/assets/images/image.png"/>
+    <img src="assets/images/image.png"/>
 </p>
 
 
