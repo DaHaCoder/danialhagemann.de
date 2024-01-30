@@ -1,0 +1,112 @@
+// @import "colors";
+
+/*
+ * THEME SWITCH
+ * ============
+ *
+ * Switch between dark mode and light mode.
+ *
+*/
+
+.theme-switch-wrapper {
+    display: flex;
+    align-items: center;
+    em {
+        margin-left: 10px;
+        font-size: 1rem;
+    }
+}
+
+.theme-switch {
+    display: inline-block;
+    position: relative;
+    top: 0;
+    right: 0;
+    margin-left: 10px;
+    margin-right: 10px;
+    height: 34px;
+    width: 60px;
+    cursor: pointer;
+}
+
+.theme-switch input {
+    display:none;
+}
+
+.slider {
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    background-color: var(--slider-background-color);
+    border: 2px solid var(--slider-border-color);
+    border-radius: 34px;
+    transition: .4s;
+}
+
+// .slider:before {
+//   position: absolute;
+//   bottom: 3px;
+//   left: 3px;
+//   height: 25px;
+//   width: 25px;
+//   content: "";
+//   background-color: var(--slider-before-background-color);
+//   transition: .4s;
+// }
+
+// input:checked + .slider {
+//   background-color: var(--slider-checked-background-color);
+// }
+
+// input:checked + .slider:before {
+//   transform: translateX(26px);
+// }
+
+// .slider.round {
+//   border-radius: 34px;
+// }
+
+// .slider.round:before {
+//   border-radius: 50%;
+// }
+
+.fa-moon {
+    position: absolute;
+    bottom: 7px;
+    left: 6px;
+    font-size: 20px;
+    color: var(--fa-moon-color);
+}
+
+.fa-sun {
+    position: absolute;
+    bottom: 7px;
+    right: 6px;
+    font-size: 20px;
+    color: var(--fa-sun-color);
+}
+
+.theme-switch i{
+    transition: .4s;
+}
+
+.theme-switch:hover .slider{
+    border: 2px solid var(--slider-border-hover-color);
+}
+
+.theme-switch:hover .fa-sun{
+    color: var(--fa-sun-hover-color);
+    transition: .4s;
+}
+
+html[data-theme='light'] .theme-switch:hover .fa-sun{
+    color: var(--fa-sun-color);
+    transition: .4s;
+}
+
+html[data-theme='light'] .theme-switch:hover .fa-moon{
+    color: var(--fa-moon-hover-color);
+    transition: .4s;
+}

@@ -1,0 +1,21 @@
+// @import "colors";
+
+.credits {
+  margin-top: 3px;
+  margin-bottom: 3px;
+  font-size: 14px;
+  font-style: italic;
+  text-align: center;
+  height: 55px;
+  color: var(--credits-color);
+}
+
+.credits a {
+  color: var(--credits-a-color);
+  text-decoration: inherit;
+}
+
+.credits a:hover{
+  text-decoration: underline;
+}
+

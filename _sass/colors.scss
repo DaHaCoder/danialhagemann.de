@@ -1,0 +1,234 @@
+/* === COLORS === */
+/* ============== */
+
+:root {
+    /* == colors in dark mode == */
+
+    --body-text-color: #c0c0c0;
+    --body-background-color: #080b16;
+    --markdown-body-background-color: #141a24;
+    --markdown-body-h1-border-bottom-color: #ff0000;
+    --markdown-body-h2-border-bottom-color: #c0c0c0;
+    --markdown-body-a-color: #6495ed;
+    --markdown-body-a-background-color: transparent;
+    --markdown-body-a-code-color: #ff0f0f;
+    --markdown-body-a-code-background-color: #ff00ff;
+    --markdown-body-details-background-color: #f0f0f0;
+    --markdown-body-details-summary-background-color: #0f0f0f;
+    --markdown-body-hr-background-color: #c0c0c0;
+    --markdown-body-blockquote-color: #9bcfff;
+    --markdown-body-blockquote-background-color: #192c3c;
+    --markdown-body-blockquote-border-left-color: #9bcfff;
+    --markdown-body-table-thead-background-color: #0e141d;
+    --markdown-body-table-tfoot-background-color: #0e141d;
+    --markdown-body-table-tr-background-color: #141b26;
+    --markdown-body-table-th-border-color: #c0c0c0;
+    --markdown-body-table-tr-border-top-color: #c0c0c0;
+    --markdown-body-table-tr-nth-child-background-color: #1e2738;
+    // --markdown-body-img-background-color: #141a24;
+    --markdown-body-kbd-color: #444d56;
+    --markdown-body-kbd-background-color: #fafbfc;
+    --markdown-body-kbd-border-color: #d1d5da;
+    --markdown-body-kbd-box-shadow-color: #d2d2db;
+    --markdown-body-code-color: #00ff7f;
+    --markdown-body-code-background-color: #0e141d;
+    --markdown-body-code-border-color: #00ff7f;
+    --markdown-body-pre-background-color: #0e141d;
+    --markdown-body-pre-code-background-color: transparent;
+    --markdown-body-pre-code-color: #fff0f0;
+    --slider-background-color: transparent;
+    --slider-background-hover-color: #6495ed;
+    --slider-border-color: #c0c0c0;
+    --slider-border-hover-color: #6495ed;
+    --slider-before-background-color: #0c151f;
+    --slider-checked-background-color: transparent;
+    --fa-moon-color: #c0c0c0;
+    --fa-sun-color: #505050;
+    --fa-sun-hover-color: #6495ed;
+    --topnav-ul-background-color: #0c151f;
+    --topnav-ul-border-color: #080b16;
+    --topnav-li-a-color: #c0c0c0;
+    --topnav-li-a-hover-color: #6495ed;
+    --topnav-li-a-hover-background-color: #080b16;
+    --topnav-hr-border-bottom-color: #00ffff;
+    --sidebar-color: rgba(255,255,255,.6);
+    --sidebar-background-color: #202020;
+    --sidebar-a-color: #ffffff;
+    --a-sidebar-nav-item-background-color: rgba(255,255,255,.1);
+    --a-sidebar-nav-item-border-color: #6495ed;
+    --copy-code-button-background-color: #0e141d;
+    --copy-code-button-color: #c0c0c0;
+    --copy-code-button-hover-color: #6495ed;
+    --copy-code-button-checked: #00ff7f;
+    --credits-color: #c0c0c0;
+    --credits-a-color: #6495ed;
+    --profiles-ul-li-a-color: #666;
+    --profiles-ul-li-a-background-color: #212d37;
+    --profiles-ul-li-a-hover-box-shadow: #6495ed;
+    --profiles-discord: #5865f2;
+    --profiles-element: #0a976f;
+    --profiles-github: #ffffff;
+    --profiles-gitlab: #fc6d27;
+    --profiles-protonmail: #6d4aff;
+    --profiles-reddit: #ff5700;
+    --profiles-stack-exchange: #46a2d9;
+    --profiles-telegram: #1c93e3;
+    --profiles-threema: #05a63f;
+    --post-category-icon-background-color: #212d37;
+    --categories-electrodynamics: #00ff7f;
+    --categories-quantum-mechanics: #007fff;
+    --categories-relativity-and-cosmology: #ff007f;
+
+
+    /* CODE COLORS */
+    /* =========== */
+    --nord0: #2e3440;
+    --nord1: #3b4252;
+    --nord2: #434c5e;
+    --nord3: #4c566a;
+    --helix3: #5a7296;
+    --nord3-bright: #616e88;
+
+    --nord4: #d8dee9;
+    --helix4: #d4d4d4;
+    --nord5: #e5e9f0;
+    --nord6: #eceff4;
+
+    --nord7: #8fbcbb;
+    --nord8: #88c0d0;
+    --helix8: #007fff;
+    --nord9: #81a1c1;
+    --helix9: #00ff7f;
+    --nord10: #5e81ac;
+
+    --nord11: #bf616a;
+    --helix11: #ff007f;
+    --nord12: #d08770;
+    --nord13: #ebcb8b;
+    --nord14: #a3be8c;
+    --helix14: #ff007f;
+    --nord15: #b48ead;
+    --helix15: #ffff00;
+
+    --light0: #fbfbfc;
+    --light1: #f8f9fb;
+    --light2: #f3f4f6;
+    --link-blue: #0079c0;
+
+}
+
+[data-theme="light"] {
+    /* == colors in light mode == */
+
+    --body-text-color: #202020;
+    --body-background-color: #edf1ff;
+    --markdown-body-background-color: #ffffff;
+    --markdown-body-h1-border-bottom-color: #ff0000;
+    --markdown-body-h2-border-bottom-color: #202020;
+    --markdown-body-a-color: #557fc8;
+    --markdown-body-a-background-color: transparent;
+    --markdown-body-a-code-color: #ff0f0f;
+    --markdown-body-a-code-background-color: #ff00ff;
+    --markdown-body-details-background-color: #f0f0f0;
+    --markdown-body-details-summary-background-color: #0f0f0f;
+    --markdown-body-hr-background-color: #202020;
+    --markdown-body-blockquote-color: #7a7a7a;
+    --markdown-body-blockquote-background-color: #e3e3e3;
+    --markdown-body-blockquote-border-left-color: #7a7a7a;
+    --markdown-body-table-thead-background-color: #0e141d;
+    --markdown-body-table-tfoot-background-color: #0e141d;
+    --markdown-body-table-th-border-color: #202020;
+    --markdown-body-table-tr-background-color: #c0c0c0;
+    --markdown-body-table-tr-border-top-color: #202020;
+    --markdown-body-table-tr-nth-child-background-color: #e5e5e5;
+    // --markdown-body-img-background-color: #cccccc;
+    --markdown-body-kbd-color: #444d56;
+    --markdown-body-kbd-background-color: #fafbfc;
+    --markdown-body-kbd-border-color: #d1d5da;
+    --markdown-body-kbd-box-shadow-color: #d2d2db;
+    --markdown-body-code-color: #7f00ff;
+    --markdown-body-code-background-color: #c0c0c0;
+    --markdown-body-code-border-color: #00ff7f;
+    --markdown-body-pre-background-color: #c0c0c0;
+    --markdown-body-pre-code-background-color: transparent;
+    --markdown-body-pre-code-color: #c0c0c0;
+    --slider-background-color: transparent;
+    --slider-background-hover-color: #6495ed;
+    --slider-border-color: #c0c0c0;
+    --slider-border-hover-color: #6495ed;
+    --slider-before-background-color: #13314b;
+    --slider-checked-background-color: transparent;
+    --fa-moon-color: #505050;
+    --fa-moon-hover-color: #6495ed;
+    --fa-sun-color: #c0c0c0;
+    --topnav-ul-background-color: #0c151f;
+    --topnav-ul-border-color: #080b16;
+    --topnav-li-a-color: #c0c0c0;
+    --topnav-li-a-hover-color: #6495ed;
+    --topnav-li-a-hover-background-color: #080b16;
+    --topnav-hr-border-bottom-color: #ff00ff;
+    --sidebar-color: rgba(255,255,255,.6);
+    --sidebar-background-color: #202020;
+    --sidebar-a-color: #ffffff;
+    --a-sidebar-nav-item-background-color: rgba(255,255,255,.1);
+    --a-sidebar-nav-item-border-color: #6495ed;
+    --copy-code-button-background-color: #0e141d;
+    --copy-code-button-color: #c0c0c0;
+    --copy-code-button-hover-color: #6495ed;
+    --copy-code-button-checked: #00ff7f;
+    --credits-color: #202020;
+    --credits-a-color: #557fc8;
+    --profiles-ul-li-a-color: #666;
+    --profiles-ul-li-a-background-color: #edf1ff;
+    --profiles-ul-li-a-hover-box-shadow: #6495ed;
+    --profiles-discord: #5865f2;
+    --profiles-element: #0a976f;
+    --profiles-github: #24292f;
+    --profiles-gitlab: #fc6d27;
+    --profiles-protonmail: #6d4aff;
+    --profiles-reddit: #ff5700;
+    --profiles-stack-exchange: #46a2d9;
+    --profiles-telegram: #1c93e3;
+    --profiles-threema: #05a63f;
+    --post-category-icon-background-color: #edf1ff;
+    --categories-electrodynamics: #00ff7f;
+    --categories-quantum-mechanics: #007fff;
+    --categories-relativity-and-cosmology: #ff007f;
+
+
+    /* CODE COLORS */
+    /* =========== */
+    --nord0: #2e3440;
+    --nord1: #3b4252;
+    --nord2: #434c5e;
+    --nord3: #4c566a;
+    --helix3: #5a7296;
+    --nord3-bright: #616E88;
+
+    --nord4: #d8dee9;
+    --helix4: #141a21;
+    --nord5: #e5e9f0;
+    --nord6: #eceff4;
+
+    --nord7: #8fbcbb;
+    --nord8: #88c0d0;
+    --helix8: #007fff;
+    --nord9: #81a1c1;
+    --helix9: #7f00ff;
+    --nord10: #5e81ac;
+
+    --nord11: #bf616a;
+    --helix11: #ff007f;
+    --nord12: #d08770;
+    --nord13: #ebcb8b;
+    --nord14: #a3be8c;
+    --helix14: #ff007f;
+    --nord15: #b48ead;
+    --helix15: #ffff00;
+
+    --light0: #fbfbfc;
+    --light1: #f8f9fb;
+    --light2: #f3f4f6;
+    --link-blue: #0079c0;
+
+}

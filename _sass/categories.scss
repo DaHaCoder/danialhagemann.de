@@ -1,0 +1,72 @@
+.post-categories {
+    position: relative;
+    text-align: center;
+    display: block;
+    margin: 30px 0 20px 0;
+    background: transparent;
+    border-bottom: 1px solid var(--markdown-body-h2-border-bottom-color);
+    transition: 0.4s
+}
+
+.post-categories a {
+    display: inline-block
+}
+
+.post-categories h3 {
+    position: relative;
+    text-align: center;
+    left: 0px;
+    margin: 24px 0px 12px 0px;
+    // padding: 0px 70px;
+    line-height: 40px;
+    left: 0em;
+    display: block;
+    font-size: 40px;
+    font-weight: 600;
+    transition: 0.4s
+}
+
+.post-categories .post-category-icon {
+    position: absolute;
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    margin: 0px 0px 0px 0px;
+    left: 0px;
+    top: 5px;
+    border-radius: 50%;
+    font-size: 20;
+    background: var(--post-category-icon-background-color);
+    transition: 0.4s
+}
+
+
+// Electrodynamics
+// ===============
+.post-categories a.Electrodynamics:hover h3 {
+    color: var(--categories-electrodynamics)
+}
+
+.post-categories a.Electrodynamics:hover .post-category-icon {
+    box-shadow: 0 0 20px var(--categories-electrodynamics)
+}
+
+// Quantum Mechanics
+// =================
+.post-categories a.Quantum-Mechanics:hover h3 {
+    color: var(--categories-quantum-mechanics)
+}
+
+.post-categories a.Quantum-Mechanics:hover .post-category-icon {
+    box-shadow: 0 0 20px var(--categories-quantum-mechanics)
+}
+
+// Relativity and Cosmology
+// ========================
+.post-categories a.Relativity-and-Cosmology:hover h3 {
+    color: var(--categories-relativity-and-cosmology)
+}
+
+.post-categories a.Relativity-and-Cosmology:hover .post-category-icon {
+    box-shadow: 0 0 20px var(--categories-relativity-and-cosmology)
+}

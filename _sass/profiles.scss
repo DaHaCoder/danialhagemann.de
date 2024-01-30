@@ -1,0 +1,212 @@
+// @import "colors";
+
+.profiles ul {
+    margin: 0;
+    padding: 0;
+    display: block;
+}
+
+.profiles ul li {
+    list-style: none;
+    display: inline-block;
+}
+
+.profiles ul li a {
+    display: inline-block;
+    margin: 0px 20px 0 0;
+    text-align: center;
+    background: transparent;
+    transition: .4s;
+}
+
+
+.profiles u li a p {
+    display: block;
+    font-size: 20px;
+    text-align: center;
+}
+
+.profiles ul li a icon {
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    margin: 5px 5px 5px 5px;
+    text-align: center;
+    border-radius: 50%;
+    font-size: 60px;
+    background: var(--profiles-ul-li-a-background-color);
+    transition: .4s;
+}
+
+.profiles ul li a iconify-icon {
+    margin-top: 20px;
+}
+
+// Discord
+// =======
+.profiles ul li a icon.discord {
+    color: var(--profiles-discord);
+}
+
+.profiles ul li a.discord:hover p {
+    color: var(--profiles-discord);
+}
+
+.profiles ul li a.discord:hover icon {
+    box-shadow: 0 0 20px var(--profiles-discord);
+}
+// =======
+
+// Element
+// =======
+.profiles ul li a icon.element {
+    color: var(--profiles-element);
+}
+
+.profiles ul li a.element:hover p {
+    color: var(--profiles-element);
+}
+
+.profiles ul li a.element:hover icon {
+    box-shadow: 0 0 20px var(--profiles-element);
+}
+// =======
+
+// GitHub
+// ======
+.profiles ul li a icon.github {
+    color: var(--profiles-github);
+}
+
+.profiles ul li a.github:hover p {
+    color: var(--profiles-github);
+}
+
+.profiles ul li a.github:hover icon {
+    box-shadow: 0 0 20px var(--profiles-github);
+}
+// ======
+
+// GitLab
+// ======
+.profiles ul li a icon.gitlab {
+    color: var(--profiles-gitlab);
+}
+
+.profiles ul li a.gitlab:hover p {
+    color: var(--profiles-gitlab);
+}
+
+.profiles ul li a.gitlab:hover icon {
+    box-shadow: 0 0 20px var(--profiles-gitlab);
+}
+// ======
+
+/*
+// Keybase
+// =======
+.profiles ul li a icon.keybase {
+    color: var(--profiles-keybase);
+}
+
+.profiles ul li a.keybase:hover p {
+ color: var(--profiles-keybase);
+}
+
+.profiles ul li a.keybase:hover icon {
+ box-shadow: 0 0 20px var(--profiles-keybase);
+}
+// =======
+*/
+
+/*
+// Mastodon
+// ========
+.profiles ul li a icon.mastodon {
+    color: var(--profiles-mastodon);
+}
+
+.profiles ul li a.mastodon:hover p {
+ color: var(--profiles-mastodon);
+}
+
+.profiles ul li a.mastodon:hover icon {
+ box-shadow: 0 0 20px var(--profiles-mastodon);
+}
+// ========
+*/
+
+// ProtonMail
+// ==========
+.profiles ul li a icon.protonmail {
+    color: var(--profiles-protonmail);
+}
+
+.profiles ul li a.protonmail:hover p {
+    color: var(--profiles-protonmail);
+}
+
+.profiles ul li a.protonmail:hover icon {
+    box-shadow: 0 0 20px var(--profiles-protonmail);
+}
+// ==========
+
+// Reddit
+// ======
+.profiles ul li a icon.reddit {
+    color: var(--profiles-reddit);
+}
+
+.profiles ul li a.reddit:hover p {
+    color: var(--profiles-reddit);
+}
+
+.profiles ul li a.reddit:hover icon {
+    box-shadow: 0 0 20px var(--profiles-reddit);
+}
+// ======
+
+// Stack Exchange
+// ==============
+.profiles ul li a icon.stack-exchange {
+    color: var(--profiles-stack-exchange);
+}
+
+.profiles ul li a.stack-exchange:hover p {
+    color: var(--profiles-stack-exchange);
+}
+
+.profiles ul li a.stack-exchange:hover icon {
+    box-shadow: 0 0 20px var(--profiles-stack-exchange);
+}
+// ==============
+
+// Telegram
+// ========
+.profiles ul li a icon.telegram {
+    color: var(--profiles-telegram);
+}
+
+.profiles ul li a.telegram:hover p {
+    color: var(--profiles-telegram);
+}
+
+.profiles ul li a.telegram:hover icon {
+    box-shadow: 0 0 20px var(--profiles-telegram);
+}
+// ========
+
+// Threema
+// =======
+.profiles ul li a icon.threema {
+    color: var(--profiles-threema);
+}
+
+.profiles ul li a.threema:hover p {
+    color: var(--profiles-threema);
+}
+
+.profiles ul li a.threema:hover icon {
+    box-shadow: 0 0 20px var(--profiles-threema);
+}
+// =======
