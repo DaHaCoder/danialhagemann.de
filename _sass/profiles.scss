@@ -181,6 +181,22 @@
 }
 // ==============
 
+// Signal
+// ======
+.profiles ul li a icon.signal {
+    color: var(--profiles-signal);
+}
+
+.profiles ul li a.signal:hover p {
+    color: var(--profiles-signal);
+}
+
+.profiles ul li a.signal:hover icon {
+    box-shadow: 0 0 20px var(--profiles-signal);
+}
+// ======
+
+
 // Telegram
 // ========
 .profiles ul li a icon.telegram {

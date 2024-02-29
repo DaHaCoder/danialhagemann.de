@@ -55,6 +55,19 @@ Here are some of my profiles
  </li>
  <!-- ======= -->
 
+ <!-- Signal -->
+ <!-- ====== -->
+ <li>
+  <a href="https://signal.me/#eu/59dRlx1cttcHbQEdBLzpNCKAtUHD3FErgvzL/r648mNroA+b9etFYKp6+okaGVET" class="signal" target="_blank" rel="noopener noreferrer">
+    <p class="signal">Signal</p>
+      <icon class="signal">
+        <iconify-icon icon="simple-icons:signal"></iconify-icon>
+      </icon>
+    <!-- <p class="Signal">@DaHa_Signal.07</p> -->
+  </a>
+ </li>
+ <!-- ====== -->
+
  <!-- Telegram -->
  <!-- ======== -->
  <li>
