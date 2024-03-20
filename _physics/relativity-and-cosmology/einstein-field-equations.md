@@ -14,5 +14,5 @@ $$R_{\mu \nu} - \frac{1}{2}R g_{\mu \nu} + \Lambda g_{\mu \nu} = \frac{8 \pi G}{
 This is a $\texttt{.gif}$ produced with $\texttt{manim}$.
 
 <p align="center">
-    <img src="assets/images/gifs/EFE.gif"/>
+    <img src="../../../assets/images/gifs/EFE.gif"/>
 </p>
