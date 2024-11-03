@@ -1,7 +1,7 @@
 ---
 layout:         post
 tab:	        coding
-title: 	        A good preamble/MWE for Python plots in physics
+title: 	        A good MWE for Python plots in physics
 date:           2021-04-07  15:00:00 +0200
 date-last-mod:  2024-11-03  16:30:00 +0200
 ---
