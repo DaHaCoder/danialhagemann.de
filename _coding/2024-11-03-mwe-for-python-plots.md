@@ -30,14 +30,14 @@ def main():
     ### IMPORT DATA ###
     ### ----------- ###
     DATA_DIR = 'filename.txt'
-    X, , X_error, Y, Y_error = np.loadtxt(DATA_DIR,
-                                          usecols=(0,1,2,3),
-                                          dtype=np.dtype([('X', float),
-                                                          ('X_error', float),
-                                                          ('Y', float),
-                                                          ('Y_error', float)
-                                                          ]),
-                                          unpack=True)
+    X, X_error, Y, Y_error = np.loadtxt(DATA_DIR,
+        usecols=(0,1,2,3),
+        dtype=np.dtype([('X', float),
+                        ('X_error', float),
+                        ('Y', float),
+                        ('Y_error', float)
+                        ]),
+        unpack=True)
 
     ### PLOT ###
     ### ---- ###
