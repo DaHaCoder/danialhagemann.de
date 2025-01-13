@@ -16,17 +16,17 @@ Have a look at their documentation!
 
 #### Total derivative
 <span style="color:#ff007f">Bad:</span>
-<code class="language-plaintext highlighter-rouge" style="color:#ff007f">\frac{df(x)}{dx}</code>
+<code class="language-plaintext highlighter-rouge" style="color:#ff007f">\frac{df}{dx}</code>
 
 $$
-\frac{df(x)}{dx}
+\frac{df}{dx}
 $$
 
 <span style="color:#00ff7f">Good:</span>
-<span style="color:#00ff7f">`\dv{f(x)}{x}`</span>
+<span style="color:#00ff7f">`\dv{f}{x}`</span>
 
 $$
-\frac{\operatorname{d}\!f(x)}{\operatorname{d}\!x}
+\frac{\operatorname{d}\!f}{\operatorname{d}\!x}
 $$
 
 <span style="color:#10bceb">Explanation:</span>
@@ -34,49 +34,55 @@ The "differential"-$\mathrm{d}$ should *always* be non-italic
 
 #### Total derivative (higher order)
 <span style="color:#ff007f">Bad:</span>
-<code class="language-plaintext highlighter-rouge" style="color:#ff007f">\frac{d^{n}f(x)}{dx^{n}}</code>
+<code class="language-plaintext highlighter-rouge" style="color:#ff007f">\frac{d^{n}f}{dx^{n}}</code>
 
 $$
-\frac{d^{n}f(x)}{dx^{n}}
+\frac{d^{n}f}{dx^{n}}
 $$
 
 <span style="color:#00ff7f">Good:</span>
-<span style="color:#00ff7f">`\dv[n]{f(x)}{x}`</span>
+<span style="color:#00ff7f">`\dv[n]{f}{x}`</span>
 
 $$
-\frac{\operatorname{d}^{n}\!f(x)}{\operatorname{d}\!x^{n}}
+\frac{\operatorname{d}^{n}\!f}{\operatorname{d}\,x^{n}}
 $$
 
 
 #### Partial derivative
 <span style="color:#ff007f">Bad:</span>
-<code class="language-plaintext highlighter-rouge" style="color:#ff007f">\frac{\partial f(x)}{\partial x}</code>
+<code class="language-plaintext highlighter-rouge" style="color:#ff007f">\frac{\partial f}{\partial x}</code>
 
 $$
-\frac{\partial f(x)}{\partial x}
+\frac{\partial f}{\partial x}
 $$
 
 <span style="color:#00ff7f">Good:</span>
-<span style="color:#00ff7f">`\pdv{f(x)}{x}`</span>
+<span style="color:#00ff7f">`\pdv{f}{x}`</span>
 
 $$
-\frac{\partial\!f(x)}{\partial\,x}
+\frac{\partial\!f}{\partial\,x}
 $$
 
 
 #### Partial derivative (higher order)
 <span style="color:#ff007f">Bad:</span>
-<code class="language-plaintext highlighter-rouge" style="color:#ff007f">\frac{\partial^{n} f(x)}{\partial x^{n}}</code>
+<code class="language-plaintext highlighter-rouge" style="color:#ff007f">\frac{\partial^{n} f}{\partial x^{n}}</code>
 
 $$
-\frac{\partial f(x)}{\partial x}
+\frac{\partial^{n} f}{\partial x^{n}}
 $$
 
 <span style="color:#00ff7f">Good:</span>
-<span style="color:#00ff7f">`\pdv[n]{f(x)}{x}`</span>
+<span style="color:#00ff7f">`\pdv[n]{f}{x}`</span>
 
 $$
-\frac{\partial^{n}\!f(x)}{\partial\,x^{n}}
+\frac{\partial^{n}\!f}{\partial\,x^{n}}
+$$
+
+Test my $\LaTeX$-preamble:
+
+$$
+\pdv[n]{f}{x}
 $$
 
 
