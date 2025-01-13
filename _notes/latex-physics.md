@@ -13,6 +13,8 @@ Have a look at their documentation!
 ## Differentiation and Integration
 
 ### Differentiation
+
+#### Total derivative
 <span style="color:#ff007f">Bad:</span>
 <code class="language-plaintext highlighter-rouge" style="color:#ff007f">\frac{df(x)}{dx}</code>
 
@@ -29,6 +31,54 @@ $$
 
 <span style="color:#10bceb">Explanation:</span>
 The "differential"-$\mathrm{d}$ should *always* be non-italic
+
+#### Total derivative (higher order)
+<span style="color:#ff007f">Bad:</span>
+<code class="language-plaintext highlighter-rouge" style="color:#ff007f">\frac{d^{n}f(x)}{dx^{n}}</code>
+
+$$
+\frac{d^{n}f(x)}{dx^{n}}
+$$
+
+<span style="color:#00ff7f">Good:</span>
+<span style="color:#00ff7f">`\dv[n]{f(x)}{x}`</span>
+
+$$
+\frac{\operatorname{d}^{n}\!f(x)}{\operatorname{d}\!x^{n}}
+$$
+
+
+#### Partial derivative
+<span style="color:#ff007f">Bad:</span>
+<code class="language-plaintext highlighter-rouge" style="color:#ff007f">\frac{\partial f(x)}{\partial x}</code>
+
+$$
+\frac{\partial f(x)}{\partial x}
+$$
+
+<span style="color:#00ff7f">Good:</span>
+<span style="color:#00ff7f">`\pdv{f(x)}{x}`</span>
+
+$$
+\frac{\partial\!f(x)}{\partial\!x}
+$$
+
+
+#### Partial derivative (higher order)
+<span style="color:#ff007f">Bad:</span>
+<code class="language-plaintext highlighter-rouge" style="color:#ff007f">\frac{\partial^{n} f(x)}{\partial x^{n}}</code>
+
+$$
+\frac{\partial f(x)}{\partial x}
+$$
+
+<span style="color:#00ff7f">Good:</span>
+<span style="color:#00ff7f">`\pdv[n]{f(x)}{x}`</span>
+
+$$
+\frac{\partial^{n}\!f(x)}{\partial\!x^{n}}
+$$
+
 
 ### Integration
 <span style="color:#ff007f">Bad:</span>
