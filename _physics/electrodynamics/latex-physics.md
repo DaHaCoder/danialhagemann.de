@@ -1,6 +1,7 @@
 ---
 layout:         post
-tab:	        notes
+tab:	        physics
+categories:     Electrodynamics
 katex:          True
 title:          How to master $\LaTeX$ in physics
 date:           2025-01-13  15:00:00 +0200
