@@ -1,11 +1,9 @@
 ---
 layout:         post
 tab:	        notes
-<!-- categories:     Electrodynamics -->
 katex:          True
 title:          How to master $\LaTeX$ in physics
 date:           2025-01-13  15:00:00 +0200
-<!-- date-last-mod:  2022-08-17  18:20:00 +0200 -->
 ---
 
 These is a brief summary of Do's and Don'ts when writing equations with $\LaTeX$ in physics.
