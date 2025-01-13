@@ -79,6 +79,8 @@ $$
 \frac{\partial^{n}\!f}{\partial\,x^{n}}
 $$
 
+\gdef\pdv#3{\dfrac{\partial^{#1}\!#2}{\partial\,#3^{#1}}}
+
 Test my $\LaTeX$-preamble:
 
 $$
