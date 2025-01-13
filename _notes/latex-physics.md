@@ -12,27 +12,28 @@ Have a look at their documentation!
 
 ## Differentiation and Integration
 
-# Differentiation
-Bad
-`\frac{d f(x)}{d x}`:
+### Differentiation
+<span style="color:#ff007f">Bad:</span>
+<span style="color:#ff007f">`\frac{df(x)}{dx}`</span>
 $$\frac{df(x)}{dx}$$
 
-Good:
-`\dv{f(x)}{x}`:
+<span style="color:#00ff7f">Good:</span>
+<span style="color:#00ff7f">`\dv{f(x)}{x}`</span>
 $$\frac{\operatorname{d}\!f(x)}{\operatorname{d}\!x}$$
 
-Explanation:
+<span style="color:#10bceb">Explanation:</span>
 The "differential"-$\mathrm{d}$ should *always* be non-italic
 
-# Integration
-Bad
-`\int_{x_{1}}^{x_{2}} dx f(x)`:
+### Integration
+<span style="color:#ff007f">Bad:</span>
+<span style="color:#ff007f">`\int_{x_{1}}^{x_{2}} dx f(x)`</span>
 $$\int_{x_{1}}^{x_{2}} dx f(x)$$
-Good
-`\int\limits_{x_{1}}^{x_{2}} \d{x} f(x)`:
+<span style="color:#00ff7f">Good:</span>
+<span style="color:#00ff7f">`\int\limits_{x_{1}}^{x_{2}} \d{x} f(x)`</span>
 $$\int\limits_{x_{1}}^{x_{2}}\!\!\operatorname{d}\!x\, f(x)$$
 
-Explanation:
+<span style="color:#10bceb">Explanation:</span>
+The explanation.
 
 
 Then, Euler's identity (for `\mathrm{e}` and `\mathrm{i}`).
