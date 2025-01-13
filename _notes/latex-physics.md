@@ -89,7 +89,7 @@ $$
 $$
 
 <span style="color:#00ff7f">Good:</span>
-<span style="color:#00ff7f">`\int\limits_{x_{1}}^{x_{2}} \d{x} f(x)`</span>
+<span style="color:#00ff7f">`\int\limits_{x_{1}}^{x_{2}} \dd{x} f(x)`</span>
 
 $$
 \int\limits_{x_{1}}^{x_{2}}\!\!\operatorname{d}\!x\, f(x)
