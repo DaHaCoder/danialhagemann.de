@@ -232,6 +232,30 @@ $$
 <span style="color:#10bceb">Explanation:</span>
 Since the curl-operation $\boldsymbol{\nabla} \boldsymbol{\times}$ maps objects from $\R^{3}$ to $\R^{3}$, the $\nabla$-symbol and the $\times$-symbol should be *bold*.
 
+
+## Miscellaneous
+
+### Reserved mathematical letters
+Reserved mathematical letters like $\mathrm{d}$ for differentials, $\mathrm{e}$ for Euler's number or $\mathrm{i}$ for the imaginary unit or characteristic function names like of trigonometric functions should always be written non-italic.
+
+<span style="color:#ff007f">Bad:</span>
+<code class="language-plaintext highlighter-rouge" style="color:#ff007f">e^{ix} = cos(x) + i sin(x)</code>
+
+$$
+e^{ix} = cos(x) + i sin(x)
+$$
+
+<span style="color:#00ff7f">Good:</span>
+<span style="color:#00ff7f">`\mathrm{e}^{\mathrm{i} x} = \cos(x) + \mathrm{i} \sin(x)`</span>
+
+
+$$
+\mathrm{e}^{\mathrm{i} x} = \cos(x) + \mathrm{i} \sin(x)
+$$
+
+## Units
+To be continued ...
+
 <!-- #### Laplacian -->
 
 <!-- Laplacian (macro: `\boldsymbol{\nabla}^{2} \phi`): -->
