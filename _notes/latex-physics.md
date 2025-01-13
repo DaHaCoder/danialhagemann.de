@@ -32,7 +32,7 @@ The "differential"-$\mathrm{d}$ should *always* be non-italic
 
 ### Integration
 <span style="color:#ff007f">Bad:</span>
-<span style="color:#ff007f">`\int_{x_{1}}^{x_{2}} dx f(x)`</span>
+<code class="language-plaintext highlighter-rouge" style="color:#ff007f">\frac{df(x)}{dx}</code>
 
 $$
 \int_{x_{1}}^{x_{2}} dx f(x)
