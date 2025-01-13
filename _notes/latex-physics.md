@@ -85,6 +85,12 @@ $$
 \pdv[n]{f}{x}
 $$
 
+Another test:
+
+$$
+\E^{\I x} = \cos(x) + \I \sin(x)
+$$
+
 
 ### Integration
 <span style="color:#ff007f">Bad:</span>
