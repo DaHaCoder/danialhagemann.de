@@ -8,8 +8,11 @@ date:           2025-01-13  15:00:00 +0200
 
 These is a brief summary of Do's and Don'ts when writing equations with $\LaTeX$ in physics. \\
 In advance: use the $\LaTeX$-packages
+
 • [`\usepackage{physics}`](https://ctan.mirror.norbert-ruehl.de/macros/latex/contrib/physics/physics.pdf)
+
 • [`\usepackage{siunitx}`](https://ctan.org/pkg/siunitx)
+
 Using those packages as a guide prevents about 90% of all common $\LaTeX$-NoGoes.
 Have a look at their documentation!
 
