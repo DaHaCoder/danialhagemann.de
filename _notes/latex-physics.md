@@ -60,7 +60,7 @@ $$
 <span style="color:#00ff7f">`\pdv{f(x)}{x}`</span>
 
 $$
-\frac{\partial\!f(x)}{\partial\!x}
+\frac{\partial\!f(x)}{\partial\,x}
 $$
 
 
@@ -76,7 +76,7 @@ $$
 <span style="color:#00ff7f">`\pdv[n]{f(x)}{x}`</span>
 
 $$
-\frac{\partial^{n}\!f(x)}{\partial\!x^{n}}
+\frac{\partial^{n}\!f(x)}{\partial\,x^{n}}
 $$
 
 
