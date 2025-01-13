@@ -14,13 +14,8 @@ Have a look at their documentation!
 
 | Bad | Good | Explanation |
 | --- | ---- | ----------- |
-| `\frac{d f(x)}{d x}`: $\frac{df(x)}{dx}$ | `\dv{f(x)}{x}`: $\frac{\operatorname{d}\!f(x)}{\operatorname{d}\!x}$ | The "differential"-$\mathrm{d}$ should *always* be non-italic|
-| `\int_{x_{1}}^{x_{2}} dx f(x)`: $\int_{x_{1}}^{x_{2}} dx f(x)$ | `\int\limits_{x_{1}}^{x_{2}} \d{x} f(x)`: $\int\limits_{x_{1}}^{x_{2}}\!\!\operatorname{d}\!x\, f(x)$ |
-
-
-$$
-\mathbb{N} \subset \mathbb{Z} \subset \mathbb{Q} \subset \mathbb{R} \subset \mathbb{C}.
-$$
+| `\frac{d f(x)}{d x}`: $$\frac{df(x)}{dx}$$ | `\dv{f(x)}{x}`: $$\frac{\operatorname{d}\!f(x)}{\operatorname{d}\!x}$$ | The "differential"-$\mathrm{d}$ should *always* be non-italic|
+| `\int_{x_{1}}^{x_{2}} dx f(x)`: $$\int_{x_{1}}^{x_{2}} dx f(x)$$ | `\int\limits_{x_{1}}^{x_{2}} \d{x} f(x)`: $$\int\limits_{x_{1}}^{x_{2}}\!\!\operatorname{d}\!x\, f(x)$$ |
 
 
 Then, Euler's identity (for `\mathrm{e}` and `\mathrm{i}`).
