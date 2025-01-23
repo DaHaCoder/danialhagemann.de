@@ -6,7 +6,7 @@ title:          How to master $\LaTeX$ in physics
 date:           2025-01-13  15:00:00 +0200
 ---
 
-These is a brief summary of Do's and Don'ts when writing equations with $\LaTeX$ in physics. \\
+This is a brief summary of Do's and Don'ts when writing equations with $\LaTeX$ in physics. \\
 In advance: use the $\LaTeX$-packages
 
 • [`\usepackage{physics}`](https://ctan.mirror.norbert-ruehl.de/macros/latex/contrib/physics/physics.pdf)
@@ -100,6 +100,14 @@ $$
 $$
 \int\limits_{x_{1}}^{x_{2}}\!\!\operatorname{d}\!x\, f(x)
 $$
+
+#### Surface integral over a vector field
+
+$$
+\int\limits_{S} \!\!\operatorname{d}\!S\, \hat{\boldsymbol{n}}_{S} \boldsymbol{\cdot} \boldsymbol{E}(\boldsymbol{r})
+$$
+
+
 
 
 ## Vector operations on $$\mathbb{R}^{3}$$
