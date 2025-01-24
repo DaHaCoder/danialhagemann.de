@@ -271,11 +271,13 @@ To be continued ...
 ## Examples
 
 Integral Theorem of Gauß:
+
 $$
 \int\limits_{V} \!\!\operatorname{d}\!V\, \boldsymbol{\nabla} \boldsymbol{\cdot} \boldsymbol{E}(\boldsymbol{r}) = \oint\limits_{\partial V} \!\!\operatorname{d}\!S\, \hat{\boldsymbol{n}}_{\perp S} \boldsymbol{\cdot} \boldsymbol{E}(\boldsymbol{r})
 $$
 
 Integral Theorem of Stokes:
+
 $$
-\int\limits_{S} \!\!\operatorname{d}\!S \hat{\boldsymbol{n}_{\perp S}} \boldsymbol{\cdot} \boldsymbol{\nabla} \boldsymbol{\times} \boldsymbol{E}(\boldsymbol{r}) = \oint\limits_{\partial S} \!\!\operatorname{d}\!\ell \boldsymbol{E}(\boldsymbol{r})
+\int\limits_{S} \!\!\operatorname{d}\!S\,\hat{\boldsymbol{n}}_{\perp S} \boldsymbol{\cdot} \boldsymbol{\nabla} \boldsymbol{\times} \boldsymbol{E}(\boldsymbol{r}) = \oint\limits_{\partial S} \!\!\operatorname{d}\!\ell\, \boldsymbol{E}(\boldsymbol{r})
 $$
