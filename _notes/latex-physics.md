@@ -11,7 +11,7 @@ In advance: use the $\LaTeX$-packages
 
 • [`\usepackage{physics}`](https://ctan.mirror.norbert-ruehl.de/macros/latex/contrib/physics/physics.pdf)
 
-• [`\usepackage{siunitx}`](https://ctan.org/pkg/siunitx)
+• [`\usepackage{siunitx}`](https://ctan.mirror.norbert-ruehl.de/macros/latex/contrib/siunitx/siunitx.pdf)
 
 Using those packages as a guide prevents about 90% of all common $\LaTeX$-NoGoes.
 Have a look at their documentation!
