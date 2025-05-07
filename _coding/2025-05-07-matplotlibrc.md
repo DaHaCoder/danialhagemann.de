@@ -61,6 +61,8 @@ def darkmode(colormode: str):
         return False
 
 def main():
+    mode = darkmode(input("darkmode [d] or whitemode [Enter]?\n"))
+
     ### IMPORT DATA ###
     ### ----------- ###
     DATA_DIR = 'filename.txt'
@@ -90,7 +92,6 @@ def main():
 
     filename = 'X-vs-Y'
 
-    mode = darkmode(input("darkmode [d] or whitemode [Enter]?\n"))
     if mode==True:
         filename = filename + '_DARKMODE'
 
