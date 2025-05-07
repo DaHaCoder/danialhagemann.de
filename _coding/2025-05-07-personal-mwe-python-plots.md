@@ -1,11 +1,11 @@
 ---
 layout:         post
 tab:	        coding
-title: 	        My personal matplotlibrc
+title: 	        My personal MWE for python plots
 date:           2025-05-07
 ---
 
-This is my personal `matplotlibrc`.
+This is my personal MWE for python plots.
 
 {% include code-header.html %}
 {% highlight py linenos %}
