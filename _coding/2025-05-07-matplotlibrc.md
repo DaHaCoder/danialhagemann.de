@@ -1,8 +1,8 @@
 ---
 layout:         post
 tab:	        coding
-title: 	        My personal `matplotlibrc`
-date:           2025-05-07  04:00:00 +0200
+title: 	        My personal matplotlibrc
+date:           2025-05-07
 ---
 
 This is my personal `matplotlibrc`.
