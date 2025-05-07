@@ -2,8 +2,7 @@
 layout:         post
 tab:	        coding
 title: 	        A good MWE for Python plots in physics
-date:           2021-04-07  15:00:00 +0200
-date-last-mod:  2025-05-07  5:07:00 +0200
+date:           2025-05-07  5:07:00 +0200
 ---
 
 Here is a python code:
@@ -50,10 +49,11 @@ def main():
     plt.legend(loc='upper right')
     plt.grid(True)
 
-    fig.savefig('X-vs-Y.eps', format='eps', bbox_inches='tight')
-    fig.savefig('X-vs-Y.pdf', format='pdf', bbox_inches='tight')
-    fig.savefig('X-vs-Y.png', format='png', bbox_inches='tight', dpi=250)
-    fig.savefig('X-vs-Y.svg', format='svg', bbox_inches='tight')
+    filename = 'X-vs_Y'
+    fig.savefig(filename + '.eps', format='eps', bbox_inches='tight')
+    fig.savefig(filename + '.pdf', format='pdf', bbox_inches='tight')
+    fig.savefig(filename + '.png', format='png', bbox_inches='tight', dpi=250)
+    fig.savefig(filename + '.svg', format='svg', bbox_inches='tight')
 
 
 if __name__ == "__main__":

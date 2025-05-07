@@ -2,7 +2,7 @@
 layout:         post
 tab:	        coding
 title: 	        My personal MWE for python plots
-date:           2025-05-07
+date:           2025-05-06
 ---
 
 This is my personal MWE for python plots.
