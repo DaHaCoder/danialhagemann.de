@@ -84,8 +84,8 @@ def main():
 
     plt.plot(X, Y, color=color linewidth=1.0, label='X vs. Y')
     plt.errorbar(X, Y, color=color, xerr=X_error, yerr=Y_error, fmt='.', elinewidth=1.0, label='error bars')
-    plt.xlabel(r'$X$ in \SI{}{\nano \meter}')
-    plt.ylabel(r'$Y$ in \SI{}{\nano \meter}')
+    plt.xlabel(r'$X$ in \si{\solarmass}')
+    plt.ylabel(r'$Y$ in \si{\angstrom}$')
     plt.title(r'Some Title')
     plt.legend(loc='upper right')
     plt.grid(True)):
