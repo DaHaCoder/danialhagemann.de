@@ -15,7 +15,7 @@ $$
 
 where $k$ indicates the $k$-th particle.
 
-For the sake of convenience, we denote the set of all particle positions as $\boldsymbol{Q}(t) := \{ \boldsymbol{q}_{1}(t), ..., \boldsymbol{q}_{N}(t) \}$.
+For the sake of convenience, we denote the set of all particle positions as $$\boldsymbol{Q}(t) := \{ \boldsymbol{q}_{1}(t), ..., \boldsymbol{q}_{N}(t) \} \subset \mathbb{R}^{3N}$$ .
 
 Those particle positions are guided by a (universal) wavefunction
 
