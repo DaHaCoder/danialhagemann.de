@@ -43,7 +43,7 @@ $\Longrightarrow$ Many–Worlds interpretation
 Although I am not completely satisfied with those options, I would side with deterministic approaches like **Bohmian Mechanics**.
 
 One might say: "*... but Bell's Theorem proves that there is no hidden–variable theory!*"\
-And this, dear friend, is unfortunately one of the biggest misconceptions circulating even in the highest academic circles in physics. Because it is **wrong**.
+And this, dear friend, is unfortunately one of the biggest misconceptions circulating even in the highest academic circles in physics. This is **wrong**.
 
 The conclusion of the empirical data and Bell's Theorem is the following:\
 **Every** theory – with **or without** "*hidden-variables*" – which aims to reproduce the same measurement statistics as "ordinary" quantum mechanics and **simultaneously** assumes "statistical independence/measurement independence", contains some kind of **non-locality**.
@@ -51,4 +51,23 @@ The conclusion of the empirical data and Bell's Theorem is the following:\
 The choice is *not* between **locality** and **determinism**, since only **superdeterminism** (denial of "statistical independence/measurement independence") can save locality.\
 The choice is between **locality** and **"statistical independence/measurement independence"**.
 
-Everyone is pointing with their finger on Bohmian Mechanics since it is explicitly non-local and therefore "*incompatible with relativity*", while ignoring that **every theory** that is not (super)deterministic **has to be non-local**. This is the essence of Bell's Theorem.
+(L) locality condition:
+
+$$
+P(A \vert a, b, \lambda) = P(A \vert a, \lambda) \\
+P(B \vert a, b, \lambda) = P(B \vert b, \lambda)
+$$
+
+(SI) statistical independence/measurement independence condition:
+
+$$
+P(\lambda \vert a, b) = P(\lambda)
+$$
+
+• $A/B$: measurement outcome of Alice/Bob
+
+• $a/b$: measurement setting of Alice/Bob
+
+• $\lambda$: ''hidden variable'' (although it is also possible that $\lambda = \Psi$, has nothing to do with a ''hidden variable'' and also applies to **all** theories – regardless of whether they assume $\Psi$ describes the entire system or not)
+
+Everyone is pointing with their fingers on Bohmian Mechanics since it is explicitly non-local and therefore "*incompatible with relativity*", while ignoring that **every theory** that is not (super)deterministic **has to be non-local**. This is the essence of Bell's Theorem.
