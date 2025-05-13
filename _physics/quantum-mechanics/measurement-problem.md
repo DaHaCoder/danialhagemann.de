@@ -68,6 +68,6 @@ $$
 
 • $a/b$: measurement setting of Alice/Bob
 
-• $\lambda$: ''hidden variable'' (although it is also possible that $\lambda = \Psi$, has nothing to do with a ''hidden variable'' and also applies to **all** theories – regardless of whether they assume $\Psi$ describes the entire system or not)
+• $\lambda$: ''hidden variable'' (although it is also possible that $\lambda = \Psi$, has nothing to do with a ''hidden variable'' and therefore applies to **all** theories – regardless of whether they assume $\Psi$ describes the entire system or not)
 
 Everyone is pointing with their fingers on Bohmian Mechanics since it is explicitly non-local and therefore "*incompatible with relativity*", while ignoring that **every theory** that is not (super)deterministic **has to be non-local**. This is the essence of Bell's Theorem.
