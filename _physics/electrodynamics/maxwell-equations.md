@@ -49,6 +49,41 @@ $$
 
 ## Integral Form
 
+## Potential Formalism
+
+First we need identities from vector calculus.
+
+$$
+\begin{aligned}
+    \boldsymbol{\nabla} \boldsymbol{\times} \boldsymbol{\nabla} \phi &= 0 \\
+    \boldsymbol{\nabla} \boldsymbol{\cdot} (\boldsymbol{\nabla} \boldsymbol{\times} \boldsymbol{A}) &= 0 \\
+    \boldsymbol{\nabla} \boldsymbol{\times} (\boldsymbol{\nabla} \boldsymbol{\times}  \boldsymbol{A}) &= \boldsymbol{\nabla} (\boldsymbol{\nabla} \boldsymbol{\cdot} \boldsymbol{A}) - \boldsymbol{\nabla}^{2} \boldsymbol{A}
+\end{aligned}
+$$
+
+With VCII, we can rewrite MWII as
+$$
+\begin{aligned}
+    \boldsymbol{\nabla} \boldsymbol{\cdot} \boldsymbol{B}(\boldsymbol{r},t) &= 0 \ \Longrightarrow \boldsymbol{B}(\boldsymbol{r},t) =: \boldsymbol{\nabla} \boldsymbol{\times} \boldsymbol{A}(\boldsymbol{r},t).
+\end{aligned}
+$$
+Expressing our magnetic field by the curl of a vector potential and inserting this into MWIII leads to
+$$
+\begin{aligned}
+    \boldsymbol{\nabla} \boldsymbol{\times} \boldsymbol{E}(\boldsymbol{r},t) = - \frac{1}{c} \frac{\partial}{\partial t} (\boldsymbol{\nabla} \boldsymbol{\times} \boldsymbol{A}(\boldsymbol{r},t)).
+\end{aligned}
+$$
+Since the curl operation and the time dervitative commute,
+$$
+\begin{aligned}
+    \boldsymbol{\nabla} \boldsymbol{\times} \biggl[\boldsymbol{E}(\boldsymbol{r},t) + \frac{1}{c} \frac{\partial}{\partial t} \boldsymbol{A}(\boldsymbol{r},t) \biggr] &= 0 \\
+    \Longrightarrow \boldsymbol{E}(\boldsymbol{r},t) + \frac{1}{c} \frac{\partial}{\partial t} \boldsymbol{A}(\boldsymbol{r},t) &=: -\boldsymbol{\nabla} \phi(\boldsymbol{r},t) \\
+    \Longrightarrow \boldsymbol{E}(\boldsymbol{r},t) &= - \boldsymbol{\nabla}\phi(\boldsymbol{r},t) - \frac{1}{c} \frac{\partial}{\partial t} \boldsymbol{A}(\boldsymbol{r},t).
+\end{aligned}
+$$
+
+
+
 <!-- Now, I want to test some of my macros. Let's see, if they work. -->
 
 <!-- $$ -->
