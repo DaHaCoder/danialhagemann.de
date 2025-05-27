@@ -29,25 +29,22 @@ These are the Maxwell equations:
 # Differential Form
 
 In cgs/gaussian units:
-$$
+
 \begin{aligned}
-    \boldsymbol{\nabla \cdot} \boldsymbol{E}(\boldsymbol{r}, t) &= 4 \pi \rho(\boldsymbol{r},t) \\
+    \boldsymbol{\nabla \cdot} \boldsymbol{E}(\boldsymbol{r}, t) &= 4 \pi \rho(\boldsymbol{r},t) \tag{MWI} \\
     \boldsymbol{\nabla \cdot} \boldsymbol{B}(\boldsymbol{r},t) &= 0 \\
     \boldsymbol{\nabla \times} \boldsymbol{E}(\boldsymbol{r},t) &= - \frac{1}{c} \frac{\partial }{\partial t} \boldsymbol{B}(\boldsymbol{r},t) \\
     \boldsymbol{\nabla \times} \boldsymbol{B}(\boldsymbol{r},t) &= \frac{1}{c} \biggl(4 \pi \boldsymbol{j}(\boldsymbol{r},t) + \frac{\partial }{\partial t} \boldsymbol{E}(\boldsymbol{r},t)\biggr)
 \end{aligned}
-$$
 
 ## Homogeneous vs. Inhomogeneous
 
-$$
 \begin{aligned}
-    \boldsymbol{\nabla \cdot} \boldsymbol{B}(\boldsymbol{r},t) &= 0 \tag{MWII} \\
+    \boldsymbol{\nabla \cdot} \boldsymbol{B}(\boldsymbol{r},t) &= 0 \\
     \boldsymbol{\nabla \times} \boldsymbol{E}(\boldsymbol{r},t) + \frac{1}{c} \frac{\partial }{\partial t} \boldsymbol{B}(\boldsymbol{r},t) &= 0 \\
-    \boldsymbol{\nabla \cdot} \boldsymbol{E}(\boldsymbol{r}, t) &= 4 \pi \rho(\boldsymbol{r},t) \tag{MWI} \\
+    \boldsymbol{\nabla \cdot} \boldsymbol{E}(\boldsymbol{r}, t) &= 4 \pi \rho(\boldsymbol{r},t) \\
     \boldsymbol{\nabla \times} \boldsymbol{B}(\boldsymbol{r},t) - \frac{1}{c} \frac{\partial}{\partial t} \boldsymbol{B}(\boldsymbol{r},t) &= \frac{4 \pi}{c} \boldsymbol{j}(\boldsymbol{r},t)
 \end{aligned}
-$$
 
 
 # Integral Form
