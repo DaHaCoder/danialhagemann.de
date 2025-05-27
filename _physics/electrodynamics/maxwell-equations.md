@@ -29,22 +29,23 @@ In cgs/gaussian units:
 
 $$
 \begin{aligned}
-    \boldsymbol{\nabla \cdot} \boldsymbol{E}(\boldsymbol{r}, t) &= 4 \pi \rho(\boldsymbol{r},t) \tag{MWI} \\
-    \boldsymbol{\nabla \cdot} \boldsymbol{B}(\boldsymbol{r},t) &= 0 \\
-    \boldsymbol{\nabla \times} \boldsymbol{E}(\boldsymbol{r},t) &= - \frac{1}{c} \frac{\partial }{\partial t} \boldsymbol{B}(\boldsymbol{r},t) \\
-    \boldsymbol{\nabla \times} \boldsymbol{B}(\boldsymbol{r},t) &= \frac{1}{c} \biggl(4 \pi \boldsymbol{j}(\boldsymbol{r},t) + \frac{\partial }{\partial t} \boldsymbol{E}(\boldsymbol{r},t)\biggr)
+    \boldsymbol{\nabla} \boldsymbol{\cdot} \boldsymbol{E}(\boldsymbol{r}, t) &= 4 \pi \rho(\boldsymbol{r},t) \tag{MWI} \\
+    \boldsymbol{\nabla} \boldsymbol{\cdot} \boldsymbol{B}(\boldsymbol{r},t) &= 0 \tag{MWII} \\
+    \boldsymbol{\nabla} \boldsymbol{\times} \boldsymbol{E}(\boldsymbol{r},t) &= - \frac{1}{c} \frac{\partial }{\partial t} \boldsymbol{B}(\boldsymbol{r},t) \tag{MWIII} \\
+    \boldsymbol{\nabla} \boldsymbol{\times} \boldsymbol{B}(\boldsymbol{r},t) &= \frac{1}{c} \biggl(4 \pi \boldsymbol{j}(\boldsymbol{r},t) + \frac{\partial }{\partial t} \boldsymbol{E}(\boldsymbol{r},t)\biggr) \tag{MWIV}
 \end{aligned}
 $$
 
 ### Homogeneous vs. Inhomogeneous
 
+$$
 \begin{aligned}
     \boldsymbol{\nabla \cdot} \boldsymbol{B}(\boldsymbol{r},t) &= 0 \\
     \boldsymbol{\nabla \times} \boldsymbol{E}(\boldsymbol{r},t) + \frac{1}{c} \frac{\partial }{\partial t} \boldsymbol{B}(\boldsymbol{r},t) &= 0 \\
     \boldsymbol{\nabla \cdot} \boldsymbol{E}(\boldsymbol{r}, t) &= 4 \pi \rho(\boldsymbol{r},t) \\
     \boldsymbol{\nabla \times} \boldsymbol{B}(\boldsymbol{r},t) - \frac{1}{c} \frac{\partial}{\partial t} \boldsymbol{B}(\boldsymbol{r},t) &= \frac{4 \pi}{c} \boldsymbol{j}(\boldsymbol{r},t)
 \end{aligned}
-
+$$
 
 ## Integral Form
 
