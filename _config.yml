@@ -18,37 +18,37 @@ kramdown:
     syntax_highlighter_opts:
         block:
             line_numbers: true
-
+  math_engine: katex
     katex:
       rendering_options:
         macros:
           # sets
-          # "\\N": "\\mathbb{N}"
-          # "\\Z": "\\mathbb{Z}"
-          # "\\Q": "\\mathbb{Q}"
-          # "\\R": "\\mathbb{R}"
+          "\\N": "\\mathbb{N}"
+          "\\Z": "\\mathbb{Z}"
+          "\\Q": "\\mathbb{Q}"
+          "\\R": "\\mathbb{R}"
           "\\C": "\\mathbb{C}"
           # # math roman
-          # "\\D": "\\mathrm{d}"
-          # "\\E": "\\mathrm{e}"
-          # "\\I": "\\mathrm{i}"
+          "\\D": "\\mathrm{d}"
+          "\\E": "\\mathrm{e}"
+          "\\I": "\\mathrm{i}"
           # vectors and operations on R³
-          # "\\vb": "\\boldsymbol{#1}"                     # vector italic
-          # "\\vu": "\\hat{\\boldsymbol{#1}}"              # unit vector italic
-          # "\\vdot": "\\boldsymbol{\\cdot}"               # dot product
-          # "\\cp": "\\boldsymbol{\\times}"                # cross product
-          # "\\grad": "\\boldsymbol{\\nabla} #1"           # gradient
-          # "\\div": "\\boldsymbol{\\nabla \\cdot #1}"     # divergence
-          # "\\curl": "\\boldsymbol{\\nabla \\times #1}"   # curl
-          # "\\laplacian": "\\nabla^{2} #1"                # laplacian
-          # "\\box": "\\Box #1"                            # box/d'alembertian
+          "\\vb": "\\boldsymbol{#1}"                     # vector italic
+          "\\vu": "\\hat{\\boldsymbol{#1}}"              # unit vector italic
+          "\\vdot": "\\boldsymbol{\\cdot}"               # dot product
+          "\\cp": "\\boldsymbol{\\times}"                # cross product
+          "\\grad": "\\boldsymbol{\\nabla} #1"           # gradient
+          "\\div": "\\boldsymbol{\\nabla \\cdot #1}"     # divergence
+          "\\curl": "\\boldsymbol{\\nabla \\times #1}"   # curl
+          "\\laplacian": "\\nabla^{2} #1"                # laplacian
+          "\\box": "\\Box #1"                            # box/d'alembertian
           # # derivatives
-          # # "\\dd": "\\operatorname{d\\!}"                             # differential d
-          # "\\dd": "\\operatorname{d^{#1}\\!{#2}}"                      # powered differential d
-          # # "\\dv": "\\frac{\\mathrm{d} #1}{\\mathrm{d} #2}"           # fractional derivative
-          # "\\dv": "\\frac{\\mathrm{d}^{#1} #2}{\\mathrm{d} #3^{#1}}"   # powered fractional derivative
-          # # "\\pdv": "\\frac{\\partial #1}{\\partial #2}"              # fractional partial derivative
-          # "\\pdv": "\\frac{\\partial^{#1} #2}{\\partial #3^{#1}}"      # powered fractional partial derivative
+          # "\\dd": "\\operatorname{d\\!}"                             # differential d
+          "\\dd": "\\operatorname{d^{#1}\\!{#2}}"                      # powered differential d
+          # "\\dv": "\\frac{\\mathrm{d} #1}{\\mathrm{d} #2}"           # fractional derivative
+          "\\dv": "\\frac{\\mathrm{d}^{#1} #2}{\\mathrm{d} #3^{#1}}"   # powered fractional derivative
+          # "\\pdv": "\\frac{\\partial #1}{\\partial #2}"              # fractional partial derivative
+          "\\pdv": "\\frac{\\partial^{#1} #2}{\\partial #3^{#1}}"      # powered fractional partial derivative
 
 
 #paginate: 5
