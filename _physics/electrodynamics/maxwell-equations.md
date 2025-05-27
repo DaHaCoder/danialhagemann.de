@@ -23,18 +23,18 @@ date-last-mod:  2022-08-17  18:20:00 +0200
 <!-- \end{aligned} -->
 <!-- $$ -->
 
-# Differential Form
+## Differential Form
 
 In cgs/gaussian units:
 
-\begin{align}
+\begin{aligned}
     \boldsymbol{\nabla \cdot} \boldsymbol{E}(\boldsymbol{r}, t) &= 4 \pi \rho(\boldsymbol{r},t) \tag{MWI} \\
     \boldsymbol{\nabla \cdot} \boldsymbol{B}(\boldsymbol{r},t) &= 0 \\
     \boldsymbol{\nabla \times} \boldsymbol{E}(\boldsymbol{r},t) &= - \frac{1}{c} \frac{\partial }{\partial t} \boldsymbol{B}(\boldsymbol{r},t) \\
     \boldsymbol{\nabla \times} \boldsymbol{B}(\boldsymbol{r},t) &= \frac{1}{c} \biggl(4 \pi \boldsymbol{j}(\boldsymbol{r},t) + \frac{\partial }{\partial t} \boldsymbol{E}(\boldsymbol{r},t)\biggr)
-\end{align}
+\end{aligned}
 
-## Homogeneous vs. Inhomogeneous
+### Homogeneous vs. Inhomogeneous
 
 \begin{aligned}
     \boldsymbol{\nabla \cdot} \boldsymbol{B}(\boldsymbol{r},t) &= 0 \\
@@ -44,7 +44,7 @@ In cgs/gaussian units:
 \end{aligned}
 
 
-# Integral Form
+## Integral Form
 
 <!-- Now, I want to test some of my macros. Let's see, if they work. -->
 
