@@ -43,11 +43,17 @@ $$
     \boldsymbol{\nabla \cdot} \boldsymbol{B}(\boldsymbol{r},t) &= 0 \\
     \boldsymbol{\nabla \times} \boldsymbol{E}(\boldsymbol{r},t) + \frac{1}{c} \frac{\partial }{\partial t} \boldsymbol{B}(\boldsymbol{r},t) &= 0 \\
     \boldsymbol{\nabla \cdot} \boldsymbol{E}(\boldsymbol{r}, t) &= 4 \pi \rho(\boldsymbol{r},t) \\
-    \boldsymbol{\nabla \times} \boldsymbol{B}(\boldsymbol{r},t) - \frac{1}{c} \frac{\partial}{\partial t} \boldsymbol{B}(\boldsymbol{r},t) &= \frac{4 \pi}{c} \boldsymbol{j}(\boldsymbol{r},t)
+    \boldsymbol{\nabla \times} \boldsymbol{B}(\boldsymbol{r},t) - \frac{1}{c} \frac{\partial}{\partial t} \boldsymbol{E}(\boldsymbol{r},t) &= \frac{4 \pi}{c} \boldsymbol{j}(\boldsymbol{r},t)
 \end{aligned}
 $$
 
 ## Integral Form
+
+\begin{align*}
+\frac{\partial}{\partial \Sigma_{j}} Q(\boldsymbol{\theta} \mid \boldsymbol{\theta}^{(t)}) &= \frac{\partial}{\partial \Sigma_{j}} \sum_{i=1}^{n} -\frac{1}{2} w_{ij}^{(t)} \left[ \log\left|\Sigma_{j}\right| + (x_i-\mu_j)^T \Sigma_{j}^{-1}(x_i - \mu_j)\right] \\
+&= -\frac{1}{2} \sum_{i=1}^{n} w_{ij}^{(t)} \dfrac{\partial}{\partial \Sigma_{j}} \left[ \log\left|\Sigma_{j}\right| + (x_i-\mu_j)^T \Sigma_{j}^{-1}(x_i - \mu_j)\right] \\
+&= -\frac{1}{2} \sum_{i=1}^{n} w_{ij}^{(t)} \left( \Sigma_{j}^{-1} - (x_i-\mu_j)(x_i - \mu_j)^T \Sigma_{j}^{-2} \right) \tag{2}
+\end{align*}
 
 <!-- Now, I want to test some of my macros. Let's see, if they work. -->
 
