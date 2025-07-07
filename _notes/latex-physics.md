@@ -16,6 +16,19 @@ In advance: use the $\LaTeX$-packages
 Using those packages as a guide prevents about 90% of all common $\LaTeX$-NoGoes.
 Have a look at their documentation!
 
+|                  | <span style="color:#00ff7f"> Good </span> | <span style="color:#ff007f"> Bad </span> | <span style="color:#10bceb"> Explanation </span> |
+|------------------|-------------------------------------------|------------------------------------------|--------------------------------------------------|
+| Total derivative | <span style="color:#00ff7f">`\dv{f}{x}`</span>: $\displaystyle\frac{\operatorname{d}\!f}{\operatorname{d}\!x}$ | <span style="color:#ff007f">`\frac{df}{dx}`</span>: $\displaystyle \frac{df}{dx}$ | The "differential"-$\mathrm{d}$ should *always* be non-italic.|
+| Total derivative (higher order) | <span style="color:#00ff7f">`\dv[n]{f}{x}`</span>: $\displaystyle\frac{\operatorname{d}^{n}\!f}{\operatorname{d}\!x^{n}}$ | <span style="color:#ff007f">`\frac{d^{n}f}{dx^{n}}`</span>: $\displaystyle \frac{d^{n}f}{dx^{n}}$ | |
+| Partial derivative |
+| Partial derivative (higher order) |
+| $1$-dimensional Integral | <span style="color:#00ff7f">`\int\limits_{x_{1}}^{x_{2}} \dd{x} f(x)`</span> : $\displaystyle \int\limits_{x_{1}}^{x_{2}}\!\!\operatorname{d}\!x\, f(x)$ | <span style="color:#ff007f">`\int_{x_{1}}^{x_{2}} dx f(x)`</span> : $\displaystyle \int_{x_{1}}^{x_{2}} dx f(x)$ |
+| $n$-dimensional Integral | <span style="color:#00ff7f">`\int\limits_{\R^{n}} \dd[n]{x} f(x)`</span>: $\displaystyle \int\limits_{\mathbb{R}^{n}}\!\!\operatorname{d}^{n}\!x\, f(x)$ |
+| Surface integral over a vector field| $\displaystyle \int\limits_{S}\!\!\operatorname{d}\!S\, \hat{\boldsymbol{n}}_{\perp S} \boldsymbol{\cdot} \boldsymbol{E}(\boldsymbol{r})$ |
+| Reserved mathematical letters (i.e.: Euler's number $\mathrm{e}$, imaginary unit $\mathrm{i}$, ...) | <span style="color:#00ff7f">`\mathrm{e}^{\mathrm{i}x} = \cos(x) + \mathrm{i} \sin(x)`</span> : $\mathrm{e}^{\mathrm{i}x} = \cos(x) + \mathrm{i} \sin(x)$ | <span style="color:#ff007f">`e^{ix} = cos(x) + i sin(x)`</span> : $e^{ix} = cos(x) + i sin(x)$ | |
+
+<!--
+
 ## Differentiation and Integration
 
 ### Differentiation
@@ -281,3 +294,5 @@ Integral Theorem of Stokes:
 $$
 \int\limits_{S} \!\!\operatorname{d}\!S\,\hat{\boldsymbol{n}}_{\perp S} \boldsymbol{\cdot} \boldsymbol{\nabla} \boldsymbol{\times} \boldsymbol{E}(\boldsymbol{r}) = \oint\limits_{\partial S} \!\!\operatorname{d}\!\ell\, \boldsymbol{E}(\boldsymbol{r})
 $$
+
+-->
