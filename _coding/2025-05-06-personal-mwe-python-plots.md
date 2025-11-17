@@ -80,15 +80,15 @@ def main():
     fig, ax = plt.subplots()
 
     colors = plt.rcParams['axes.prop_cycle'].by_key()['color']
-    color_cycle = cycle(colors)
+    color = next(cycle(colors))
 
-    plt.plot(X, Y, color=color linewidth=1.0, label='X vs. Y')
+    plt.plot(X, Y, color=color, linewidth=1.0, label='X vs. Y')
     plt.errorbar(X, Y, color=color, xerr=X_error, yerr=Y_error, fmt='.', elinewidth=1.0, label='error bars')
     plt.xlabel(r'$X$ in \si{\solarmass}')
     plt.ylabel(r'$Y$ in \si{\angstrom}$')
     plt.title(r'Some Title')
     plt.legend(loc='upper right')
-    plt.grid(True)):
+    plt.grid(True)
 
     filename = 'X-vs-Y'
 
