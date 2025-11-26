@@ -33,6 +33,7 @@ plt.rcParams["text.latex.preamble"] = r"""
 \DeclareSIUnit \parsec {pc}
 \DeclareSIUnit \mag {mag}
 \DeclareSIUnit \solarmass {\ensuremath{\mathit{M_{\odot}}}}
+\DeclareSIUnit \solarradius {\ensuremath{\mathit{R_{\odot}}}}
 \DeclareSIUnit \yr {yr}
 %%% cgs units
 \DeclareSIUnit \erg {erg}
@@ -56,6 +57,7 @@ def darkmode(colormode: str):
         plt.rcParams["grid.linestyle"] = "dashed"
         plt.rcParams["figure.facecolor"] = "#131A24"
         plt.rcParams["figure.edgecolor"] = "#131A24"
+        plt.rcParams["patch.facecolor"] = "#131A24"
         return True
     else:
         return False
