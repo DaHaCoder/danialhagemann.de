@@ -19,6 +19,10 @@ This is a $\texttt{.gif}$ produced with $\texttt{manim}$.
 
 This is a $\texttt{.mp4}$ produced with $\texttt{manim}$.
 
-<p align="center">
-    <img src="../../../assets/videos/EFE.mp4"/>
-</p>
+<video controls style="width: 100%; max-width: 900px;">
+    <source src="../../../assets/videos/EFE.mp4" type="video/mp4">
+</video>
+
+<!-- <p align="center"> -->
+<!--     <img src="../../../assets/videos/EFE.mp4"/> -->
+<!-- </p> -->
