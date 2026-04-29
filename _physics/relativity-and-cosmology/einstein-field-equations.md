@@ -16,3 +16,9 @@ This is a $\texttt{.gif}$ produced with $\texttt{manim}$.
 <p align="center">
     <img src="../../../assets/images/gifs/EFE.gif"/>
 </p>
+
+This is a $\texttt{.mp4}$ produced with $\texttt{manim}$.
+
+<p align="center">
+    <img src="../../../assets/videos/EFE.mp4"/>
+</p>
