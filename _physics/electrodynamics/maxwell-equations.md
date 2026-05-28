@@ -51,7 +51,7 @@ $$
 Gauss Theorem:
 $$
 \begin{aligned}
-    \int\limits_{V} \mathrm{d} V \ \boldsymbol{\nabla} \boldsymbol{\cdot} \boldsymbol{F} = \oint\limits_{\partial V} \mathrm{d}S \ \boldsymbol{\hat{n}}\_{\perp \partial V} \boldsymbol{\cdot} \boldsymbol{F}
+    \int\limits_{V} \mathrm{d} V \ \boldsymbol{\nabla} \boldsymbol{\cdot} \boldsymbol{F} = \oint\limits_{\partial V} \mathrm{d}S \ \boldsymbol{\hat{n}}_{\perp \partial V} \boldsymbol{\cdot} \boldsymbol{F}
 \end{aligned}
 $$
 
@@ -60,7 +60,7 @@ Stokes Theorem:
 
 $$
 \begin{aligned}
-    \int\limits_{S} \mathrm{d}S \ \boldsymbol{\hat{n}}\_{\perp S} \boldsymbol{\cdot} (\boldsymbol{\nabla} \boldsymbol{\times} \boldsymbol{F})  = \oint\limits_{\partial S} \mathrm{d}\ell \ \boldsymbol{\hat{n}}\_{\parallel \partial S} \boldsymbol{\cdot} \boldsymbol{F}
+    \int\limits_{S} \mathrm{d}S \ \boldsymbol{\hat{n}}_{\perp S} \boldsymbol{\cdot} (\boldsymbol{\nabla} \boldsymbol{\times} \boldsymbol{F})  = \oint\limits_{\partial S} \mathrm{d}\ell \ \boldsymbol{\hat{n}}_{\parallel \partial S} \boldsymbol{\cdot} \boldsymbol{F}
 \end{aligned}
 $$
 
@@ -68,25 +68,25 @@ Therefore:
 
 $$
 \begin{aligned}
-    \int\limits_{V} \mathrm{d} V \ \boldsymbol{\nabla} \boldsymbol{\cdot} \boldsymbol{E}(\boldsymbol{r},t) = \oint\limits_{\partial V} \mathrm{d}S \ \boldsymbol{\hat{n}}\_{\perp \partial V} \boldsymbol{\cdot} \boldsymbol{E}(\boldsymbol{r},t) = 4\pi Q_{\text{enc}} = 4 \pi \int\limits_{V} \mathrm{d}V \ \rho(\boldsymbol{r},t)
+    \int\limits_{V} \mathrm{d} V \ \boldsymbol{\nabla} \boldsymbol{\cdot} \boldsymbol{E}(\boldsymbol{r},t) = \oint\limits_{\partial V} \mathrm{d}S \ \boldsymbol{\hat{n}}_{\perp \partial V} \boldsymbol{\cdot} \boldsymbol{E}(\boldsymbol{r},t) = 4\pi Q_{\text{enc}} = 4 \pi \int\limits_{V} \mathrm{d}V \ \rho(\boldsymbol{r},t)
 \end{aligned}
 $$
 
 $$
 \begin{aligned}
-    \int\limits_{V} \mathrm{d} V \ \boldsymbol{\nabla} \boldsymbol{\cdot} \boldsymbol{B}(\boldsymbol{r},t) = \oint\limits_{\partial V} \mathrm{d}S \ \boldsymbol{\hat{n}}\_{\perp \partial V} \boldsymbol{\cdot} \boldsymbol{B}(\boldsymbol{r},t) = 0
+    \int\limits_{V} \mathrm{d} V \ \boldsymbol{\nabla} \boldsymbol{\cdot} \boldsymbol{B}(\boldsymbol{r},t) = \oint\limits_{\partial V} \mathrm{d}S \ \boldsymbol{\hat{n}}_{\perp \partial V} \boldsymbol{\cdot} \boldsymbol{B}(\boldsymbol{r},t) = 0
 \end{aligned}
 $$
 
 $$
 \begin{aligned}
-    \int\limits_{S} \mathrm{d}S \ \boldsymbol{\hat{n}}\_{\perp S} \boldsymbol{\cdot} (\boldsymbol{\nabla} \boldsymbol{\times} \boldsymbol{E}(\boldsymbol{r},t})  = \oint\limits_{\partial S} \mathrm{d}\ell \ \boldsymbol{\hat{n}}\_{\parallel \partial S} \boldsymbol{\cdot} \boldsymbol{E}(\boldsymbol{r},t) = -\frac{1}{c} \frac{\partial}{\partial t} \int\limits_{S} \mathrm{d}S \ \boldsymbol{\hat{n}\_{\perp S}} \boldsymbol{\cdot} \boldsymbol{B}(\boldsymbol{r},t)
+    \int\limits_{S} \mathrm{d}S \ \boldsymbol{\hat{n}}_{\perp S} \boldsymbol{\cdot} (\boldsymbol{\nabla} \boldsymbol{\times} \boldsymbol{E}(\boldsymbol{r},t})  = \oint\limits_{\partial S} \mathrm{d}\ell \ \boldsymbol{\hat{n}}_{\parallel \partial S} \boldsymbol{\cdot} \boldsymbol{E}(\boldsymbol{r},t) = -\frac{1}{c} \frac{\partial}{\partial t} \int\limits_{S} \mathrm{d}S \ \boldsymbol{\hat{n}_{\perp S}} \boldsymbol{\cdot} \boldsymbol{B}(\boldsymbol{r},t)
 \end{aligned}
 $$
 
 $$
 \begin{aligned}
-     \oint\limits_{\partial S} \mathrm{d}\ell \ \boldsymbol{\hat{n}}\_{\parallel \partial S} \boldsymbol{\cdot} \boldsymbol{B}(\boldsymbol{r},t) = \int\limits_{S} \mathrm{d}S \ \boldsymbol{\hat{n}}\_{\perp S} \boldsymbol{\cdot} (\boldsymbol{\nabla} \boldsymbol{\times} \boldsymbol{B})  = \frac{1}{c} \left[\int\limits_{S} \mathrm{d}S \boldsymbol{\hat}\_{\perp S} \boldsymbol{\cdot} \boldsymbol{j}(\boldsymbol{r},t) + 4 \pi \frac{\partial}{\partial t} \int\limits_{S} \mathrm{d}S \ \boldsymbol{\hat{n}}\_{\perp S} \boldsymbol{\cdot} \boldsymbol{E}(\boldsymbol{r},t) \right]
+     \oint\limits_{\partial S} \mathrm{d}\ell \ \boldsymbol{\hat{n}}_{\parallel \partial S} \boldsymbol{\cdot} \boldsymbol{B}(\boldsymbol{r},t) = \int\limits_{S} \mathrm{d}S \ \boldsymbol{\hat{n}}_{\perp S} \boldsymbol{\cdot} (\boldsymbol{\nabla} \boldsymbol{\times} \boldsymbol{B})  = \frac{1}{c} \left[\int\limits_{S} \mathrm{d}S \boldsymbol{\hat}_{\perp S} \boldsymbol{\cdot} \boldsymbol{j}(\boldsymbol{r},t) + 4 \pi \frac{\partial}{\partial t} \int\limits_{S} \mathrm{d}S \ \boldsymbol{\hat{n}}_{\perp S} \boldsymbol{\cdot} \boldsymbol{E}(\boldsymbol{r},t) \right]
 \end{aligned}
 $$
 
